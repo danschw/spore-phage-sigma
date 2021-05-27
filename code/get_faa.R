@@ -64,3 +64,8 @@ for (i in 1:nrow(d.burton)){
   download.file(ftp, destfile = paste0(d.burton$organism_name[i],".faa.gz"))
 }
 
+#fix name of a phage having an parentheses
+fx <- list.files() %>% str_detect("\\(") %>% which()
+file.rename( list.files()[fx],
+             str_replace_all(list.files()[fx],"\\(","_") %>% 
+               str_replace_all("\\)",""))
