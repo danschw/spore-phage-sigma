@@ -5,17 +5,18 @@ library(tidyverse)
 # genbank viral index file
 d.gbv <- read_tsv(here("data","assembly_summary_20201104.txt"),skip = 1)
 
-
+# get viruses of known spore formers
 filt <- 
 d.gbv%>%
   filter(str_detect(organism_name,"^Bacillus")|
            str_detect(organism_name,"^Clostridium"))
 
-if (!dir.exists(here("protein_faa/")))
-    dir.create(here("protein_faa/"))
-setwd(here("protein_faa/"))
+if (!dir.exists(here("data","phage_faa/"))){
+  dir.create(here("data","phage_faa/"))
+} 
+setwd(here("data","phage_faa/"))
 
-for (i in 259:nrow(filt)){
+for (i in 1:nrow(filt)){
   # problem with phage GCA_002609465.1 (i=90) Bacillus phage Crookii	N
   if (filt$assembly_accession[i]=="GCA_002609465.1") next
   # problem with phage GCA_002609465.1 (i=247) Bacillus phage SBSphiJ
@@ -39,15 +40,18 @@ for (n in list.files()){
 
 ####################################################
 # Get bacterial faa files specified by Burton et al. 2019
-d.burton <- read_csv(here("Burton_S6.csv"))
+d.burton <- read_csv(here("data","Burton_S6.csv"))
 
 #fix names to remove spaces
 d.burton <- d.burton%>%
   mutate(organism_name=str_replace_all(organism_name," ","_"))
 
-setwd(here("bacteria_faa/"))
+if (!dir.exists(here("data","bacteria_faa/"))){
+  dir.create(here("data","bacteria_faa/"))
+} 
+setwd(here("data","bacteria_faa/"))
 
-for (i in 2:nrow(d.burton)){
+for (i in 1:nrow(d.burton)){
 
   file.name <- paste0(str_remove(d.burton$ftp_path[i],".*/"),"_protein.faa.gz")
   
