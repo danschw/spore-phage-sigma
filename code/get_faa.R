@@ -38,6 +38,10 @@ for (n in list.files()){
   file.rename(n,str_replace_all(n," ","_"))
 }
 
+#fix name of a phage having an apostrophe
+fx <- list.files() %>% str_detect("'") %>% which()
+file.rename( list.files()[fx],str_replace_all(list.files()[fx],"'",""))
+
 ####################################################
 # Get bacterial faa files specified by Burton et al. 2019
 d.burton <- read_csv(here("data","Burton_S6.csv"))
