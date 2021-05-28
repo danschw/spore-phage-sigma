@@ -130,32 +130,46 @@ hits.p$group <- "phage"
 
 hits <- bind_rows(hits.b, hits.p)
 
+# save hits table
+write_csv(hits,here("data/hmm_ALL_hits.csv"))
+
+
+
+#--------------
+# need to filter hits: containing both r2 and r4 domains
 hits2 <- hits %>%
-  select(target.name, query.name) %>%
+  select(target.name, query.name, group) %>%
   mutate(present = 1) %>% # create a dummy column
   pivot_wider(names_from = query.name, values_from = present, values_fill = 0 ) %>%
   mutate(both = Sigma70_r2==1 & (Sigma70_r4==1|Sigma70_r4_2==1))
-#--------------
-#--------------
-# need to filter hits: containing both r2 and r4 domains
-#--------------
+
+keep.hits <- hits2 %>% 
+  filter(both==TRUE) %>% 
+  pull(target.name)
+
+hits.filt <- hits %>% 
+  filter(target.name %in% keep.hits)
+
+# save filtered hits table
+write_csv(hits.filt,here("data/hmm_r2-r4_hits.csv"))
 #--------------
 
 
-write_csv(hits,here("hmm_hits.csv"))
+
+
 
 # download AA fasta files of hits from NCBI protein data base
-for (i in unique(hits$target.name)){
+for (i in unique(hits.filt$target.name)){
   #get the fasta using linux
   wsl <- paste0("wsl efetch -db protein -id ",i," -format fasta")
   fa <- shell(wsl,intern=TRUE)
   #wirte to a file
-  write(fa, file = here("hmm_hits.faa"), append = TRUE)
+  write(fa, file = here("data/hmm_sigmas_hits.faa"), append = TRUE)
   print(i)
-  Sys.sleep(1) #to avoid limits by NCBI
+  Sys.sleep(2) #to avoid limits by NCBI
 }
 
-# 429 Too Many Requests
-# PLEASE REQUEST AN API_KEY FROM NCBI
-# No do_post output returned from 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=AMO25912.1&rettype=fasta&retmode=text&edirect_os=linux&edirect=12.0&tool=edirect&email=danschw@bl-bio-g33qhl2.localdomain'
-# Result of do_post http request is
+#cleanup
+file.remove(here("data/bacteria_hmm_hits.csv"))
+file.remove(here("data/phage_hmm_hits.csv"))
+file.remove(here("data/tmp_hmm_hits.csv"))
