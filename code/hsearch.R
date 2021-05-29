@@ -35,7 +35,7 @@ for (h in hmm){
     
     filename <- paste0("hsearch_results/phage/",hmm.name,"_X_",faa.name,".txt")
 
-    shell(paste("wsl hmmsearch --noali -T 20 --tblout", filename, h, f))
+    shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
   }
 }
 
@@ -52,7 +52,7 @@ if (!dir.exists(here("data","hsearch_results/bacteria"))){
 
 
 for (h in hmm){
-  for (f in bacteria.faa[20]){
+  for (f in bacteria.faa){
     
     faa.name <- 
       str_remove(f,".faa.gz")%>%
@@ -64,7 +64,7 @@ for (h in hmm){
     
     filename <- paste0("hsearch_results/bacteria/",hmm.name,"_X_",faa.name,".txt")
     
-    shell(paste("wsl hmmsearch --noali -T 20 --tblout", filename, h, f))
+    shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
   }
 }
 
@@ -132,7 +132,7 @@ hits <- bind_rows(hits.b, hits.p)
 
 # save hits table
 write_csv(hits,here("data/hmm_ALL_hits.csv"))
-
+#hits <- read_csv(here("data/hmm_ALL_hits.csv"))
 
 
 #--------------
