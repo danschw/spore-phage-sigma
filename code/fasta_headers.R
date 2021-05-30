@@ -64,3 +64,7 @@ write.fasta(file.out = here("data","sigmas_to_align.faa"),
             sequences = d.faa$seq,
             names = d.faa$new.header)
 
+#save data on sequences used for alignment
+d.faa %>% 
+  select(-seq) %>% 
+  write_csv(here("data","sigmas_to_align.csv"))
