@@ -159,6 +159,10 @@ write_csv(hits.filt,here("data/hmm_r2-r4_hits.csv"))
 
 
 # download AA fasta files of hits from NCBI protein data base
+if (file.exists(here("data/hmm_sigmas_hits.faa"))){
+  file.remove(here("data/hmm_sigmas_hits.faa"))
+}
+
 for (i in unique(hits.filt$target.name)){
   #get the fasta using linux
   wsl <- paste0("wsl efetch -db protein -id ",i," -format fasta")
