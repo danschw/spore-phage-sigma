@@ -10,5 +10,14 @@ Filtering based on Paget, M. S. (2015). Bacterial sigma factors and anti-sigma f
 (3) fasta_headers.R
 Check for duplicates. Make minimal and uniform fasta headers for alignmenent and tree construction and save fasta (sigmas_to_align.faa). Save otther data as csv file (sigmas_to_align.csv).
 
+###############
 (4) align-muscle.sh
 Align with Muscle (default options) on carbonate (sigmas_autoMuscle.aln)
+
+(5) phylo-iqtree2.sh
+###############
+
+(4) align_trim-tree.sh
+align with MAFFT (einsi) and trim alignment with trimAL (automated).
+model selection and ML tree with IQtree2 (default)
+
