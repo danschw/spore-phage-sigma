@@ -43,3 +43,27 @@ cd $ODIR
 $IQT -s sigmas_MafftEinsi.trim
 # Best-fit model: Q.pfam+F+R8 chosen according to BIC
 
+# got a warning:
+# Number of parameters (K, model parameters and branch lengths): 880
+# Sample size (n, alignment length): 141
+# Given that K>=n, the parameter estimates might be inaccurate. Thus, phylogenetic estimates should be interpreted with caution.
+# based on reponses in IQtree google forum (below) do mulriplr  ML tree runs.
+# https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
+# https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
+
+mkdir -p ${ODIR}/multi-iq
+cd ${ODIR}/multi-iq
+cp ${ODIR}/sigmas_MafftEinsi.trim .
+
+$IQT -s sigmas_MafftEinsi.trim -m  Q.pfam+F+R8 --runs 10 --seqtype AA
+
+#--------------------------------------------------------------------#
+
+#UF boot strap 
+# "Moreover, it is recommended to also perform the SH-aLRT test (Guindon et al., 2010) by adding -alrt 1000 into the IQ-TREE command line. Each branch will then be assigned with SH-aLRT and UFBoot supports. One would typically start to rely on the clade if its SH-aLRT >= 80% and UFboot >= 95%" (IQ-tree FAQ)
+mkdir -p ${ODIR}/UFbootstrap
+cd ${ODIR}/UFbootstrap
+cp ${ODIR}/sigmas_MafftEinsi.trim .
+
+$IQT -s sigmas_to_align.faa -m  Q.pfam+F+R8 -B 1000
+

@@ -21,3 +21,7 @@ Align with Muscle (default options) on carbonate (sigmas_autoMuscle.aln)
 align with MAFFT (einsi) and trim alignment with trimAL (automated).
 model selection and ML tree with IQtree2 (default)
 
+NEXT
+visulaize best ML tree - identify makor groups (ECF, sigA, sigBFG..)
+remove all ECF sequences and rerun alignm-trim-phylogeny on smaller number with better support (bootstrap etc.) - maybe leave an ECF as outgroup.
+
