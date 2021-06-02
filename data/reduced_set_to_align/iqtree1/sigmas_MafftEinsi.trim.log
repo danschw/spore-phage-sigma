@@ -1,0 +1,700 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c51 (AVX2, FMA3, 251 GB RAM)
+Command: /N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2 -s sigmas_MafftEinsi.trim --seqtype AA -T AUTO
+Seed:    529332 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun  2 14:01:52 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file sigmas_MafftEinsi.trim ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 240 sequences with 174 columns, 174 distinct patterns
+169 parsimony-informative, 3 singleton sites, 2 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  AGH27928.1_phage          19.54%    passed      6.62%
+   2  ADL40362.1_phage          27.01%    failed      4.29%
+   3  AAL96802.1_phage          24.14%    passed     17.48%
+   4  ABC40436.1_phage           4.02%    passed     85.93%
+   5  AGE60961.1_phage          16.67%    passed     42.57%
+   6  AEO93340.1_phage          22.41%    failed      0.39%
+   7  AGE60807.1_phage          16.67%    passed     42.57%
+   8  ALO79609.1_phage           4.02%    passed     97.96%
+   9  AGY46846.1_phage          16.67%    passed     30.62%
+  10  AMW62487.1_phage           4.02%    passed     78.40%
+  11  ASR79140.1_phage           4.02%    passed     95.65%
+  12  ADH03291.1_phage           4.02%    passed     37.14%
+  13  AMW61966.1_phage           4.02%    passed     55.72%
+  14  QDP43184.1_phage           3.45%    passed     24.50%
+  15  AZF89309.1_phage           4.02%    passed     59.59%
+  16  APZ82618.1_phage           3.45%    passed     49.74%
+  17  QEG13663.1_phage           4.02%    passed     92.61%
+  18  QEG13664.1_phage           3.45%    passed     95.64%
+  19  QDP42942.1_phage           4.60%    passed     39.96%
+  20  QDP42999.1_phage          22.99%    passed     81.60%
+  21  AFQ96417.1_phage           4.02%    passed     64.19%
+  22  AFQ96418.1_phage           4.02%    passed     99.62%
+  23  ALA13223.1_phage           4.02%    passed     92.61%
+  24  ALA13222.1_phage           4.60%    passed     96.03%
+  25  AGT13480.1_phage           4.02%    passed     17.98%
+  26  QLF85884.1_phage           4.02%    passed     85.56%
+  27  ASZ75934.1_phage           4.02%    passed     17.98%
+  28  AKC02694.1_phage           9.77%    passed     83.81%
+  29  AKC02726.1_phage           7.47%    passed     99.12%
+  30  AGY48597.1_phage           4.02%    passed     47.81%
+  31  BAK52932.1_phage          13.22%    passed     24.99%
+  32  ANI24840.1_phage           4.02%    passed     94.29%
+  33  AGY48388.1_phage           7.47%    passed     52.31%
+  34  AOZ62476.1_phage           4.02%    passed     84.97%
+  35  ANH50776.1_phage           4.02%    passed     16.46%
+  36  AMW63146.1_phage           4.02%    passed     86.83%
+  37  AXF41881.1_phage           4.02%    passed     77.69%
+  38  AIF72077.1_phage           4.02%    passed     17.98%
+  39  AOZ62117.1_phage          16.67%    passed     73.20%
+  40  ASR78475.1_phage           4.02%    passed     86.83%
+  41  ANY29315.1_phage           4.02%    passed     57.66%
+  42  ANY29316.1_phage           4.02%    passed     98.79%
+  43  AMW62240.1_phage           4.02%    passed     17.98%
+  44  AEV89274.1_phage          26.44%    passed     15.18%
+  45  QDH49502.1_phage           4.02%    passed     86.83%
+  46  BAN59653.1_phage           2.87%    passed     83.62%
+  47  AGB62713.1_phage          11.49%    passed     82.53%
+  48  AGB62714.1_phage           2.87%    passed     47.10%
+  49  ALN97362.1_phage          26.44%    passed     18.49%
+  50  ALA07697.1_phage           4.02%    passed     92.07%
+  51  ALA07698.1_phage           3.45%    passed     89.33%
+  52  ASR79669.1_phage           4.02%    passed     81.21%
+  53  AXQ67439.1_phage           4.02%    passed     95.71%
+  54  AMW63445.1_phage           4.02%    passed     86.83%
+  55  AMW61377.1_phage           4.02%    passed     88.11%
+  56  AMW63747.1_phage           4.02%    passed     95.71%
+  57  AIW03562.1_phage           4.02%    passed     95.77%
+  58  AIW03563.1_phage           4.02%    passed     89.03%
+  59  AHZ10802.1_phage           4.02%    passed     94.37%
+  60  AIW03238.1_phage           4.02%    passed     88.39%
+  61  AXQ67819.1_phage           4.02%    passed     99.34%
+  62  ANU79852.1_phage           4.02%    passed     86.83%
+  63  AXQ67115.1_phage           4.02%    passed     81.21%
+  64  AMW61625.1_phage           4.02%    passed     17.98%
+  65  AID17798.1_phage           4.02%    passed     57.18%
+  66  AID17799.1_phage           4.02%    passed     98.20%
+  67  ASR79696.1_phage           4.02%    passed     62.20%
+  68  AHZ10517.1_phage           4.02%    passed     55.72%
+  69  AUV57859.1_phage           4.02%    passed     78.40%
+  70  AXQ66957.1_phage           4.02%    passed     97.96%
+  71  AHZ10241.1_phage           4.02%    passed     86.83%
+  72  AGY47431.1_phage           2.87%    passed     89.90%
+  73  ABC40488.1_phage           4.02%    passed     85.93%
+  74  ARQ95128.1_phage           4.02%    passed     47.81%
+  75  ABA42728.1_phage           4.02%    passed     85.93%
+  76  ALA46534.1_phage           4.02%    passed     95.65%
+  77  AHZ09937.1_phage           4.02%    passed     81.21%
+  78  AMB18751.1_phage           4.02%    passed     79.37%
+  79  AMB18752.1_phage           4.02%    passed     91.02%
+  80  ANT41264.1_phage           4.02%    passed     95.65%
+  81  AMW62796.1_phage           4.02%    passed     77.69%
+  82  AMO25911.1_phage           4.02%    passed     65.59%
+  83  AMO25912.1_phage           4.02%    passed     99.24%
+  84  ABA46386.1_phage           4.60%    passed     88.34%
+  85  AHZ09647.1_phage           4.02%    passed     73.52%
+  86  ASR78776.1_phage           4.02%    passed     95.71%
+  87  AUO78602.1_phage          26.44%    passed     18.49%
+  88  AFL46426.1_phage          26.44%    passed     18.49%
+  89  ATN94413.1_phage           2.87%    passed     91.79%
+  90  AXH71210.1_phage           3.45%    passed     76.14%
+  91  AUO79472.1_phage           2.87%    passed     91.79%
+  92  AEZ50316.1_phage           4.02%    passed     17.32%
+  93  AGI12133.1_phage           4.02%    passed     11.25%
+  94  AHJ87681.1_phage           2.87%    passed      9.66%
+  95  AHJ87680.1_phage           8.62%    passed     99.63%
+  96  AHJ87470.1_phage           2.87%    passed      9.66%
+  97  AHJ87469.1_phage           8.62%    passed     99.63%
+  98  AII27990.1_phage           2.87%    failed      4.63%
+  99  AII27989.1_phage          11.49%    passed     78.36%
+ 100  AOZ61848.1_phage           4.02%    passed     84.97%
+ 101  AGY46709.1_phage           4.02%    passed     12.41%
+ 102  QDH49898.1_phage           4.02%    passed     17.98%
+ 103  ANM46154.1_phage           4.02%    passed     85.86%
+ 104  AEW47604.1_phage           4.02%    passed     85.96%
+ 105  AEW47605.1_phage           4.60%    passed     93.78%
+ 106  AHJ87163.1_phage           4.02%    passed     64.54%
+ 107  AHJ87164.1_phage           4.02%    passed     96.37%
+ 108  AEW47115.1_phage           4.02%    passed     85.96%
+ 109  AEW47116.1_phage           4.60%    passed     93.78%
+ 110  AQN32486.1_phage           4.02%    passed     85.96%
+ 111  AQN32487.1_phage           4.60%    passed     93.78%
+ 112  AHN66674.1_phage           4.02%    passed     99.20%
+ 113  AUM58962.1_phage           4.02%    passed     57.66%
+ 114  AUM58961.1_phage           4.02%    passed     98.64%
+ 115  CCE73875.1_phage          26.44%    passed     18.49%
+ 116  AXU41211.1_phage           4.02%    passed     92.07%
+ 117  AXU41213.1_phage           3.45%    passed     89.33%
+ 118  QEG04258.1_phage           4.02%    passed     68.55%
+ 119  QEG04257.1_phage           4.60%    passed     85.21%
+ 120  AEQ34342.1_phage           4.02%    passed     81.21%
+ 121  AEW47372.1_phage          16.09%    passed     65.08%
+ 122  AEZ65936.1_phage          16.09%    passed     65.08%
+ 123  ALA13372.1_phage           4.02%    passed     12.41%
+ 124  AZF88386.1_phage           4.02%    passed     53.12%
+ 125  ASU01064.1_phage           4.02%    passed     73.52%
+ 126  QDH50209.1_phage           4.02%    passed     86.83%
+ 127  ASR78944.1_phage           4.02%    passed     85.56%
+ 128  QFG05971.1_phage          16.09%    passed     64.15%
+ 129  QFG05890.1_phage          16.09%    passed     64.15%
+ 130  QFR56516.1_phage          16.09%    passed     68.32%
+ 131  QFG05277.1_phage          16.09%    passed     64.15%
+ 132  QFG05192.1_phage          16.09%    passed     64.15%
+ 133  WP_001030417.1_bacteria    5.75%    passed     39.85%
+ 134  WP_000184359.1_bacteria    4.02%    passed     17.94%
+ 135  WP_000116737.1_bacteria    4.02%    passed      9.93%
+ 136  WP_000372618.1_bacteria    4.02%    passed     75.27%
+ 137  WP_014342819.1_bacteria    4.60%    passed     81.70%
+ 138  WP_010882456.1_bacteria   12.64%    failed      0.00%
+ 139  WP_010881942.1_bacteria    4.02%    passed     92.56%
+ 140  WP_004081373.1_bacteria   20.11%    passed     44.72%
+ 141  WP_004080667.1_bacteria   12.07%    passed     10.66%
+ 142  WP_004081730.1_bacteria    4.02%    passed     79.49%
+ 143  WP_011244805.1_bacteria    4.02%    failed      3.66%
+ 144  WP_011244619.1_bacteria    4.02%    passed      7.35%
+ 145  WP_011243265.1_bacteria    4.02%    passed     47.52%
+ 146  WP_011377675.1_bacteria    4.02%    passed     44.56%
+ 147  WP_011244655.1_bacteria    4.02%    passed     83.19%
+ 148  WP_011378081.1_bacteria    4.02%    passed     70.21%
+ 149  WP_081422183.1_bacteria    4.02%    passed     87.99%
+ 150  WP_011244555.1_bacteria    4.02%    passed     60.77%
+ 151  NP_624912.1_bacteria       4.02%    passed     32.41%
+ 152  NP_631334.1_bacteria       4.02%    passed     11.75%
+ 153  NP_627288.1_bacteria       4.02%    passed     23.75%
+ 154  NP_629755.1_bacteria       4.60%    passed     54.73%
+ 155  NP_628216.1_bacteria       4.02%    failed      4.65%
+ 156  NP_631369.1_bacteria       4.60%    failed      0.02%
+ 157  NP_630601.1_bacteria       4.02%    failed      0.14%
+ 158  NP_631395.1_bacteria       4.02%    failed      0.47%
+ 159  NP_628217.1_bacteria       4.02%    passed      9.88%
+ 160  NP_625194.1_bacteria       4.02%    failed      3.32%
+ 161  NP_627416.1_bacteria       4.02%    passed     77.26%
+ 162  NP_629389.1_bacteria       4.02%    failed      1.49%
+ 163  NP_629943.1_bacteria       4.02%    passed     96.08%
+ 164  NP_626707.1_bacteria       4.02%    passed      6.73%
+ 165  WP_170864009.1_bacteria    9.20%    passed     17.55%
+ 166  WP_011000337.1_bacteria    4.02%    passed     47.25%
+ 167  WP_011001157.1_bacteria    4.02%    passed     51.66%
+ 168  WP_038962216.1_bacteria    4.02%    passed     42.18%
+ 169  NP_249067.1_bacteria       4.02%    passed     15.43%
+ 170  NP_250146.1_bacteria       6.32%    passed     20.54%
+ 171  NP_249267.1_bacteria       4.02%    passed     78.71%
+ 172  NP_252312.1_bacteria       4.02%    passed     43.08%
+ 173  WP_011131610.1_bacteria    4.02%    passed     28.58%
+ 174  WP_011129835.1_bacteria    3.45%    failed      0.77%
+ 175  WP_011130440.1_bacteria    4.02%    passed     28.41%
+ 176  WP_157859911.1_bacteria    4.02%    passed     45.83%
+ 177  WP_011129725.1_bacteria    4.02%    passed     64.79%
+ 178  WP_011131581.1_bacteria    4.02%    passed     26.40%
+ 179  WP_041384505.1_bacteria    4.02%    passed     72.76%
+ 180  WP_012457665.1_bacteria    4.02%    passed     72.55%
+ 181  WP_011552512.1_bacteria   13.22%    passed     10.50%
+ 182  WP_026113872.1_bacteria    7.47%    failed      0.00%
+ 183  WP_011556153.1_bacteria    4.02%    passed     81.10%
+ 184  WP_020478755.1_bacteria    4.02%    passed     85.27%
+ 185  WP_026113799.1_bacteria    4.02%    passed     98.77%
+ 186  WP_020478595.1_bacteria   18.97%    passed     24.96%
+ 187  WP_011555174.1_bacteria    4.02%    passed     79.40%
+ 188  NP_217803.1_bacteria       4.02%    failed      1.82%
+ 189  NP_217226.1_bacteria       4.02%    passed     91.88%
+ 190  NP_217219.1_bacteria       4.02%    passed     99.86%
+ 191  NP_464421.1_bacteria       4.02%    passed     83.94%
+ 192  NP_464979.1_bacteria       4.02%    passed     84.75%
+ 193  WP_000602430.1_bacteria    6.90%    passed     77.31%
+ 194  WP_161595577.1_bacteria    4.02%    passed     77.62%
+ 195  NP_416432.3_bacteria       9.20%    passed     40.56%
+ 196  NP_417918.1_bacteria       4.02%    passed     70.86%
+ 197  NP_417221.1_bacteria       4.02%    passed     22.66%
+ 198  NP_417539.1_bacteria       4.02%    passed     82.82%
+ 199  WP_003851800.1_bacteria    4.02%    passed     94.88%
+ 200  WP_003851787.1_bacteria    4.02%    passed     99.87%
+ 201  WP_009892548.1_bacteria   20.11%    passed     40.96%
+ 202  WP_011860953.1_bacteria    2.87%    passed     16.67%
+ 203  WP_003435969.1_bacteria   10.34%    failed      0.01%
+ 204  WP_003420464.1_bacteria    4.02%    passed     40.74%
+ 205  WP_003416098.1_bacteria   23.56%    passed     60.14%
+ 206  WP_003416101.1_bacteria    4.02%    passed     72.60%
+ 207  WP_009889336.1_bacteria    4.02%    passed     81.61%
+ 208  WP_003429425.1_bacteria    4.02%    passed     97.45%
+ 209  YP_002343525.1_bacteria    6.90%    passed     22.69%
+ 210  YP_002344396.1_bacteria    4.02%    passed     65.38%
+ 211  WP_002557358.1_bacteria    4.02%    failed      0.02%
+ 212  WP_002656292.1_bacteria    4.02%    passed     88.66%
+ 213  WP_025309100.1_bacteria    4.02%    passed     91.55%
+ 214  WP_025309103.1_bacteria    5.75%    passed     93.73%
+ 215  WP_025306971.1_bacteria    4.02%    passed     90.65%
+ 216  WP_008766632.1_bacteria    4.02%    passed     88.56%
+ 217  WP_004398507.1_bacteria   32.18%    passed     33.66%
+ 218  WP_004398891.1_bacteria   27.59%    passed     78.17%
+ 219  WP_003246715.1_bacteria    4.02%    passed     79.45%
+ 220  WP_003243678.1_bacteria   22.99%    failed      0.37%
+ 221  WP_003225758.1_bacteria   20.11%    passed     97.22%
+ 222  WP_003220911.1_bacteria    4.60%    passed     53.21%
+ 223  WP_003230521.1_bacteria   24.14%    failed      2.92%
+ 224  WP_003245485.1_bacteria   28.16%    passed     12.12%
+ 225  WP_009967190.1_bacteria    4.02%    passed     94.70%
+ 226  WP_003230458.1_bacteria    4.02%    passed     27.10%
+ 227  WP_003221446.1_bacteria   22.99%    passed     97.42%
+ 228  WP_003224177.1_bacteria   32.18%    passed      5.18%
+ 229  WP_003234958.1_bacteria   24.14%    passed     10.07%
+ 230  WP_003226225.1_bacteria    4.02%    passed     96.50%
+ 231  WP_002025078.1_bacteria   27.59%    failed      0.21%
+ 232  WP_000387193.1_bacteria   20.11%    passed     87.77%
+ 233  WP_000350729.1_bacteria    4.02%    passed     36.85%
+ 234  WP_000197755.1_bacteria    4.02%    passed     86.80%
+ 235  WP_002164611.1_bacteria    4.02%    passed     47.11%
+ 236  WP_000051382.1_bacteria   22.99%    passed     57.06%
+ 237  WP_000976948.1_bacteria   22.99%    passed     99.00%
+ 238  WP_000764065.1_bacteria    4.02%    passed     77.40%
+ 239  WP_003491840.1_bacteria    4.02%    passed     42.15%
+ 240  WP_003513359.1_bacteria    4.02%    passed     76.55%
+****  TOTAL                      7.28%  19 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ABC40488.1_phage is identical to ABC40436.1_phage but kept for subsequent analysis
+NOTE: AGE60807.1_phage is identical to AGE60961.1_phage but kept for subsequent analysis
+NOTE: AXQ66957.1_phage is identical to ALO79609.1_phage but kept for subsequent analysis
+NOTE: AUV57859.1_phage is identical to AMW62487.1_phage but kept for subsequent analysis
+NOTE: ALA46534.1_phage is identical to ASR79140.1_phage but kept for subsequent analysis
+NOTE: AHZ10517.1_phage is identical to AMW61966.1_phage but kept for subsequent analysis
+NOTE: ALA13223.1_phage is identical to QEG13663.1_phage but kept for subsequent analysis
+NOTE: ASZ75934.1_phage is identical to AGT13480.1_phage but kept for subsequent analysis
+NOTE: ASR78944.1_phage is identical to QLF85884.1_phage but kept for subsequent analysis
+NOTE: ARQ95128.1_phage is identical to AGY48597.1_phage but kept for subsequent analysis
+NOTE: AOZ61848.1_phage is identical to AOZ62476.1_phage but kept for subsequent analysis
+NOTE: ASR78475.1_phage is identical to AMW63146.1_phage but kept for subsequent analysis
+NOTE: AMW62796.1_phage is identical to AXF41881.1_phage but kept for subsequent analysis
+NOTE: AUM58962.1_phage is identical to ANY29315.1_phage but kept for subsequent analysis
+NOTE: AUO78602.1_phage is identical to ALN97362.1_phage but kept for subsequent analysis
+NOTE: AXU41211.1_phage is identical to ALA07697.1_phage but kept for subsequent analysis
+NOTE: AXU41213.1_phage is identical to ALA07698.1_phage but kept for subsequent analysis
+NOTE: AXQ67115.1_phage is identical to ASR79669.1_phage but kept for subsequent analysis
+NOTE: AMW63747.1_phage is identical to AXQ67439.1_phage but kept for subsequent analysis
+NOTE: ASU01064.1_phage is identical to AHZ09647.1_phage but kept for subsequent analysis
+NOTE: AUO79472.1_phage is identical to ATN94413.1_phage but kept for subsequent analysis
+NOTE: AHJ87470.1_phage is identical to AHJ87681.1_phage but kept for subsequent analysis
+NOTE: AHJ87469.1_phage is identical to AHJ87680.1_phage but kept for subsequent analysis
+NOTE: ALA13372.1_phage is identical to AGY46709.1_phage but kept for subsequent analysis
+NOTE: AEW47115.1_phage is identical to AEW47604.1_phage but kept for subsequent analysis
+NOTE: AEW47116.1_phage is identical to AEW47605.1_phage but kept for subsequent analysis
+NOTE: AEZ65936.1_phage is identical to AEW47372.1_phage but kept for subsequent analysis
+NOTE: QFG05890.1_phage is identical to QFG05971.1_phage but kept for subsequent analysis
+NOTE: 20 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: ABA42728.1_phage (identical to ABC40436.1_phage) is ignored but added at the end
+NOTE: ANT41264.1_phage (identical to ASR79140.1_phage) is ignored but added at the end
+NOTE: AIF72077.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: AMW62240.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: AMW61625.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: QDH49898.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: QDH49502.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AMW63445.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: ANU79852.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AHZ10241.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: QDH50209.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AFL46426.1_phage (identical to ALN97362.1_phage) is ignored but added at the end
+NOTE: CCE73875.1_phage (identical to ALN97362.1_phage) is ignored but added at the end
+NOTE: AHZ09937.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: AEQ34342.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: ASR78776.1_phage (identical to AXQ67439.1_phage) is ignored but added at the end
+NOTE: AQN32486.1_phage (identical to AEW47604.1_phage) is ignored but added at the end
+NOTE: AQN32487.1_phage (identical to AEW47605.1_phage) is ignored but added at the end
+NOTE: QFG05277.1_phage (identical to QFG05971.1_phage) is ignored but added at the end
+NOTE: QFG05192.1_phage (identical to QFG05971.1_phage) is ignored but added at the end
+Alignment was printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.125 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 8.569 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -69853
+Threads: 2 / Time: 5.357 sec / Speedup: 1.599 / Efficiency: 80% / LogL: -69853
+Threads: 3 / Time: 4.250 sec / Speedup: 2.016 / Efficiency: 67% / LogL: -69853
+Threads: 4 / Time: 4.481 sec / Speedup: 1.912 / Efficiency: 48% / LogL: -69853
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -35824.787
+Optimal log-likelihood: -35824.774
+Proportion of invariable sites: 0.000
+Gamma shape alpha: 1.933
+Parameters optimization took 1 rounds (0.122 sec)
+Time for fast ML tree search: 1.638 seconds
+
+NOTE: ModelFinder requires 66 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 174) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            36938.546    437 74751.092    457563.092   76131.599
+  2  LG+I          36938.534    438 74753.069    459317.069   76136.735
+  3  LG+G4         35824.774    438 72525.548    457089.548   73909.214
+  4  LG+I+G4       35824.774    439 72527.547    458847.547   73914.372
+  5  LG+R2         36077.869    439 73033.739    459353.739   74420.564
+  6  LG+R3         35863.015    441 72608.030    462452.030   74001.173
+  7  LG+R4         35820.628    443 72527.257    465911.257   73926.718
+  8  LG+R5         35806.681    445 72503.361    469443.361   73909.141
+  9  LG+R6         35798.130    447 72490.259    473002.259   73902.357
+ 10  LG+R7         35796.231    449 72490.462    476590.462   73908.878
+ 16  LG+F+G4       35851.396    457 72616.791    491228.791   74060.479
+ 21  LG+F+R5       35831.476    464 72590.952    504110.952   74056.754
+ 22  LG+F+R6       35821.069    466 72574.138    507818.138   74046.257
+ 23  LG+F+R7       35817.372    468 72570.744    511554.744   74049.182
+ 29  WAG+G4        36183.324    438 73242.647    457806.647   74626.314
+ 34  WAG+R5        36166.710    445 73223.420    470163.420   74629.199
+ 35  WAG+R6        36159.572    447 73213.145    473725.145   74625.242
+ 36  WAG+R7        36158.864    449 73215.728    477315.728   74634.144
+ 42  WAG+F+G4      36098.655    457 73111.311    491723.311   74554.999
+ 47  WAG+F+R5      36077.565    464 73083.130    504603.130   74548.931
+ 48  WAG+F+R6      36068.599    466 73069.198    508313.198   74541.317
+ 49  WAG+F+R7      36065.041    468 73066.083    512050.083   74544.521
+ 55  JTT+G4        36357.465    438 73590.929    458154.929   74974.596
+ 60  JTT+R5        36340.760    445 73571.520    470511.520   74977.299
+ 61  JTT+R6        36333.254    447 73560.507    474072.507   74972.605
+ 62  JTT+R7        36332.429    449 73562.857    477662.857   74981.273
+ 68  JTT+F+G4      36161.797    457 73237.594    491849.594   74681.283
+ 73  JTT+F+R5      36146.147    464 73220.294    504740.294   74686.096
+ 74  JTT+F+R6      36137.431    466 73206.861    508450.861   74678.981
+ 75  JTT+F+R7      36134.187    468 73204.374    512188.374   74682.812
+ 81  Q.pfam+G4     35877.745    438 72631.490    457195.490   74015.156
+ 86  Q.pfam+R5     35862.147    445 72614.294    469554.294   74020.074
+ 87  Q.pfam+R6     35854.420    447 72602.840    473114.840   74014.938
+ 88  Q.pfam+R7     35851.965    449 72601.929    476701.929   74020.345
+ 94  Q.pfam+F+G4   35838.021    457 72590.042    491202.042   74033.730
+ 99  Q.pfam+F+R5   35817.887    464 72563.774    504083.774   74029.576
+100  Q.pfam+F+R6   35809.724    466 72551.449    507795.449   74023.569
+101  Q.pfam+F+R7   35806.570    468 72549.139    511533.139   74027.577
+107  Q.bird+G4     37024.934    438 74925.868    459489.868   76309.534
+112  Q.bird+R5     37007.508    445 74905.015    471845.015   76310.795
+113  Q.bird+R6     37000.235    447 74894.471    475406.471   76306.568
+WARNING: Log-likelihood -37002.8 of Q.bird+R7 worse than Q.bird+R6 -37000.2
+114  Q.bird+R7     37002.786    449 74903.571    479003.571   76321.987
+120  Q.bird+F+G4   36753.123    457 74420.245    493032.245   75863.933
+125  Q.bird+F+R5   36730.129    464 74388.258    505908.258   75854.059
+126  Q.bird+F+R6   36721.477    466 74374.954    509618.954   75847.073
+127  Q.bird+F+R7   36718.939    468 74373.878    513357.878   75852.316
+133  Q.mammal+G4   36746.727    438 74369.454    458933.454   75753.120
+138  Q.mammal+R5   36729.593    445 74349.185    471289.185   75754.965
+139  Q.mammal+R6   36724.341    447 74342.682    474854.682   75754.780
+WARNING: Log-likelihood -36725.8 of Q.mammal+R7 worse than Q.mammal+R6 -36724.3
+140  Q.mammal+R7   36725.825    449 74349.650    478449.650   75768.066
+146  Q.mammal+F+G4 36461.222    457 73836.445    492448.445   75280.133
+151  Q.mammal+F+R5 36439.793    464 73807.585    505327.585   75273.387
+152  Q.mammal+F+R6 36432.325    466 73796.651    509040.651   75268.770
+153  Q.mammal+F+R7 36430.103    468 73796.207    512780.207   75274.644
+159  Q.insect+G4   35908.019    438 72692.039    457256.039   74075.705
+164  Q.insect+R5   35889.972    445 72669.945    469609.945   74075.724
+165  Q.insect+R6   35883.886    447 72661.771    473173.771   74073.869
+166  Q.insect+R7   35882.084    449 72662.169    476762.169   74080.585
+172  Q.insect+F+G4 35865.183    457 72644.367    491256.367   74088.055
+177  Q.insect+F+R5 35845.938    464 72619.876    504139.876   74085.677
+178  Q.insect+F+R6 35838.308    466 72608.616    507852.616   74080.736
+179  Q.insect+F+R7 35835.028    468 72606.056    511590.056   74084.494
+185  Q.plant+G4    36252.270    438 73380.541    457944.541   74764.207
+190  Q.plant+R5    36232.358    445 73354.715    470294.715   74760.495
+191  Q.plant+R6    36223.333    447 73340.667    473852.667   74752.764
+192  Q.plant+R7    36219.979    449 73337.958    477437.958   74756.374
+198  Q.plant+F+G4  36180.997    457 73275.994    491887.994   74719.682
+203  Q.plant+F+R5  36158.132    464 73244.263    504764.263   74710.065
+204  Q.plant+F+R6  36147.392    466 73226.783    508470.783   74698.903
+205  Q.plant+F+R7  36142.675    468 73221.350    512205.350   74699.788
+211  Q.yeast+G4    35961.339    438 72798.677    457362.677   74182.343
+216  Q.yeast+R5    35942.279    445 72774.558    469714.558   74180.338
+217  Q.yeast+R6    35936.672    447 72767.344    473279.344   74179.441
+218  Q.yeast+R7    35934.936    449 72767.872    476867.872   74186.288
+224  Q.yeast+F+G4  35835.957    457 72585.915    491197.915   74029.603
+229  Q.yeast+F+R5  35816.979    464 72561.957    504081.957   74027.759
+230  Q.yeast+F+R6  35809.285    466 72550.570    507794.570   74022.690
+231  Q.yeast+F+R7  35806.032    468 72548.064    511532.064   74026.502
+237  JTTDCMut+G4   36355.851    438 73587.701    458151.701   74971.367
+242  JTTDCMut+R5   36338.909    445 73567.818    470507.818   74973.598
+243  JTTDCMut+R6   36330.928    447 73555.855    474067.855   74967.953
+244  JTTDCMut+R7   36330.185    449 73558.369    477658.369   74976.785
+250  JTTDCMut+F+G4 36163.433    457 73240.866    491852.866   74684.554
+255  JTTDCMut+F+R5 36147.693    464 73223.386    504743.386   74689.188
+256  JTTDCMut+F+R6 36138.448    466 73208.896    508452.896   74681.016
+257  JTTDCMut+F+R7 36135.106    468 73206.211    512190.211   74684.649
+263  DCMut+G4      36822.980    438 74521.960    459085.960   75905.627
+268  DCMut+R5      36800.274    445 74490.548    471430.548   75896.327
+269  DCMut+R6      36790.741    447 74475.481    474987.481   75887.579
+270  DCMut+R7      36786.665    449 74471.330    478571.330   75889.746
+276  DCMut+F+G4    36463.355    457 73840.710    492452.710   75284.398
+281  DCMut+F+R5    36442.713    464 73813.427    505333.427   75279.229
+282  DCMut+F+R6    36434.059    466 73800.117    509044.117   75272.237
+283  DCMut+F+R7    36424.956    468 73785.912    512769.912   75264.349
+289  VT+G4         36189.057    438 73254.115    457818.115   74637.781
+294  VT+R5         36174.879    445 73239.758    470179.758   74645.537
+295  VT+R6         36170.313    447 73234.627    473746.627   74646.725
+302  VT+F+G4       36092.639    457 73099.278    491711.278   74542.966
+307  VT+F+R5       36076.347    464 73080.693    504600.693   74546.495
+308  VT+F+R6       36071.403    466 73074.806    508318.806   74546.925
+315  PMB+G4        36385.024    438 73646.047    458210.047   75029.713
+320  PMB+R5        36366.258    445 73622.517    470562.517   75028.296
+321  PMB+R6        36364.613    447 73623.227    474135.227   75035.325
+328  PMB+F+G4      36373.774    457 73661.548    492273.548   75105.237
+333  PMB+F+R5      36352.766    464 73633.532    505153.532   75099.333
+334  PMB+F+R6      36347.404    466 73626.808    508870.808   75098.928
+335  PMB+F+R7      36344.450    468 73624.900    512608.900   75103.338
+341  Blosum62+G4   36301.075    438 73478.150    458042.150   74861.816
+346  Blosum62+R5   36284.292    445 73458.585    470398.585   74864.364
+347  Blosum62+R6   36281.506    447 73457.013    473969.013   74869.110
+354  Blosum62+F+G4 36342.706    457 73599.413    492211.413   75043.101
+359  Blosum62+F+R5 36323.973    464 73575.947    505095.947   75041.748
+360  Blosum62+F+R6 36318.713    466 73569.427    508813.427   75041.547
+361  Blosum62+F+R7 36315.607    468 73567.215    512551.215   75045.653
+367  Dayhoff+G4    36820.778    438 74517.555    459081.555   75901.222
+372  Dayhoff+R5    36797.932    445 74485.864    471425.864   75891.643
+373  Dayhoff+R6    36788.362    447 74470.724    474982.724   75882.822
+374  Dayhoff+R7    36784.269    449 74466.538    478566.538   75884.954
+380  Dayhoff+F+G4  36462.592    457 73839.184    492451.184   75282.873
+385  Dayhoff+F+R5  36441.912    464 73811.825    505331.825   75277.627
+386  Dayhoff+F+R6  36433.084    466 73798.168    509042.168   75270.288
+387  Dayhoff+F+R7  36423.933    468 73783.866    512767.866   75262.304
+393  mtREV+G4      38281.639    438 77439.278    462003.278   78822.944
+398  mtREV+R5      38239.801    445 77369.602    474309.602   78775.381
+399  mtREV+R6      38234.481    447 77362.962    477874.962   78775.060
+400  mtREV+R7      38233.370    449 77364.741    481464.741   78783.156
+406  mtREV+F+G4    36732.675    457 74379.350    492991.350   75823.039
+411  mtREV+F+R5    36713.946    464 74355.892    505875.892   75821.694
+412  mtREV+F+R6    36694.238    466 74320.477    509564.477   75792.597
+413  mtREV+F+R7    36690.617    468 74317.233    513301.233   75795.671
+419  mtART+G4      38658.831    438 78193.662    462757.662   79577.328
+424  mtART+R5      38584.638    445 78059.276    474999.276   79465.056
+425  mtART+R6      38564.194    447 78022.388    478534.388   79434.485
+426  mtART+R7      38558.377    449 78014.755    482114.755   79433.170
+432  mtART+F+G4    37060.198    457 75034.395    493646.395   76478.083
+437  mtART+F+R5    37005.453    464 74938.907    506458.907   76404.709
+438  mtART+F+R6    36985.077    466 74902.154    510146.154   76374.273
+439  mtART+F+R7    36974.002    468 74884.005    513868.005   76362.442
+445  mtZOA+G4      37664.151    438 76204.302    460768.302   77587.968
+450  mtZOA+R5      37600.320    445 76090.640    473030.640   77496.419
+451  mtZOA+R6      37590.238    447 76074.476    476586.476   77486.574
+452  mtZOA+R7      37586.732    449 76071.464    480171.464   77489.879
+458  mtZOA+F+G4    36620.214    457 74154.428    492766.428   75598.116
+463  mtZOA+F+R5    36581.814    464 74091.629    505611.629   75557.430
+464  mtZOA+F+R6    36571.879    466 74075.758    509319.758   75547.878
+465  mtZOA+F+R7    36561.410    468 74058.820    513042.820   75537.257
+471  mtMet+G4      38215.750    438 77307.501    461871.501   78691.167
+476  mtMet+R5      38164.895    445 77219.791    474159.791   78625.570
+477  mtMet+R6      38155.579    447 77205.158    477717.158   78617.256
+478  mtMet+R7      38151.616    449 77201.231    481301.231   78619.647
+484  mtMet+F+G4    36700.753    457 74315.506    492927.506   75759.194
+489  mtMet+F+R5    36683.461    464 74294.922    505814.922   75760.724
+490  mtMet+F+R6    36662.511    466 74257.021    509501.021   75729.141
+491  mtMet+F+R7    36655.207    468 74246.415    513230.415   75724.853
+497  mtVer+G4      38822.641    438 78521.283    463085.283   79904.949
+502  mtVer+R5      38756.093    445 78402.186    475342.186   79807.965
+503  mtVer+R6      38747.906    447 78389.812    478901.812   79801.910
+504  mtVer+R7      38745.711    449 78389.423    482489.423   79807.838
+510  mtVer+F+G4    37317.940    457 75549.880    494161.880   76993.568
+515  mtVer+F+R5    37285.431    464 75498.862    507018.862   76964.664
+516  mtVer+F+R6    37270.700    466 75473.400    510717.400   76945.519
+517  mtVer+F+R7    37261.965    468 75459.930    514443.930   76938.368
+523  mtInv+G4      38223.568    438 77323.136    461887.136   78706.803
+528  mtInv+R5      38184.867    445 77259.733    474199.733   78665.513
+529  mtInv+R6      38179.214    447 77252.427    477764.427   78664.525
+530  mtInv+R7      38174.511    449 77247.023    481347.023   78665.439
+536  mtInv+F+G4    36383.486    457 73680.973    492292.973   75124.661
+541  mtInv+F+R5    36367.566    464 73663.132    505183.132   75128.933
+542  mtInv+F+R6    36349.270    466 73630.540    508874.540   75102.660
+543  mtInv+F+R7    36341.420    468 73618.839    512602.839   75097.277
+549  mtMAM+G4      39181.462    438 79238.923    463802.923   80622.590
+554  mtMAM+R5      39107.566    445 79105.132    476045.132   80510.912
+555  mtMAM+R6      39082.575    447 79059.149    479571.149   80471.247
+556  mtMAM+R7      39073.507    449 79045.013    483145.013   80463.429
+562  mtMAM+F+G4    37627.269    457 76168.538    494780.538   77612.226
+567  mtMAM+F+R5    37581.833    464 76091.667    507611.667   77557.468
+568  mtMAM+F+R6    37566.382    466 76064.763    511308.763   77536.883
+569  mtMAM+F+R7    37555.997    468 76047.994    515031.994   77526.432
+575  HIVb+G4       37011.784    438 74899.568    459463.568   76283.234
+580  HIVb+R5       36996.113    445 74882.226    471822.226   76288.006
+581  HIVb+R6       36979.343    447 74852.687    475364.687   76264.784
+582  HIVb+R7       36973.635    449 74845.270    478945.270   76263.686
+588  HIVb+F+G4     36831.168    457 74576.335    493188.335   76020.024
+593  HIVb+F+R5     36814.990    464 74557.979    506077.979   76023.781
+594  HIVb+F+R6     36798.541    466 74529.082    509773.082   76001.202
+595  HIVb+F+R7     36792.146    468 74520.291    513504.291   75998.729
+601  HIVw+G4       38788.143    438 78452.287    463016.287   79835.953
+606  HIVw+R5       38753.568    445 78397.136    475337.136   79802.916
+607  HIVw+R6       38746.190    447 78386.381    478898.381   79798.479
+608  HIVw+R7       38737.604    449 78373.208    482473.208   79791.624
+614  HIVw+F+G4     37961.851    457 76837.703    495449.703   78281.391
+619  HIVw+F+R5     37938.161    464 76804.322    508324.322   78270.124
+620  HIVw+F+R6     37924.598    466 76781.196    512025.196   78253.316
+621  HIVw+F+R7     37921.810    468 76779.621    515763.621   78258.059
+627  FLU+G4        36854.082    438 74584.164    459148.164   75967.830
+632  FLU+R5        36825.671    445 74541.341    471481.341   75947.121
+633  FLU+R6        36819.673    447 74533.346    475045.346   75945.443
+634  FLU+R7        36814.596    449 74527.192    478627.192   75945.608
+640  FLU+F+G4      36751.367    457 74416.735    493028.735   75860.423
+645  FLU+F+R5      36722.131    464 74372.262    505892.262   75838.064
+646  FLU+F+R6      36714.273    466 74360.545    509604.545   75832.665
+647  FLU+F+R7      36710.598    468 74357.196    513341.196   75835.634
+653  rtREV+G4      36223.105    438 73322.210    457886.210   74705.877
+658  rtREV+R5      36205.147    445 73300.294    470240.294   74706.074
+659  rtREV+R6      36195.834    447 73285.668    473797.668   74697.766
+660  rtREV+R7      36194.689    449 73287.378    477387.378   74705.794
+666  rtREV+F+G4    35977.294    457 72868.588    491480.588   74312.276
+671  rtREV+F+R5    35957.624    464 72843.249    504363.249   74309.050
+672  rtREV+F+R6    35945.642    466 72823.284    508067.284   74295.404
+673  rtREV+F+R7    35941.458    468 72818.916    511802.916   74297.354
+679  cpREV+G4      36329.270    438 73534.540    458098.540   74918.206
+684  cpREV+R5      36307.114    445 73504.229    470444.229   74910.008
+685  cpREV+R6      36303.712    447 73501.424    474013.424   74913.521
+692  cpREV+F+G4    36435.084    457 73784.167    492396.167   75227.856
+697  cpREV+F+R5    36408.164    464 73744.327    505264.327   75210.129
+698  cpREV+F+R6    36398.796    466 73729.591    508973.591   75201.711
+699  cpREV+F+R7    36392.753    468 73721.505    512705.505   75199.943
+Akaike Information Criterion:           LG+R6
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+R6
+Best-fit model: LG+R6 chosen according to BIC
+
+All model information printed to sigmas_MafftEinsi.trim.model.gz
+CPU time for ModelFinder: 1726.072 seconds (0h:28m:46s)
+Wall-clock time for ModelFinder: 587.419 seconds (0h:9m:47s)
+
+NOTE: 39 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -35798.130
+Optimal log-likelihood: -35798.127
+Site proportion and rates:  (0.063,0.178) (0.145,0.356) (0.305,0.634) (0.224,1.006) (0.196,1.772) (0.067,2.545)
+Parameters optimization took 1 rounds (0.654 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 3.243416 sec (of wall-clock time) 9.709990 sec(of CPU time)
+Computing RapidNJ tree took 0.010094 sec (of wall-clock time) 0.030188 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -35962.477
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 6.393 second
+Computing log-likelihood of 98 initial trees ... 5.868 seconds
+Current best score: -35798.127
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -35798.069
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -35794.291
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -35778.940
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -35772.258
+Iteration 10 / LogL: -35791.688 / Time: 0h:0m:33s
+Iteration 20 / LogL: -35804.636 / Time: 0h:0m:47s
+Finish initializing candidate tree set (20)
+Current best tree score: -35772.258 / CPU time: 42.671
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -35766.290
+Iteration 30 / LogL: -35805.591 / Time: 0h:1m:1s (0h:3m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -35762.613
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -35760.081
+Iteration 40 / LogL: -35805.700 / Time: 0h:1m:17s (0h:3m:9s left)
+Iteration 50 / LogL: -35767.656 / Time: 0h:1m:31s (0h:2m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -35759.569
+Iteration 60 / LogL: -35807.905 / Time: 0h:1m:46s (0h:2m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -35757.993
+Iteration 70 / LogL: -35763.640 / Time: 0h:1m:59s (0h:2m:41s left)
+Iteration 80 / LogL: -35760.503 / Time: 0h:2m:13s (0h:2m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -35757.506
+Iteration 90 / LogL: -35771.515 / Time: 0h:2m:28s (0h:2m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -35755.517
+Iteration 100 / LogL: -35759.046 / Time: 0h:2m:43s (0h:2m:33s left)
+Iteration 110 / LogL: -35790.916 / Time: 0h:2m:57s (0h:2m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -35750.340
+Iteration 120 / LogL: -35756.066 / Time: 0h:3m:13s (0h:2m:29s left)
+Iteration 130 / LogL: -35750.918 / Time: 0h:3m:26s (0h:2m:11s left)
+Iteration 140 / LogL: -35810.383 / Time: 0h:3m:41s (0h:1m:54s left)
+Iteration 150 / LogL: -35769.502 / Time: 0h:3m:55s (0h:1m:38s left)
+Iteration 160 / LogL: -35753.507 / Time: 0h:4m:9s (0h:1m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 164: -35748.376
+Iteration 170 / LogL: -35758.498 / Time: 0h:4m:24s (0h:2m:26s left)
+Iteration 180 / LogL: -35754.899 / Time: 0h:4m:39s (0h:2m:11s left)
+Iteration 190 / LogL: -35762.167 / Time: 0h:4m:52s (0h:1m:54s left)
+Iteration 200 / LogL: -35754.256 / Time: 0h:5m:7s (0h:1m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 202: -35748.323
+Iteration 210 / LogL: -35749.769 / Time: 0h:5m:21s (0h:2m:21s left)
+Iteration 220 / LogL: -35750.062 / Time: 0h:5m:35s (0h:2m:5s left)
+Iteration 230 / LogL: -35822.753 / Time: 0h:5m:49s (0h:1m:49s left)
+Iteration 240 / LogL: -35748.659 / Time: 0h:6m:3s (0h:1m:34s left)
+Iteration 250 / LogL: -35810.906 / Time: 0h:6m:16s (0h:1m:18s left)
+Iteration 260 / LogL: -35771.988 / Time: 0h:6m:29s (0h:1m:3s left)
+Iteration 270 / LogL: -35766.773 / Time: 0h:6m:43s (0h:0m:47s left)
+Iteration 280 / LogL: -35792.322 / Time: 0h:6m:56s (0h:0m:32s left)
+Iteration 290 / LogL: -35749.536 / Time: 0h:7m:9s (0h:0m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 299: -35747.452
+Iteration 300 / LogL: -35750.231 / Time: 0h:7m:24s (0h:2m:27s left)
+Iteration 310 / LogL: -35747.627 / Time: 0h:7m:38s (0h:2m:11s left)
+Iteration 320 / LogL: -35747.591 / Time: 0h:7m:51s (0h:1m:56s left)
+Iteration 330 / LogL: -35756.353 / Time: 0h:8m:5s (0h:1m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 335: -35746.563
+Iteration 340 / LogL: -35754.965 / Time: 0h:8m:20s (0h:2m:20s left)
+Iteration 350 / LogL: -35747.064 / Time: 0h:8m:34s (0h:2m:5s left)
+Iteration 360 / LogL: -35753.287 / Time: 0h:8m:48s (0h:1m:50s left)
+Iteration 370 / LogL: -35751.001 / Time: 0h:9m:2s (0h:1m:35s left)
+Iteration 380 / LogL: -35749.887 / Time: 0h:9m:16s (0h:1m:20s left)
+Iteration 390 / LogL: -35750.286 / Time: 0h:9m:30s (0h:1m:5s left)
+Iteration 400 / LogL: -35751.265 / Time: 0h:9m:44s (0h:0m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 406: -35746.327
+Iteration 410 / LogL: -35760.333 / Time: 0h:9m:59s (0h:2m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 414: -35746.015
+Iteration 420 / LogL: -35753.179 / Time: 0h:10m:13s (0h:2m:17s left)
+Iteration 430 / LogL: -35767.971 / Time: 0h:10m:27s (0h:2m:2s left)
+Iteration 440 / LogL: -35749.399 / Time: 0h:10m:42s (0h:1m:48s left)
+Iteration 450 / LogL: -35759.760 / Time: 0h:10m:55s (0h:1m:33s left)
+Iteration 460 / LogL: -35756.597 / Time: 0h:11m:9s (0h:1m:18s left)
+Iteration 470 / LogL: -35759.313 / Time: 0h:11m:23s (0h:1m:4s left)
+Iteration 480 / LogL: -35760.341 / Time: 0h:11m:37s (0h:0m:49s left)
+Iteration 490 / LogL: -35792.249 / Time: 0h:11m:51s (0h:0m:34s left)
+Iteration 500 / LogL: -35747.115 / Time: 0h:12m:5s (0h:0m:20s left)
+Iteration 510 / LogL: -35746.693 / Time: 0h:12m:19s (0h:0m:5s left)
+TREE SEARCH COMPLETED AFTER 515 ITERATIONS / Time: 0h:12m:27s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -35746.015
+Optimal log-likelihood: -35746.011
+Site proportion and rates:  (0.075,0.196) (0.143,0.373) (0.305,0.645) (0.202,1.000) (0.186,1.711) (0.088,2.434)
+Parameters optimization took 1 rounds (0.375 sec)
+BEST SCORE FOUND : -35746.011
+Total tree length: 89.356
+
+Total number of iterations: 515
+CPU time used for tree search: 2200.535 sec (0h:36m:40s)
+Wall-clock time used for tree search: 742.563 sec (0h:12m:22s)
+Total CPU time used: 2215.184 sec (0h:36m:55s)
+Total wall-clock time used: 747.577 sec (0h:12m:27s)
+
+Analysis results written to: 
+  IQ-TREE report:                sigmas_MafftEinsi.trim.iqtree
+  Maximum-likelihood tree:       sigmas_MafftEinsi.trim.treefile
+  Likelihood distances:          sigmas_MafftEinsi.trim.mldist
+  Screen log file:               sigmas_MafftEinsi.trim.log
+
+Date and Time: Wed Jun  2 14:24:07 2021
