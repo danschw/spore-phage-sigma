@@ -34,10 +34,28 @@ cd $TRIMAL
 
 
 
-# local iqtree2
+# local iqtree2 with model search
 IQT=/N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2
 #IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
 
 cd $ODIR
 
-$IQT -s $PARENT/data/sigmas_autoMuscle.aln 
+$IQT -s sigmas_MafftEinsi.trim
+# Best-fit model: Q.pfam+F+R8 chosen according to BIC
+
+# got a warning:
+# Number of parameters (K, model parameters and branch lengths): 880
+# Sample size (n, alignment length): 141
+# Given that K>=n, the parameter estimates might be inaccurate. Thus, phylogenetic estimates should be interpreted with caution.
+# based on reponses in IQtree google forum (below) do mulriplr  ML tree runs.
+# https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
+# https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
+
+mkdir -p ${ODIR}/multi-iq
+cd ${ODIR}/multi-iq
+cp ${ODIR}/sigmas_MafftEinsi.trim .
+
+$IQT -s sigmas_MafftEinsi.trim -m  Q.pfam+F+R8 --runs 10 --seqtype AA
+
+
+

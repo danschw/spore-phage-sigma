@@ -3,7 +3,7 @@
 #SBATCH --mail-user=danschw@iu.edu
 #SBATCH --nodes=8
 #SBATCH --ntasks-per-node=8
-#SBATCH --time=0-23:59:00
+#SBATCH --time=0-26:59:00
 #SBATCH --mem=50gb
 #SBATCH --mail-type=FAIL,BEGIN,END
 #SBATCH --job-name=multi-IQ
