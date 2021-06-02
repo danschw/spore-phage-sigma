@@ -5,7 +5,7 @@ library(ggtree) #https://yulab-smu.top/treedata-book/
 library(treeio)
 
 #import tree
-iqt <- read.newick(here("data/align-trim-tree/multi-iq/sigmas_MafftEinsi.trim.treefile"))
+iqt <- read.newick(here("data/align-trim-tree/batch-multi-iq/sigmas_MafftEinsi.trim.treefile"))
 
 # list label data
 d.iqt <- as_tibble(iqt)
@@ -37,15 +37,8 @@ tree <- as.treedata(d.iqt)
 # # unrooted trees
 p <-
   ggtree(tree, layout = 'equal_angle')+
-  # geom_point2(aes(subset=!isTip ,
-  #                 fill=uf.boot),
-  #             # fill=cut(uf.boot, c(0, 70, 100))),
-  #             shape=21, size=1.5, color="white",stroke = 0) +
   geom_tippoint(aes(color=group), size=1, shape=20)+
   geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)
-# +#align = T, linetype = NULL)+
-#   scale_fill_manual(values=c( "red"), guide='legend')+
-#   scale_color_manual(values=c("grey","blue"))
 
 ggsave(here("plots","sigma_all_unrooted.pdf"),p, height=10, width = 10)
 
@@ -53,27 +46,20 @@ ggsave(here("plots","sigma_all_unrooted.pdf"),p, height=10, width = 10)
 # identify splitting node
 p <-
   ggtree(tree, layout = 'equal_angle')+
-  # geom_point2(aes(subset=!isTip ,
-  #                 fill=uf.boot),
-  #             # fill=cut(uf.boot, c(0, 70, 100))),
-  #             shape=21, size=1.5, color="white",stroke = 0) +
   geom_tippoint(aes(color=group), size=1, shape=20)+
   geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)+
   geom_text(aes(x=branch, label=node))  
-# +#align = T, linetype = NULL)+
-#   scale_fill_manual(values=c( "red"), guide='legend')+
-#   scale_color_manual(values=c("grey","blue"))
 
 ggsave(here("plots","sigma_nodeNUMS_unrooted.pdf"),p, height=10, width = 10)
 
 
-# split tree at node 532
-x <- groupClade(iqt,.node=532)
+# split tree at node 518
+x <- groupClade(iqt,.node=518)
 ggtree(x)+
   geom_tippoint(aes(color=group), size=1, shape=20)
 
 
-# add groups to main tree
+# add split groups to main tree
 d.x <- as_tibble(x) %>% 
   select(node, split = group)
 
@@ -82,7 +68,7 @@ tree <- as.treedata(d.iqt)
 
 p <-
   ggtree(tree, layout = 'equal_angle')+
-  geom_tippoint(aes(color = split), size=1, shape=20)+
+  geom_tippoint(aes(color = split), size=5, shape=21)+
   geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)
 
 
