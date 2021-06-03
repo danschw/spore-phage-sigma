@@ -194,6 +194,7 @@ hits.filt <- hits %>%
 
 # save filtered hits table
 write_csv(hits.filt,here("data/hmm_r2-r4_hits.csv"))
+# hits.filt <- read_csv(here("data/hmm_r2-r4_hits.csv"))
 #--------------
 
 
