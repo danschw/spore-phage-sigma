@@ -34,10 +34,18 @@ for (h in hmm){
       str_remove(".*/")
     
     filename <- paste0("hsearch_results/phage/",hmm.name,"_X_",faa.name,".txt")
+    
+    #PFAM hmms have non-numeric name and contain noise cutoff (--cut_nc)
+    if (is.na(as.numeric(hmm.name))){
+      shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
+      next
+    } 
+    # superfam hmms have numeric names and no NC noise cutoff
+    shell(paste("wsl hmmsearch --noali -T 20 --tblout", filename, h, f))
 
-    shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
   }
 }
+
 
 #-----------------------------#
 # search in bacterial genomes #
@@ -64,7 +72,14 @@ for (h in hmm){
     
     filename <- paste0("hsearch_results/bacteria/",hmm.name,"_X_",faa.name,".txt")
     
-    shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
+    #PFAM hmms have non-numeric name and contain noise cutoff (--cut_nc)
+    if (is.na(as.numeric(hmm.name))){
+      shell(paste("wsl hmmsearch --noali --cut_nc --tblout", filename, h, f))
+      next
+    } 
+      # superfam hmms have numeric names and no NC noise cutoff
+      shell(paste("wsl hmmsearch --noali -T 20 --tblout", filename, h, f))
+    
   }
 }
 
