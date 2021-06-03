@@ -150,13 +150,40 @@ write_csv(hits,here("data/hmm_ALL_hits.csv"))
 #hits <- read_csv(here("data/hmm_ALL_hits.csv"))
 
 
+
 #--------------
 # need to filter hits: containing both r2 and r4 domains
+# hits2 <- hits %>%
+#   select(target.name, query.name, group) %>%
+#   mutate(present = 1) %>% # create a dummy column
+#   pivot_wider(names_from = query.name, values_from = present, values_fill = 0 ) %>%
+#   mutate(both = Sigma70_r2==1 & (Sigma70_r4==1|Sigma70_r4_2==1))
+
+# names of superfamily HMMs used
+super.name <- read_tsv(here("data/superfam_sigma_names.tsv"),
+                       col_names = F)
+super.name <- super.name %>% 
+  select(query.name = 1, name = 5) %>% 
+  mutate(domain = case_when(str_detect(name, "2") ~ "r2_sf",
+                            str_detect(name, "4") ~ "r4_sf")) %>% 
+  select(-name)
+
 hits2 <- hits %>%
-  select(target.name, query.name, group) %>%
+    select(target.name, description.of.target, query.name, group) %>% 
+    left_join(., super.name ) %>% 
+    mutate(domain = case_when(!is.na(domain) ~ domain,
+                              str_detect(query.name, "r2") ~ "r2_pfam",
+                              str_detect(query.name, "r4") ~ "r4_pfam")) %>% 
   mutate(present = 1) %>% # create a dummy column
-  pivot_wider(names_from = query.name, values_from = present, values_fill = 0 ) %>%
-  mutate(both = Sigma70_r2==1 & (Sigma70_r4==1|Sigma70_r4_2==1))
+  select(-query.name, -group) %>% 
+  distinct() %>% 
+  pivot_wider(names_from = domain, values_from = present, values_fill = 0 ) %>% 
+  mutate(r2 = ((r2_pfam + r2_sf) > 0), r4 = ((r4_pfam + r4_sf) > 0)) %>% 
+  mutate(both = r2 & r4)
+
+
+
+
 
 keep.hits <- hits2 %>% 
   filter(both==TRUE) %>% 
@@ -192,3 +219,10 @@ for (i in unique(hits.filt$target.name)){
 file.remove(here("data/bacteria_hmm_hits.csv"))
 file.remove(here("data/phage_hmm_hits.csv"))
 file.remove(here("data/tmp_hmm_hits.csv"))
+
+
+
+# ##########################
+# hits2 <- hits2 %>% 
+#   mutate(old.keep = (r2_pfam + r4_pfam ) == 2) %>% 
+#   mutate(sig_string = str_detect(description.of.target, regex("sigma", ignore_case = T)))
