@@ -1,90 +1,92 @@
 header,protein,sp,description,group,new.header
+BAK53012.1 sigma factor [Bacillus phage SP-10],BAK53012.1,Bacillus phage SP-10, sigma factor,phage,BAK53012.1_phage
 AGH27928.1 putative sporulation sigma factor [Clostridium phage vB_CpeS-CP51],AGH27928.1,Clostridium phage vB_CpeS-CP51, putative sporulation sigma factor,phage,AGH27928.1_phage
+ADL40344.1 putative response regulator [Clostridium phage phiCTP1],ADL40344.1,Clostridium phage phiCTP1, putative response regulator,phage,ADL40344.1_phage
 ADL40362.1 putative RNA polymerase sigma factor [Clostridium phage phiCTP1],ADL40362.1,Clostridium phage phiCTP1, putative RNA polymerase sigma factor,phage,ADL40362.1_phage
 AAL96802.1 putative sigma factor [Clostridium phage phi3626],AAL96802.1,Clostridium phage phi3626, putative sigma factor,phage,AAL96802.1_phage
 ABC40436.1 putative RNA polymerase sigma subunit [Bacillus virus Wbeta],ABC40436.1,Bacillus virus Wbeta, putative RNA polymerase sigma subunit,phage,ABC40436.1_phage
 AGE60961.1 RNA polymerase sigma-70 factor [Bacillus virus Taylor],AGE60961.1,Bacillus virus Taylor, RNA polymerase sigma-70 factor,phage,AGE60961.1_phage
+ACI90961.1 gp2.21 [Bacillus virus SPO1],ACI90961.1,Bacillus virus SPO1, gp2.21,phage,ACI90961.1_phage
 AEO93340.1 gp69 [Bacillus virus G],AEO93340.1,Bacillus virus G, gp69,phage,AEO93340.1_phage
+AEO93274.1 gp3 [Bacillus virus G],AEO93274.1,Bacillus virus G, gp3,phage,AEO93274.1_phage
 AGE60807.1 RNA polymerase sigma-70 factor [Bacillus virus Eoghan],AGE60807.1,Bacillus virus Eoghan, RNA polymerase sigma-70 factor,phage,AGE60807.1_phage
+ALO79610.1 RNA polymerase sigma factor [Bacillus virus BM15],ALO79610.1,Bacillus virus BM15, RNA polymerase sigma factor,phage,ALO79610.1_phage
 ALO79609.1 sigma70 protein [Bacillus virus BM15],ALO79609.1,Bacillus virus BM15, sigma70 protein,phage,ALO79609.1_phage
 AGY46846.1 RNA polymerase sigma-70 factor [Bacillus virus Blastoid],AGY46846.1,Bacillus virus Blastoid, RNA polymerase sigma-70 factor,phage,AGY46846.1_phage
 AMW62487.1 sigma factor [Bacillus phage Zuko],AMW62487.1,Bacillus phage Zuko, sigma factor,phage,AMW62487.1_phage
-ASR79140.1 RNA polymerase sigma factor [Bacillus phage Zainny],ASR79140.1,Bacillus phage Zainny, RNA polymerase sigma factor,phage,ASR79140.1_phage
+QKE56338.1 RNA polymerase sigma factor [Bacillus phage YungSlug],QKE56338.1,Bacillus phage YungSlug, RNA polymerase sigma factor,phage,QKE56338.1_phage
+QKE56523.1 RNA polymerase sigma factor [Bacillus phage YungSlug],QKE56523.1,Bacillus phage YungSlug, RNA polymerase sigma factor,phage,QKE56523.1_phage
 ADH03291.1 gp145 [Bacillus phage W.Ph.],ADH03291.1,Bacillus phage W.Ph., gp145,phage,ADH03291.1_phage
 AMW61966.1 sigma factor [Bacillus phage Vinny],AMW61966.1,Bacillus phage Vinny, sigma factor,phage,AMW61966.1_phage
 QDP43184.1 putative RNA polymerase sigma-70 [Bacillus phage vB_BveM-Goe7],QDP43184.1,Bacillus phage vB_BveM-Goe7, putative RNA polymerase sigma-70,phage,QDP43184.1_phage
+QDP43462.1 sigma-70 family RNA polymerase sigma factor [Bacillus phage vB_BthS-HD29phi],QDP43462.1,Bacillus phage vB_BthS-HD29phi, sigma-70 family RNA polymerase sigma factor,phage,QDP43462.1_phage
 AZF89309.1 RNA polymerase sigma factor [Bacillus phage vB_BthM-Goe5],AZF89309.1,Bacillus phage vB_BthM-Goe5, RNA polymerase sigma factor,phage,AZF89309.1_phage
+QMV48360.1 putative RNA polymerase sigma-70-like protein [Bacillus phage vB_BsuM-Goe9],QMV48360.1,Bacillus phage vB_BsuM-Goe9, putative RNA polymerase sigma-70-like protein,phage,QMV48360.1_phage
 APZ82618.1 RNA polymerase sigma factor [Bacillus phage vB_BsuM-Goe3],APZ82618.1,Bacillus phage vB_BsuM-Goe3, RNA polymerase sigma factor,phage,APZ82618.1_phage
+APZ82294.1 RNA polymerase sigma factor [Bacillus phage vB_BsuM-Goe2],APZ82294.1,Bacillus phage vB_BsuM-Goe2, RNA polymerase sigma factor,phage,APZ82294.1_phage
+QMV48586.1 putative RNA polymerase sigma-70-like protein [Bacillus phage vB_BsuM-Goe10],QMV48586.1,Bacillus phage vB_BsuM-Goe10, putative RNA polymerase sigma-70-like protein,phage,QMV48586.1_phage
 QEG13663.1 putative RNA polymerase sigma factor [Bacillus phage vB_BspM_MarvelLand],QEG13663.1,Bacillus phage vB_BspM_MarvelLand, putative RNA polymerase sigma factor,phage,QEG13663.1_phage
-QEG13664.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage vB_BspM_MarvelLand],QEG13664.1,Bacillus phage vB_BspM_MarvelLand, putative RNA polymerase sigma 28 subunit SigG,phage,QEG13664.1_phage
-QDP42942.1 RNA polymerase sigma factor [Bacillus phage vB_BmeM-Goe8],QDP42942.1,Bacillus phage vB_BmeM-Goe8, RNA polymerase sigma factor,phage,QDP42942.1_phage
+AYP68748.1 RNA polymerase sigma factor [Bacillus phage vB_BpsS-36],AYP68748.1,Bacillus phage vB_BpsS-36, RNA polymerase sigma factor,phage,AYP68748.1_phage
 QDP42999.1 RNA polymerase sigma factor [Bacillus phage vB_BmeM-Goe8],QDP42999.1,Bacillus phage vB_BmeM-Goe8, RNA polymerase sigma factor,phage,QDP42999.1_phage
-"AFQ96417.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage vB_BceM_Bc431v3]",AFQ96417.1,Bacillus phage vB_BceM_Bc431v3," RNA polymerase sigma-70 factor, sigma-B/F/G subfamily",phage,AFQ96417.1_phage
+QDP42942.1 RNA polymerase sigma factor [Bacillus phage vB_BmeM-Goe8],QDP42942.1,Bacillus phage vB_BmeM-Goe8, RNA polymerase sigma factor,phage,QDP42942.1_phage
+ALV83472.1 DNA-directed RNA polymerase sigma-70 factor [Bacillus phage vB_BceS-MY192],ALV83472.1,Bacillus phage vB_BceS-MY192, DNA-directed RNA polymerase sigma-70 factor,phage,ALV83472.1_phage
 AFQ96418.1 putative RNA polymerase sigma factor G [Bacillus phage vB_BceM_Bc431v3],AFQ96418.1,Bacillus phage vB_BceM_Bc431v3, putative RNA polymerase sigma factor G,phage,AFQ96418.1_phage
+"AFQ96417.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage vB_BceM_Bc431v3]",AFQ96417.1,Bacillus phage vB_BceM_Bc431v3," RNA polymerase sigma-70 factor, sigma-B/F/G subfamily",phage,AFQ96417.1_phage
 ALA13223.1 RNA polymerase sigma factor [Bacillus phage TsarBomba],ALA13223.1,Bacillus phage TsarBomba, RNA polymerase sigma factor,phage,ALA13223.1_phage
-ALA13222.1 RNA polymerase sigma factor [Bacillus phage TsarBomba],ALA13222.1,Bacillus phage TsarBomba, RNA polymerase sigma factor,phage,ALA13222.1_phage
-"AGT13480.1 RNA polymerase, SigF-like [Bacillus phage Troll]",AGT13480.1,Bacillus phage Troll," RNA polymerase, SigF-like",phage,AGT13480.1_phage
-QLF85884.1 RNA polymerase sigma factor [Bacillus phage Tomato],QLF85884.1,Bacillus phage Tomato, RNA polymerase sigma factor,phage,QLF85884.1_phage
-ASZ75934.1 SigF-like RNA polymerase sigma factor [Bacillus phage Taffo16],ASZ75934.1,Bacillus phage Taffo16, SigF-like RNA polymerase sigma factor,phage,ASZ75934.1_phage
+ARW58411.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Tavor_SA],ARW58411.1,Bacillus phage Tavor_SA, RNA polymerase sporulation specific sigma factor,phage,ARW58411.1_phage
 AKC02694.1 RNA polymerase sigma factor [Bacillus phage Stills],AKC02694.1,Bacillus phage Stills, RNA polymerase sigma factor,phage,AKC02694.1_phage
 AKC02726.1 RNA polymerase sigma factor [Bacillus phage Stills],AKC02726.1,Bacillus phage Stills, RNA polymerase sigma factor,phage,AKC02726.1_phage
-AGY48597.1 RNA polymerase sigma factor [Bacillus phage Spock],AGY48597.1,Bacillus phage Spock, RNA polymerase sigma factor,phage,AGY48597.1_phage
+AGY48752.1 RNA polymerase sigma factor [Bacillus phage Staley],AGY48752.1,Bacillus phage Staley, RNA polymerase sigma factor,phage,AGY48752.1_phage
+AGY48783.1 RNA polymerase sigma 70 factor [Bacillus phage Staley],AGY48783.1,Bacillus phage Staley, RNA polymerase sigma 70 factor,phage,AGY48783.1_phage
+AKA61495.1 RNA polymerase sigma factor [Bacillus phage Stahl],AKA61495.1,Bacillus phage Stahl, RNA polymerase sigma factor,phage,AKA61495.1_phage
+AKA61526.1 RNA polymerase sigma factor [Bacillus phage Stahl],AKA61526.1,Bacillus phage Stahl, RNA polymerase sigma factor,phage,AKA61526.1_phage
 BAK52932.1 RNA polymerase sigma factor [Bacillus phage SP-10],BAK52932.1,Bacillus phage SP-10, RNA polymerase sigma factor,phage,BAK52932.1_phage
-ANI24840.1 RNA polymerase sigma factor [Bacillus phage Smudge],ANI24840.1,Bacillus phage Smudge, RNA polymerase sigma factor,phage,ANI24840.1_phage
+AGY48356.1 RNA polymerase sigma factor SigB [Bacillus phage Slash],AGY48356.1,Bacillus phage Slash, RNA polymerase sigma factor SigB,phage,AGY48356.1_phage
 AGY48388.1 RNA polymerase sigma factor [Bacillus phage Slash],AGY48388.1,Bacillus phage Slash, RNA polymerase sigma factor,phage,AGY48388.1_phage
-AOZ62476.1 RNA polymerase sigma factor [Bacillus phage SBP8a],AOZ62476.1,Bacillus phage SBP8a, RNA polymerase sigma factor,phage,AOZ62476.1_phage
 ANH50776.1 SigF-like RNA polymerase sigma factor [Bacillus phage SalinJah],ANH50776.1,Bacillus phage SalinJah, SigF-like RNA polymerase sigma factor,phage,ANH50776.1_phage
 AMW63146.1 sigma factor [Bacillus phage SageFayge],AMW63146.1,Bacillus phage SageFayge, sigma factor,phage,AMW63146.1_phage
 AXF41881.1 RNA polymerase sigma factor [Bacillus phage Saddex],AXF41881.1,Bacillus phage Saddex, RNA polymerase sigma factor,phage,AXF41881.1_phage
-AIF72077.1 sigF-like RNA polymerase [Bacillus phage Riley],AIF72077.1,Bacillus phage Riley, sigF-like RNA polymerase,phage,AIF72077.1_phage
 AOZ62117.1 RNA polymerase sigma 28 subunit [Bacillus phage QCM8],AOZ62117.1,Bacillus phage QCM8, RNA polymerase sigma 28 subunit,phage,AOZ62117.1_phage
 ASR78475.1 RNA polymerase sigma factor [Bacillus phage PPIsBest],ASR78475.1,Bacillus phage PPIsBest, RNA polymerase sigma factor,phage,ASR78475.1_phage
-ANY29315.1 putative RNA polymerase sigma-70 factor [Bacillus phage PK16],ANY29315.1,Bacillus phage PK16, putative RNA polymerase sigma-70 factor,phage,ANY29315.1_phage
 ANY29316.1 putative RNA polymerase sigma factor G [Bacillus phage PK16],ANY29316.1,Bacillus phage PK16, putative RNA polymerase sigma factor G,phage,ANY29316.1_phage
-AMW62240.1 sigma factor [Bacillus phage Phrodo],AMW62240.1,Bacillus phage Phrodo, sigma factor,phage,AMW62240.1_phage
 AEV89274.1 RNA-polymerase sigma-factor [Bacillus phage phIS3501],AEV89274.1,Bacillus phage phIS3501, RNA-polymerase sigma-factor,phage,AEV89274.1_phage
 QDH49502.1 sigma factor [Bacillus phage Phireball],QDH49502.1,Bacillus phage Phireball, sigma factor,phage,QDH49502.1_phage
 BAN59653.1 putative sigma factor [Bacillus phage phiNIT1],BAN59653.1,Bacillus phage phiNIT1, putative sigma factor,phage,BAN59653.1_phage
+AGV99468.1 RNA polymerase sigma factor [Bacillus phage phiCM3],AGV99468.1,Bacillus phage phiCM3, RNA polymerase sigma factor,phage,AGV99468.1_phage
 AGB62713.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage phiAGATE],AGB62713.1,Bacillus phage phiAGATE, putative RNA polymerase sigma factor SigF 2,phage,AGB62713.1_phage
-AGB62714.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage phiAGATE],AGB62714.1,Bacillus phage phiAGATE, putative RNA polymerase sigma factor SigF 1,phage,AGB62714.1_phage
 ALN97362.1 sigma-70 [Bacillus phage phi4I1],ALN97362.1,Bacillus phage phi4I1, sigma-70,phage,ALN97362.1_phage
+ANT40413.1 putative RNA polymerase sigma subunit [Bacillus phage PfEFR-5],ANT40413.1,Bacillus phage PfEFR-5, putative RNA polymerase sigma subunit,phage,ANT40413.1_phage
+ANT40183.1 putative RNA polymerase sigma subunit [Bacillus phage PfEFR-4],ANT40183.1,Bacillus phage PfEFR-4, putative RNA polymerase sigma subunit,phage,ANT40183.1_phage
 ALA07697.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage PBC6],ALA07697.1,Bacillus phage PBC6, putative RNA polymerase sigma 28 subunit SigF,phage,ALA07697.1_phage
-ALA07698.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage PBC6],ALA07698.1,Bacillus phage PBC6, putative RNA polymerase sigma 28 subunit SigG,phage,ALA07698.1_phage
 ASR79669.1 RNA polymerase sigma factor [Bacillus phage OTooleKemple52],ASR79669.1,Bacillus phage OTooleKemple52, RNA polymerase sigma factor,phage,ASR79669.1_phage
-AXQ67439.1 RNA polymerase sigma factor [Bacillus phage OmnioDeoPrimus],AXQ67439.1,Bacillus phage OmnioDeoPrimus, RNA polymerase sigma factor,phage,AXQ67439.1_phage
 AMW63445.1 sigma factor [Bacillus phage NotTheCreek],AMW63445.1,Bacillus phage NotTheCreek, sigma factor,phage,AMW63445.1_phage
-AMW61377.1 sigma factor [Bacillus phage Nigalana],AMW61377.1,Bacillus phage Nigalana, sigma factor,phage,AMW61377.1_phage
-AMW63747.1 sigma factor [Bacillus phage Nemo],AMW63747.1,Bacillus phage Nemo, sigma factor,phage,AMW63747.1_phage
+ARW58471.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Negev_SA],ARW58471.1,Bacillus phage Negev_SA, RNA polymerase sporulation specific sigma factor,phage,ARW58471.1_phage
 AIW03562.1 RNA polymerase sigma factor [Bacillus phage Moonbeam],AIW03562.1,Bacillus phage Moonbeam, RNA polymerase sigma factor,phage,AIW03562.1_phage
 AIW03563.1 RNA polymerase sigma factor [Bacillus phage Moonbeam],AIW03563.1,Bacillus phage Moonbeam, RNA polymerase sigma factor,phage,AIW03563.1_phage
-AHZ10802.1 RNA polymerase sigma factor [Bacillus phage Megatron],AHZ10802.1,Bacillus phage Megatron, RNA polymerase sigma factor,phage,AHZ10802.1_phage
-AIW03238.1 RNA polymerase sigma factor [Bacillus phage Mater],AIW03238.1,Bacillus phage Mater, RNA polymerase sigma factor,phage,AIW03238.1_phage
+AXQ67820.1 RNA polymerase subunit alpha [Bacillus phage Kioshi],AXQ67820.1,Bacillus phage Kioshi, RNA polymerase subunit alpha,phage,AXQ67820.1_phage
 AXQ67819.1 RNA polymerase sigma factor [Bacillus phage Kioshi],AXQ67819.1,Bacillus phage Kioshi, RNA polymerase sigma factor,phage,AXQ67819.1_phage
 ANU79852.1 sigma factor [Bacillus phage Kida],ANU79852.1,Bacillus phage Kida, sigma factor,phage,ANU79852.1_phage
 AXQ67115.1 RNA polymerase [Bacillus phage Kamfam],AXQ67115.1,Bacillus phage Kamfam, RNA polymerase,phage,AXQ67115.1_phage
-AMW61625.1 sigma factor [Bacillus phage Juglone],AMW61625.1,Bacillus phage Juglone, sigma factor,phage,AMW61625.1_phage
 AID17798.1 putative RNA polymerase sigma-70 factor [Bacillus phage JBP901],AID17798.1,Bacillus phage JBP901, putative RNA polymerase sigma-70 factor,phage,AID17798.1_phage
 AID17799.1 putative RNA polymerase sigma factor G [Bacillus phage JBP901],AID17799.1,Bacillus phage JBP901, putative RNA polymerase sigma factor G,phage,AID17799.1_phage
 ASR79696.1 RNA polymerase sigma factor [Bacillus phage Janet],ASR79696.1,Bacillus phage Janet, RNA polymerase sigma factor,phage,ASR79696.1_phage
 AHZ10517.1 RNA polymerase sigma factor [Bacillus phage Hoody T],AHZ10517.1,Bacillus phage Hoody T, RNA polymerase sigma factor,phage,AHZ10517.1_phage
 AUV57859.1 SigF-like RNA polymerase sigma factor [Bacillus phage HonestAbe],AUV57859.1,Bacillus phage HonestAbe, SigF-like RNA polymerase sigma factor,phage,AUV57859.1_phage
+AXQ66958.1 RNA polymerase subunit alpha [Bacillus phage Hobo],AXQ66958.1,Bacillus phage Hobo, RNA polymerase subunit alpha,phage,AXQ66958.1_phage
 AXQ66957.1 RNA polymerase sigma factor [Bacillus phage Hobo],AXQ66957.1,Bacillus phage Hobo, RNA polymerase sigma factor,phage,AXQ66957.1_phage
 AHZ10241.1 sigF-like RNA polymerase sigma factor [Bacillus phage Hakuna],AHZ10241.1,Bacillus phage Hakuna, sigF-like RNA polymerase sigma factor,phage,AHZ10241.1_phage
 AGY47431.1 RNA polymerase sigma-70 factor [Bacillus phage Grass],AGY47431.1,Bacillus phage Grass, RNA polymerase sigma-70 factor,phage,AGY47431.1_phage
 ABC40488.1 putative RNA polymerase sigma subunit [Bacillus phage Gamma isolate d'Herelle],ABC40488.1,Bacillus phage Gamma isolate d'Herelle, putative RNA polymerase sigma subunit,phage,ABC40488.1_phage
-ARQ95128.1 SigF-like RNA polymerase sigma factor [Bacillus phage Flapjack],ARQ95128.1,Bacillus phage Flapjack, SigF-like RNA polymerase sigma factor,phage,ARQ95128.1_phage
 ABA42728.1 sigma70 factor [Bacillus phage Fah],ABA42728.1,Bacillus phage Fah, sigma70 factor,phage,ABA42728.1_phage
-ALA46534.1 SigF-like RNA polymerase sigma factor [Bacillus phage Eyuki],ALA46534.1,Bacillus phage Eyuki, SigF-like RNA polymerase sigma factor,phage,ALA46534.1_phage
 AHZ09937.1 RNA polymerase sigma factor [Bacillus phage Evoli],AHZ09937.1,Bacillus phage Evoli, RNA polymerase sigma factor,phage,AHZ09937.1_phage
 AMB18751.1 RNA polymerase sigma factor [Bacillus phage Eldridge],AMB18751.1,Bacillus phage Eldridge, RNA polymerase sigma factor,phage,AMB18751.1_phage
 AMB18752.1 sporulation sigma factor SigF [Bacillus phage Eldridge],AMB18752.1,Bacillus phage Eldridge, sporulation sigma factor SigF,phage,AMB18752.1_phage
-ANT41264.1 sigma factor [Bacillus phage DirtyBetty],ANT41264.1,Bacillus phage DirtyBetty, sigma factor,phage,ANT41264.1_phage
 AMW62796.1 sigma factor [Bacillus phage DIGNKC],AMW62796.1,Bacillus phage DIGNKC, sigma factor,phage,AMW62796.1_phage
-AMO25911.1 RNA polymerase sigma-70 factor sigma-B/F/G subfamily [Bacillus phage Deep Blue],AMO25911.1,Bacillus phage Deep Blue, RNA polymerase sigma-70 factor sigma-B/F/G subfamily,phage,AMO25911.1_phage
 AMO25912.1 RNA polymerase sigma-70 factor sigma-B/F/G subfamily [Bacillus phage Deep Blue],AMO25912.1,Bacillus phage Deep Blue, RNA polymerase sigma-70 factor sigma-B/F/G subfamily,phage,AMO25912.1_phage
 "ABA46386.1 RNA polymerase sigma factor, putative [Bacillus phage Cherry]",ABA46386.1,Bacillus phage Cherry," RNA polymerase sigma factor, putative",phage,ABA46386.1_phage
+ARW58529.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Carmel_SA],ARW58529.1,Bacillus phage Carmel_SA, RNA polymerase sporulation specific sigma factor,phage,ARW58529.1_phage
+AGY46934.1 RNA polymerase sigma factor [Bacillus phage CampHawk],AGY46934.1,Bacillus phage CampHawk, RNA polymerase sigma factor,phage,AGY46934.1_phage
 AHZ09647.1 RNA polymerase sigma factor [Bacillus phage CAM003],AHZ09647.1,Bacillus phage CAM003, RNA polymerase sigma factor,phage,AHZ09647.1_phage
-ASR78776.1 RNA polymerase sigma factor [Bacillus phage Bubs],ASR78776.1,Bacillus phage Bubs, RNA polymerase sigma factor,phage,ASR78776.1_phage
 AUO78602.1 sigma-70 [Bacillus phage BtiUFT6.51-F],AUO78602.1,Bacillus phage BtiUFT6.51-F, sigma-70,phage,AUO78602.1_phage
 AFL46426.1 RNA polymerase sigma factor [Bacillus phage BtCS33],AFL46426.1,Bacillus phage BtCS33, RNA polymerase sigma factor,phage,AFL46426.1_phage
 ATN94413.1 RNA polymerase sigma 70 factor [Bacillus phage BSP9],ATN94413.1,Bacillus phage BSP9, RNA polymerase sigma 70 factor,phage,ATN94413.1_phage
@@ -92,32 +94,21 @@ AXH71210.1 putative RNA polymerase sigma factor 2 [Bacillus phage BSP38],AXH7121
 AUO79472.1 RNA polymerase sigma factor 2 [Bacillus phage BSP10],AUO79472.1,Bacillus phage BSP10, RNA polymerase sigma factor 2,phage,AUO79472.1_phage
 AEZ50316.1 putative RNA polymerase sigma factor [Bacillus phage BPS13],AEZ50316.1,Bacillus phage BPS13, putative RNA polymerase sigma factor,phage,AEZ50316.1_phage
 AGI12133.1 putative RNA polymerase sigma factor [Bacillus phage BPS10C],AGI12133.1,Bacillus phage BPS10C, putative RNA polymerase sigma factor,phage,AGI12133.1_phage
-AHJ87681.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-T],AHJ87681.1,Bacillus phage Bp8p-T, putative RNA polymerase sigma factor SigF 1,phage,AHJ87681.1_phage
 AHJ87680.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage Bp8p-T],AHJ87680.1,Bacillus phage Bp8p-T, putative RNA polymerase sigma factor SigF 2,phage,AHJ87680.1_phage
-AHJ87470.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-C],AHJ87470.1,Bacillus phage Bp8p-C, putative RNA polymerase sigma factor SigF 1,phage,AHJ87470.1_phage
 AHJ87469.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage Bp8p-C],AHJ87469.1,Bacillus phage Bp8p-C, putative RNA polymerase sigma factor SigF 2,phage,AHJ87469.1_phage
-AII27990.1 RNA polymerase sigma factor [Bacillus phage Bobb],AII27990.1,Bacillus phage Bobb, RNA polymerase sigma factor,phage,AII27990.1_phage
 AII27989.1 RNA polymerase sigma factor [Bacillus phage Bobb],AII27989.1,Bacillus phage Bobb, RNA polymerase sigma factor,phage,AII27989.1_phage
-AOZ61848.1 RNA polymerase sigma factor [Bacillus phage BJ4],AOZ61848.1,Bacillus phage BJ4, RNA polymerase sigma factor,phage,AOZ61848.1_phage
 AGY46709.1 RNA polymerase sigma factor [Bacillus phage BigBertha],AGY46709.1,Bacillus phage BigBertha, RNA polymerase sigma factor,phage,AGY46709.1_phage
-QDH49898.1 sigma factor [Bacillus phage Beyonphe],QDH49898.1,Bacillus phage Beyonphe, sigma factor,phage,QDH49898.1_phage
-ANM46154.1 RNA polymerase sigma factor [Bacillus phage Belinda],ANM46154.1,Bacillus phage Belinda, RNA polymerase sigma factor,phage,ANM46154.1_phage
 AEW47604.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage BCU4],AEW47604.1,Bacillus phage BCU4, putative RNA polymerase sigma 28 subunit SigF,phage,AEW47604.1_phage
-AEW47605.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCU4],AEW47605.1,Bacillus phage BCU4, putative RNA polymerase sigma 28 subunit SigG,phage,AEW47605.1_phage
 "AHJ87163.1 putative RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage BCP8-2]",AHJ87163.1,Bacillus phage BCP8-2," putative RNA polymerase sigma-70 factor, sigma-B/F/G subfamily",phage,AHJ87163.1_phage
 AHJ87164.1 putative RNA polymerase sigma factor G [Bacillus phage BCP8-2],AHJ87164.1,Bacillus phage BCP8-2, putative RNA polymerase sigma factor G,phage,AHJ87164.1_phage
 AEW47115.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage BCP78],AEW47115.1,Bacillus phage BCP78, putative RNA polymerase sigma 28 subunit SigF,phage,AEW47115.1_phage
-AEW47116.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCP78],AEW47116.1,Bacillus phage BCP78, putative RNA polymerase sigma 28 subunit SigG,phage,AEW47116.1_phage
 AQN32486.1 RNA polymerase sporulation specific sigma factor SigF [Bacillus phage BCP12],AQN32486.1,Bacillus phage BCP12, RNA polymerase sporulation specific sigma factor SigF,phage,AQN32486.1_phage
-AQN32487.1 RNA polymerase sporulation specific sigma factor SigG [Bacillus phage BCP12],AQN32487.1,Bacillus phage BCP12, RNA polymerase sporulation specific sigma factor SigG,phage,AQN32487.1_phage
+"AHN66675.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage Bcp1]",AHN66675.1,Bacillus phage Bcp1," RNA polymerase sigma-70 factor, sigma-B/F/G subfamily",phage,AHN66675.1_phage
 "AHN66674.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage Bcp1]",AHN66674.1,Bacillus phage Bcp1," RNA polymerase sigma-70 factor, sigma-B/F/G subfamily",phage,AHN66674.1_phage
-AUM58962.1 DNA replication/modification protein [Bacillus phage BCP01],AUM58962.1,Bacillus phage BCP01, DNA replication/modification protein,phage,AUM58962.1_phage
 AUM58961.1 DNA replication/modification protein [Bacillus phage BCP01],AUM58961.1,Bacillus phage BCP01, DNA replication/modification protein,phage,AUM58961.1_phage
 "CCE73875.1 sigma70, RNA polymerase sigma factor [Bacillus phage BceA1]",CCE73875.1,Bacillus phage BceA1," sigma70, RNA polymerase sigma factor",phage,CCE73875.1_phage
 AXU41211.1 RNA polymerase sigma factor [Bacillus phage BC01],AXU41211.1,Bacillus phage BC01, RNA polymerase sigma factor,phage,AXU41211.1_phage
-AXU41213.1 RNA polymerase sigma factor [Bacillus phage BC01],AXU41213.1,Bacillus phage BC01, RNA polymerase sigma factor,phage,AXU41213.1_phage
 QEG04258.1 putative RNA polymerase sigma 28 subunit [Bacillus phage BC-T25],QEG04258.1,Bacillus phage BC-T25, putative RNA polymerase sigma 28 subunit,phage,QEG04258.1_phage
-QEG04257.1 RNA polymerase sigma factor [Bacillus phage BC-T25],QEG04257.1,Bacillus phage BC-T25, RNA polymerase sigma factor,phage,QEG04257.1_phage
 AEQ34342.1 RNA polymerase sigma-F factor [Bacillus phage Bastille],AEQ34342.1,Bacillus phage Bastille, RNA polymerase sigma-F factor,phage,AEQ34342.1_phage
 AEW47372.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage B5S],AEW47372.1,Bacillus phage B5S, putative RNA polymerase sigma 28 subunit SigF,phage,AEW47372.1_phage
 AEZ65936.1 sporulation sigma factor SigF-like protein [Bacillus phage B4],AEZ65936.1,Bacillus phage B4, sporulation sigma factor SigF-like protein,phage,AEZ65936.1_phage
@@ -125,329 +116,390 @@ ALA13372.1 SigF-like RNA polymerase sigma factor [Bacillus phage AvesoBmore],ALA
 AZF88386.1 putative RNA polymerase sigma subunit [Bacillus phage AP631],AZF88386.1,Bacillus phage AP631, putative RNA polymerase sigma subunit,phage,AZF88386.1_phage
 ASU01064.1 RNA polymerase sigma factor [Bacillus phage Anthony],ASU01064.1,Bacillus phage Anthony, RNA polymerase sigma factor,phage,ASU01064.1_phage
 QDH50209.1 sigma factor [Bacillus phage ALPS],QDH50209.1,Bacillus phage ALPS, sigma factor,phage,QDH50209.1_phage
-ASR78944.1 RNA polymerase sigma factor [Bacillus phage AaronPhadgers],ASR78944.1,Bacillus phage AaronPhadgers, RNA polymerase sigma factor,phage,ASR78944.1_phage
 QFG05971.1 RNA polymerase sigma factor [Bacillus phage 280BB001],QFG05971.1,Bacillus phage 280BB001, RNA polymerase sigma factor,phage,QFG05971.1_phage
 QFG05890.1 RNA polymerase sigma factor [Bacillus phage 276BB001],QFG05890.1,Bacillus phage 276BB001, RNA polymerase sigma factor,phage,QFG05890.1_phage
 QFR56516.1 RNA polymerase sigma factor [Bacillus phage 056SW001B],QFR56516.1,Bacillus phage 056SW001B, RNA polymerase sigma factor,phage,QFR56516.1_phage
 QFG05277.1 RNA polymerase sigma factor [Bacillus phage 019DV004],QFG05277.1,Bacillus phage 019DV004, RNA polymerase sigma factor,phage,QFG05277.1_phage
 QFG05192.1 RNA polymerase sigma factor [Bacillus phage 019DV002],QFG05192.1,Bacillus phage 019DV002, RNA polymerase sigma factor,phage,QFG05192.1_phage
-WP_001030417.1 RNA polymerase sigma factor FliA [Vibrio cholerae],WP_001030417.1,Vibrio cholerae, RNA polymerase sigma factor FliA,bacteria,WP_001030417.1_bacteria
-WP_000483035.1 MULTISPECIES: RNA polymerase sigma factor [Vibrio],WP_000483035.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000483035.1_bacteria
-WP_001880851.1 sigma-70 family RNA polymerase sigma factor [Vibrio cholerae],WP_001880851.1,Vibrio cholerae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_001880851.1_bacteria
+ASR79140.1 RNA polymerase sigma factor [Bacillus phage Zainny],ASR79140.1,Bacillus phage Zainny, RNA polymerase sigma factor,phage,ASR79140.1_phage
+QEG13664.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage vB_BspM_MarvelLand],QEG13664.1,Bacillus phage vB_BspM_MarvelLand, putative RNA polymerase sigma 28 subunit SigG,phage,QEG13664.1_phage
+ALA13222.1 RNA polymerase sigma factor [Bacillus phage TsarBomba],ALA13222.1,Bacillus phage TsarBomba, RNA polymerase sigma factor,phage,ALA13222.1_phage
+"AGT13480.1 RNA polymerase, SigF-like [Bacillus phage Troll]",AGT13480.1,Bacillus phage Troll," RNA polymerase, SigF-like",phage,AGT13480.1_phage
+QLF85884.1 RNA polymerase sigma factor [Bacillus phage Tomato],QLF85884.1,Bacillus phage Tomato, RNA polymerase sigma factor,phage,QLF85884.1_phage
+ASZ75934.1 SigF-like RNA polymerase sigma factor [Bacillus phage Taffo16],ASZ75934.1,Bacillus phage Taffo16, SigF-like RNA polymerase sigma factor,phage,ASZ75934.1_phage
+AGY48597.1 RNA polymerase sigma factor [Bacillus phage Spock],AGY48597.1,Bacillus phage Spock, RNA polymerase sigma factor,phage,AGY48597.1_phage
+ANI24840.1 RNA polymerase sigma factor [Bacillus phage Smudge],ANI24840.1,Bacillus phage Smudge, RNA polymerase sigma factor,phage,ANI24840.1_phage
+AOZ62476.1 RNA polymerase sigma factor [Bacillus phage SBP8a],AOZ62476.1,Bacillus phage SBP8a, RNA polymerase sigma factor,phage,AOZ62476.1_phage
+AIF72077.1 sigF-like RNA polymerase [Bacillus phage Riley],AIF72077.1,Bacillus phage Riley, sigF-like RNA polymerase,phage,AIF72077.1_phage
+ANY29315.1 putative RNA polymerase sigma-70 factor [Bacillus phage PK16],ANY29315.1,Bacillus phage PK16, putative RNA polymerase sigma-70 factor,phage,ANY29315.1_phage
+AMW62240.1 sigma factor [Bacillus phage Phrodo],AMW62240.1,Bacillus phage Phrodo, sigma factor,phage,AMW62240.1_phage
+AGB62714.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage phiAGATE],AGB62714.1,Bacillus phage phiAGATE, putative RNA polymerase sigma factor SigF 1,phage,AGB62714.1_phage
+ALA07698.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage PBC6],ALA07698.1,Bacillus phage PBC6, putative RNA polymerase sigma 28 subunit SigG,phage,ALA07698.1_phage
+AXQ67439.1 RNA polymerase sigma factor [Bacillus phage OmnioDeoPrimus],AXQ67439.1,Bacillus phage OmnioDeoPrimus, RNA polymerase sigma factor,phage,AXQ67439.1_phage
+AMW61377.1 sigma factor [Bacillus phage Nigalana],AMW61377.1,Bacillus phage Nigalana, sigma factor,phage,AMW61377.1_phage
+AMW63747.1 sigma factor [Bacillus phage Nemo],AMW63747.1,Bacillus phage Nemo, sigma factor,phage,AMW63747.1_phage
+AHZ10802.1 RNA polymerase sigma factor [Bacillus phage Megatron],AHZ10802.1,Bacillus phage Megatron, RNA polymerase sigma factor,phage,AHZ10802.1_phage
+AIW03238.1 RNA polymerase sigma factor [Bacillus phage Mater],AIW03238.1,Bacillus phage Mater, RNA polymerase sigma factor,phage,AIW03238.1_phage
+AMW61625.1 sigma factor [Bacillus phage Juglone],AMW61625.1,Bacillus phage Juglone, sigma factor,phage,AMW61625.1_phage
+ARQ95128.1 SigF-like RNA polymerase sigma factor [Bacillus phage Flapjack],ARQ95128.1,Bacillus phage Flapjack, SigF-like RNA polymerase sigma factor,phage,ARQ95128.1_phage
+ALA46534.1 SigF-like RNA polymerase sigma factor [Bacillus phage Eyuki],ALA46534.1,Bacillus phage Eyuki, SigF-like RNA polymerase sigma factor,phage,ALA46534.1_phage
+ANT41264.1 sigma factor [Bacillus phage DirtyBetty],ANT41264.1,Bacillus phage DirtyBetty, sigma factor,phage,ANT41264.1_phage
+AMO25911.1 RNA polymerase sigma-70 factor sigma-B/F/G subfamily [Bacillus phage Deep Blue],AMO25911.1,Bacillus phage Deep Blue, RNA polymerase sigma-70 factor sigma-B/F/G subfamily,phage,AMO25911.1_phage
+QEM43258.1 RNA polymerase sigma factor [Bacillus phage Chotacabras],QEM43258.1,Bacillus phage Chotacabras, RNA polymerase sigma factor,phage,QEM43258.1_phage
+ASR78776.1 RNA polymerase sigma factor [Bacillus phage Bubs],ASR78776.1,Bacillus phage Bubs, RNA polymerase sigma factor,phage,ASR78776.1_phage
+AHJ87681.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-T],AHJ87681.1,Bacillus phage Bp8p-T, putative RNA polymerase sigma factor SigF 1,phage,AHJ87681.1_phage
+AHJ87470.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-C],AHJ87470.1,Bacillus phage Bp8p-C, putative RNA polymerase sigma factor SigF 1,phage,AHJ87470.1_phage
+AII27990.1 RNA polymerase sigma factor [Bacillus phage Bobb],AII27990.1,Bacillus phage Bobb, RNA polymerase sigma factor,phage,AII27990.1_phage
+AOZ61848.1 RNA polymerase sigma factor [Bacillus phage BJ4],AOZ61848.1,Bacillus phage BJ4, RNA polymerase sigma factor,phage,AOZ61848.1_phage
+QDH49898.1 sigma factor [Bacillus phage Beyonphe],QDH49898.1,Bacillus phage Beyonphe, sigma factor,phage,QDH49898.1_phage
+ANM46154.1 RNA polymerase sigma factor [Bacillus phage Belinda],ANM46154.1,Bacillus phage Belinda, RNA polymerase sigma factor,phage,ANM46154.1_phage
+AEW47605.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCU4],AEW47605.1,Bacillus phage BCU4, putative RNA polymerase sigma 28 subunit SigG,phage,AEW47605.1_phage
+AEW47116.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCP78],AEW47116.1,Bacillus phage BCP78, putative RNA polymerase sigma 28 subunit SigG,phage,AEW47116.1_phage
+AQN32487.1 RNA polymerase sporulation specific sigma factor SigG [Bacillus phage BCP12],AQN32487.1,Bacillus phage BCP12, RNA polymerase sporulation specific sigma factor SigG,phage,AQN32487.1_phage
+AUM58962.1 DNA replication/modification protein [Bacillus phage BCP01],AUM58962.1,Bacillus phage BCP01, DNA replication/modification protein,phage,AUM58962.1_phage
+AXU41213.1 RNA polymerase sigma factor [Bacillus phage BC01],AXU41213.1,Bacillus phage BC01, RNA polymerase sigma factor,phage,AXU41213.1_phage
+QEG04257.1 RNA polymerase sigma factor [Bacillus phage BC-T25],QEG04257.1,Bacillus phage BC-T25, RNA polymerase sigma factor,phage,QEG04257.1_phage
+ASR78944.1 RNA polymerase sigma factor [Bacillus phage AaronPhadgers],ASR78944.1,Bacillus phage AaronPhadgers, RNA polymerase sigma factor,phage,ASR78944.1_phage
 WP_000184359.1 MULTISPECIES: RNA polymerase sigma factor RpoH [Vibrio],WP_000184359.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor RpoH,bacteria,WP_000184359.1_bacteria
-WP_001005346.1 MULTISPECIES: RNA polymerase sigma factor RpoE [Vibrio],WP_001005346.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor RpoE,bacteria,WP_001005346.1_bacteria
+WP_001030417.1 RNA polymerase sigma factor FliA [Vibrio cholerae],WP_001030417.1,Vibrio cholerae, RNA polymerase sigma factor FliA,bacteria,WP_001030417.1_bacteria
 WP_000116737.1 RNA polymerase sigma factor RpoS [Vibrio cholerae],WP_000116737.1,Vibrio cholerae, RNA polymerase sigma factor RpoS,bacteria,WP_000116737.1_bacteria
 WP_000372618.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Vibrio],WP_000372618.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_000372618.1_bacteria
-WP_013944800.1 MULTISPECIES: RNA polymerase sigma factor [Treponema],WP_013944800.1,Treponema, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_013944800.1_bacteria
 WP_014342819.1 RNA polymerase sigma factor WhiG [Treponema pallidum],WP_014342819.1,Treponema pallidum, RNA polymerase sigma factor WhiG,bacteria,WP_014342819.1_bacteria
 WP_010882456.1 RNA polymerase sigma factor RpoD/SigA [Treponema pallidum],WP_010882456.1,Treponema pallidum, RNA polymerase sigma factor RpoD/SigA,bacteria,WP_010882456.1_bacteria
 WP_010881942.1 RNA polymerase sigma factor RpoD [Treponema pallidum],WP_010881942.1,Treponema pallidum, RNA polymerase sigma factor RpoD,bacteria,WP_010881942.1_bacteria
-WP_004081373.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Thermotoga],WP_004081373.1,Thermotoga, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004081373.1_bacteria
 WP_004080667.1 FliA/WhiG family RNA polymerase sigma factor [Thermotoga maritima],WP_004080667.1,Thermotoga maritima, FliA/WhiG family RNA polymerase sigma factor,bacteria,WP_004080667.1_bacteria
-WP_004082042.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Thermotoga],WP_004082042.1,Thermotoga, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004082042.1_bacteria
 WP_004081730.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Thermotoga],WP_004081730.1,Thermotoga, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_004081730.1_bacteria
-WP_011244805.1 MULTISPECIES: RNA polymerase sigma factor SigF [Synechococcus],WP_011244805.1,Synechococcus, MULTISPECIES: RNA polymerase sigma factor SigF,bacteria,WP_011244805.1_bacteria
 WP_011244619.1 MULTISPECIES: RNA polymerase sigma factor SigF [Synechococcus],WP_011244619.1,Synechococcus, MULTISPECIES: RNA polymerase sigma factor SigF,bacteria,WP_011244619.1_bacteria
-WP_011244401.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Synechococcus],WP_011244401.1,Synechococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011244401.1_bacteria
-WP_011244481.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Synechococcus],WP_011244481.1,Synechococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011244481.1_bacteria
-WP_011243265.1 MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor [Synechococcus],WP_011243265.1,Synechococcus, MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011243265.1_bacteria
-"WP_011377675.1 MULTISPECIES: RNA polymerase sigma factor, RpoD/SigA family [Synechococcus]",WP_011377675.1,Synechococcus," MULTISPECIES: RNA polymerase sigma factor, RpoD/SigA family",bacteria,WP_011377675.1_bacteria
+WP_011244805.1 MULTISPECIES: RNA polymerase sigma factor SigF [Synechococcus],WP_011244805.1,Synechococcus, MULTISPECIES: RNA polymerase sigma factor SigF,bacteria,WP_011244805.1_bacteria
 WP_011244655.1 circadian expression RNA polymerase sigma factor SigA2 [Synechococcus elongatus],WP_011244655.1,Synechococcus elongatus, circadian expression RNA polymerase sigma factor SigA2,bacteria,WP_011244655.1_bacteria
+"WP_011377675.1 MULTISPECIES: RNA polymerase sigma factor, RpoD/SigA family [Synechococcus]",WP_011377675.1,Synechococcus," MULTISPECIES: RNA polymerase sigma factor, RpoD/SigA family",bacteria,WP_011377675.1_bacteria
 WP_011378081.1 MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor [Synechococcus],WP_011378081.1,Synechococcus, MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011378081.1_bacteria
-WP_081422183.1 RNA polymerase sigma factor RpoD [Synechococcus elongatus],WP_081422183.1,Synechococcus elongatus, RNA polymerase sigma factor RpoD,bacteria,WP_081422183.1_bacteria
+WP_011243265.1 MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor [Synechococcus],WP_011243265.1,Synechococcus, MULTISPECIES: RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011243265.1_bacteria
 WP_011244555.1 MULTISPECIES: RNA polymerase sigma factor SigC [Synechococcus],WP_011244555.1,Synechococcus, MULTISPECIES: RNA polymerase sigma factor SigC,bacteria,WP_011244555.1_bacteria
-NP_626875.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_626875.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_626875.1_bacteria
-NP_639724.1 sigma factor (plasmid) [Streptomyces coelicolor A3(2)],NP_639724.1,Streptomyces coelicolor A3(2), sigma factor (plasmid),bacteria,NP_639724.1_bacteria
-NP_627564.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627564.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_627564.1_bacteria
-NP_628187.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628187.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628187.1_bacteria
-NP_629148.1 RNA polymerase ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629148.1,Streptomyces coelicolor A3(2), RNA polymerase ECF sigma factor,bacteria,NP_629148.1_bacteria
-NP_626143.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_626143.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_626143.1_bacteria
-NP_631250.1 sigma factor [Streptomyces coelicolor A3(2)],NP_631250.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_631250.1_bacteria
-NP_630051.1 sigma factor [Streptomyces coelicolor A3(2)],NP_630051.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_630051.1_bacteria
-NP_628619.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628619.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628619.1_bacteria
-NP_628927.1 RNA polymerase sigma factor SigD [Streptomyces coelicolor A3(2)],NP_628927.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigD,bacteria,NP_628927.1_bacteria
-NP_627927.1 RNA polymerase ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627927.1,Streptomyces coelicolor A3(2), RNA polymerase ECF sigma factor,bacteria,NP_627927.1_bacteria
-NP_627808.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627808.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627808.1_bacteria
-NP_628915.1 hypothetical protein SCO4757 [Streptomyces coelicolor A3(2)],NP_628915.1,Streptomyces coelicolor A3(2), hypothetical protein SCO4757,bacteria,NP_628915.1_bacteria
-NP_630339.1 sigma factor [Streptomyces coelicolor A3(2)],NP_630339.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_630339.1_bacteria
-NP_628577.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628577.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628577.1_bacteria
-NP_629018.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629018.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_629018.1_bacteria
-NP_629061.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_629061.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_629061.1_bacteria
-NP_627820.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627820.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627820.1_bacteria
-NP_627901.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627901.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_627901.1_bacteria
-NP_631166.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631166.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631166.1_bacteria
-NP_631203.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_631203.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_631203.1_bacteria
-NP_626973.1 sigma factor [Streptomyces coelicolor A3(2)],NP_626973.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_626973.1_bacteria
-NP_624735.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_624735.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_624735.1_bacteria
-NP_624943.1 RNA polymerase sigma factor SigK [Streptomyces coelicolor A3(2)],NP_624943.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigK,bacteria,NP_624943.1_bacteria
-NP_625104.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625104.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_625104.1_bacteria
-NP_639689.1 ecf family sigma factor (plasmid) [Streptomyces coelicolor A3(2)],NP_639689.1,Streptomyces coelicolor A3(2), ecf family sigma factor (plasmid),bacteria,NP_639689.1_bacteria
-NP_625166.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625166.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_625166.1_bacteria
-NP_628323.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628323.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_628323.1_bacteria
-NP_625240.1 RNA polymerase sigma factor SigL [Streptomyces coelicolor A3(2)],NP_625240.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigL,bacteria,NP_625240.1_bacteria
-NP_629091.1 ECF-sigma factor [Streptomyces coelicolor A3(2)],NP_629091.1,Streptomyces coelicolor A3(2), ECF-sigma factor,bacteria,NP_629091.1_bacteria
-NP_624912.1 RNA polymerase sigma factor sig8 [Streptomyces coelicolor A3(2)],NP_624912.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor sig8,bacteria,NP_624912.1_bacteria
-NP_631334.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631334.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631334.1_bacteria
-NP_627288.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627288.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627288.1_bacteria
-NP_627178.1 RNA polymerase sigma factor SigL [Streptomyces coelicolor A3(2)],NP_627178.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigL,bacteria,NP_627178.1_bacteria
-NP_629755.1 RNA polymerase sigma factor WhiG [Streptomyces coelicolor A3(2)],NP_629755.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor WhiG,bacteria,NP_629755.1_bacteria
-NP_625164.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625164.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_625164.1_bacteria
-NP_624495.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_624495.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_624495.1_bacteria
-NP_625550.1 ECF-sigma factor [Streptomyces coelicolor A3(2)],NP_625550.1,Streptomyces coelicolor A3(2), ECF-sigma factor,bacteria,NP_625550.1_bacteria
-NP_628078.1 RNA polymerase sigma factor SigM [Streptomyces coelicolor A3(2)],NP_628078.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigM,bacteria,NP_628078.1_bacteria
-NP_628216.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628216.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628216.1_bacteria
-NP_631173.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631173.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_631173.1_bacteria
-NP_627533.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627533.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627533.1_bacteria
-NP_625996.1 RNA polymerase sigma factor SigK [Streptomyces coelicolor A3(2)],NP_625996.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigK,bacteria,NP_625996.1_bacteria
+WP_081422183.1 RNA polymerase sigma factor RpoD [Synechococcus elongatus],WP_081422183.1,Synechococcus elongatus, RNA polymerase sigma factor RpoD,bacteria,WP_081422183.1_bacteria
+NP_625842.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625842.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_625842.1_bacteria
 NP_631369.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631369.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631369.1_bacteria
-NP_624529.1 sigma factor [Streptomyces coelicolor A3(2)],NP_624529.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_624529.1_bacteria
-NP_629020.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629020.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_629020.1_bacteria
-NP_630601.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_630601.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_630601.1_bacteria
-NP_629363.1 RNA polymerase sigma factor RpoE [Streptomyces coelicolor A3(2)],NP_629363.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor RpoE,bacteria,NP_629363.1_bacteria
 NP_631395.1 RNA polymerase secondary sigma factor [Streptomyces coelicolor A3(2)],NP_631395.1,Streptomyces coelicolor A3(2), RNA polymerase secondary sigma factor,bacteria,NP_631395.1_bacteria
 NP_628217.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628217.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628217.1_bacteria
-NP_625194.1 RNA polymerase principal sigma factor HrdC [Streptomyces coelicolor A3(2)],NP_625194.1,Streptomyces coelicolor A3(2), RNA polymerase principal sigma factor HrdC,bacteria,NP_625194.1_bacteria
-NP_627654.1 ECF subfamily RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627654.1,Streptomyces coelicolor A3(2), ECF subfamily RNA polymerase sigma factor,bacteria,NP_627654.1_bacteria
-NP_629295.1 RNA polymerase sigma factor SigE [Streptomyces coelicolor A3(2)],NP_629295.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigE,bacteria,NP_629295.1_bacteria
-NP_627416.1 RNA polymerase principal sigma factor [Streptomyces coelicolor A3(2)],NP_627416.1,Streptomyces coelicolor A3(2), RNA polymerase principal sigma factor,bacteria,NP_627416.1_bacteria
-NP_629048.1 RNA polymerase factor sigma-70 [Streptomyces coelicolor A3(2)],NP_629048.1,Streptomyces coelicolor A3(2), RNA polymerase factor sigma-70,bacteria,NP_629048.1_bacteria
+NP_627288.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627288.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627288.1_bacteria
+NP_630601.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_630601.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_630601.1_bacteria
+NP_631334.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631334.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631334.1_bacteria
+NP_624912.1 RNA polymerase sigma factor sig8 [Streptomyces coelicolor A3(2)],NP_624912.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor sig8,bacteria,NP_624912.1_bacteria
 NP_629389.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_629389.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_629389.1_bacteria
-NP_629943.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_629943.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_629943.1_bacteria
+NP_628216.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628216.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628216.1_bacteria
+NP_625194.1 RNA polymerase principal sigma factor HrdC [Streptomyces coelicolor A3(2)],NP_625194.1,Streptomyces coelicolor A3(2), RNA polymerase principal sigma factor HrdC,bacteria,NP_625194.1_bacteria
+NP_629755.1 RNA polymerase sigma factor WhiG [Streptomyces coelicolor A3(2)],NP_629755.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor WhiG,bacteria,NP_629755.1_bacteria
+NP_627416.1 RNA polymerase principal sigma factor [Streptomyces coelicolor A3(2)],NP_627416.1,Streptomyces coelicolor A3(2), RNA polymerase principal sigma factor,bacteria,NP_627416.1_bacteria
 NP_626707.1 RNA polymerase principal sigma factor [Streptomyces coelicolor A3(2)],NP_626707.1,Streptomyces coelicolor A3(2), RNA polymerase principal sigma factor,bacteria,NP_626707.1_bacteria
-WP_043876817.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_043876817.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_043876817.1_bacteria
-WP_011002824.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011002824.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011002824.1_bacteria
-WP_011003934.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011003934.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011003934.1_bacteria
-WP_011004147.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011004147.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011004147.1_bacteria
-WP_011002888.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011002888.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011002888.1_bacteria
-WP_011000001.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011000001.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011000001.1_bacteria
-WP_011004896.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011004896.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011004896.1_bacteria
-WP_011002284.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011002284.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011002284.1_bacteria
-WP_170864009.1 MULTISPECIES: RNA polymerase sigma factor FliA [Ralstonia],WP_170864009.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor FliA,bacteria,WP_170864009.1_bacteria
-WP_003264474.1 MULTISPECIES: RNA polymerase sigma factor RpoE [Ralstonia],WP_003264474.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor RpoE,bacteria,WP_003264474.1_bacteria
+NP_629943.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_629943.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_629943.1_bacteria
 WP_011000337.1 MULTISPECIES: RNA polymerase sigma factor RpoH [Ralstonia],WP_011000337.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor RpoH,bacteria,WP_011000337.1_bacteria
+WP_170864009.1 MULTISPECIES: RNA polymerase sigma factor FliA [Ralstonia],WP_170864009.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor FliA,bacteria,WP_170864009.1_bacteria
 WP_011001157.1 MULTISPECIES: RNA polymerase sigma factor RpoS [Ralstonia],WP_011001157.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor RpoS,bacteria,WP_011001157.1_bacteria
 WP_038962216.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Ralstonia],WP_038962216.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_038962216.1_bacteria
-NP_249366.1 ECF sigma factor VreI [Pseudomonas aeruginosa PAO1],NP_249366.1,Pseudomonas aeruginosa PAO1, ECF sigma factor VreI,bacteria,NP_249366.1_bacteria
-NP_253583.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_253583.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_253583.1_bacteria
-NP_251077.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_251077.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_251077.1_bacteria
-NP_250042.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_250042.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_250042.1_bacteria
-NP_250783.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_250783.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_250783.1_bacteria
-NP_251975.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_251975.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_251975.1_bacteria
-NP_250740.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_250740.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_250740.1_bacteria
-NP_249163.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_249163.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_249163.1_bacteria
-NP_251116.1 extracytoplasmic-function sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_251116.1,Pseudomonas aeruginosa PAO1, extracytoplasmic-function sigma-70 factor,bacteria,NP_251116.1_bacteria
-NP_252100.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_252100.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_252100.1_bacteria
-NP_248839.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_248839.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_248839.1_bacteria
-NP_249991.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_249991.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_249991.1_bacteria
-NP_250602.1 ECF sigma factor FemI [Pseudomonas aeruginosa PAO1],NP_250602.1,Pseudomonas aeruginosa PAO1, ECF sigma factor FemI,bacteria,NP_250602.1_bacteria
-NP_251158.1 ECF sigma factor FoxI [Pseudomonas aeruginosa PAO1],NP_251158.1,Pseudomonas aeruginosa PAO1, ECF sigma factor FoxI,bacteria,NP_251158.1_bacteria
-NP_252588.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_252588.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_252588.1_bacteria
 NP_249067.1 RNA polymerase sigma factor RpoH [Pseudomonas aeruginosa PAO1],NP_249067.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor RpoH,bacteria,NP_249067.1_bacteria
-NP_251586.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_251586.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_251586.1_bacteria
-NP_249453.1 RNA polymerase sigma factor AlgU [Pseudomonas aeruginosa PAO1],NP_249453.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor AlgU,bacteria,NP_249453.1_bacteria
-NP_250467.1 RNA polymerase sigma factor SigX [Pseudomonas aeruginosa PAO1],NP_250467.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor SigX,bacteria,NP_250467.1_bacteria
-NP_250146.1 flagellar biosynthesis sigma factor FliA [Pseudomonas aeruginosa PAO1],NP_250146.1,Pseudomonas aeruginosa PAO1, flagellar biosynthesis sigma factor FliA,bacteria,NP_250146.1_bacteria
-NP_249267.1 RNA polymerase sigma factor RpoD [Pseudomonas aeruginosa PAO1],NP_249267.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor RpoD,bacteria,NP_249267.1_bacteria
 NP_252312.1 RNA polymerase sigma factor RpoS [Pseudomonas aeruginosa PAO1],NP_252312.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor RpoS,bacteria,NP_252312.1_bacteria
-WP_011131610.1 RpoD/SigA family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011131610.1,Prochlorococcus marinus, RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011131610.1_bacteria
+NP_249267.1 RNA polymerase sigma factor RpoD [Pseudomonas aeruginosa PAO1],NP_249267.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor RpoD,bacteria,NP_249267.1_bacteria
+WP_011130162.1 sigma-70 family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011130162.1,Prochlorococcus marinus, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011130162.1_bacteria
 WP_011129835.1 sigma-70 family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011129835.1,Prochlorococcus marinus, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011129835.1_bacteria
 WP_011130440.1 RpoD/SigA family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011130440.1,Prochlorococcus marinus, RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011130440.1_bacteria
 WP_157859911.1 RpoD/SigA family RNA polymerase sigma factor [Prochlorococcus marinus],WP_157859911.1,Prochlorococcus marinus, RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_157859911.1_bacteria
 WP_011129725.1 RpoD/SigA family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011129725.1,Prochlorococcus marinus, RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011129725.1_bacteria
+WP_011131610.1 RpoD/SigA family RNA polymerase sigma factor [Prochlorococcus marinus],WP_011131610.1,Prochlorococcus marinus, RpoD/SigA family RNA polymerase sigma factor,bacteria,WP_011131610.1_bacteria
 "WP_011131581.1 RNA polymerase sigma factor, RpoD/SigA family [Prochlorococcus marinus]",WP_011131581.1,Prochlorococcus marinus," RNA polymerase sigma factor, RpoD/SigA family",bacteria,WP_011131581.1_bacteria
 WP_041384505.1 RNA polymerase sigma factor RpoD [Prochlorococcus marinus],WP_041384505.1,Prochlorococcus marinus, RNA polymerase sigma factor RpoD,bacteria,WP_041384505.1_bacteria
-WP_004583806.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Porphyromonas],WP_004583806.1,Porphyromonas, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004583806.1_bacteria
-WP_021665844.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_021665844.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_021665844.1_bacteria
-WP_004583457.1 RNA polymerase sigma factor [Porphyromonas gingivalis],WP_004583457.1,Porphyromonas gingivalis, RNA polymerase sigma factor,bacteria,WP_004583457.1_bacteria
-WP_004585541.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_004585541.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_004585541.1_bacteria
-WP_012457922.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_012457922.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_012457922.1_bacteria
 WP_012457665.1 RNA polymerase sigma factor RpoD/SigA [Porphyromonas gingivalis],WP_012457665.1,Porphyromonas gingivalis, RNA polymerase sigma factor RpoD/SigA,bacteria,WP_012457665.1_bacteria
-WP_012457515.1 RNA polymerase sigma factor [Porphyromonas gingivalis],WP_012457515.1,Porphyromonas gingivalis, RNA polymerase sigma factor,bacteria,WP_012457515.1_bacteria
 WP_011552281.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011552281.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011552281.1_bacteria
-WP_011557208.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011557208.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011557208.1_bacteria
-WP_011555230.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555230.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555230.1_bacteria
-WP_020477814.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020477814.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020477814.1_bacteria
-WP_011554965.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011554965.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011554965.1_bacteria
-WP_011555683.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555683.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555683.1_bacteria
-WP_011550811.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011550811.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011550811.1_bacteria
-WP_011552262.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552262.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552262.1_bacteria
-WP_011557245.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011557245.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011557245.1_bacteria
-WP_011552512.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552512.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552512.1_bacteria
-WP_020478589.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_020478589.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_020478589.1_bacteria
-WP_011554319.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011554319.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011554319.1_bacteria
-WP_011557133.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011557133.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011557133.1_bacteria
-WP_020478532.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478532.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478532.1_bacteria
-WP_011554312.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554312.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554312.1_bacteria
+WP_011555212.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011555212.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011555212.1_bacteria
+WP_020478245.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_020478245.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_020478245.1_bacteria
 WP_026113872.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026113872.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026113872.1_bacteria
-WP_011553459.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553459.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553459.1_bacteria
-WP_011551772.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011551772.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011551772.1_bacteria
-WP_011555464.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555464.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555464.1_bacteria
-WP_020478156.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478156.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478156.1_bacteria
-WP_011552470.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552470.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552470.1_bacteria
-WP_026113852.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026113852.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026113852.1_bacteria
-WP_011553969.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553969.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553969.1_bacteria
-WP_011553704.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553704.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553704.1_bacteria
-WP_011550349.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011550349.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011550349.1_bacteria
-WP_011554150.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554150.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554150.1_bacteria
-WP_011552571.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552571.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552571.1_bacteria
-WP_026114044.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026114044.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026114044.1_bacteria
-WP_020478333.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478333.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478333.1_bacteria
-WP_011556153.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_011556153.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_011556153.1_bacteria
-WP_020478755.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_020478755.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_020478755.1_bacteria
-WP_026113989.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_026113989.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_026113989.1_bacteria
-WP_011554720.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554720.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554720.1_bacteria
-WP_026113799.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_026113799.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_026113799.1_bacteria
+WP_020477947.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_020477947.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_020477947.1_bacteria
 WP_020478595.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_020478595.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_020478595.1_bacteria
-WP_171452326.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_171452326.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_171452326.1_bacteria
+WP_026113799.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_026113799.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_026113799.1_bacteria
+WP_011552512.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552512.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552512.1_bacteria
+WP_020478755.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_020478755.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_020478755.1_bacteria
+WP_011556153.1 MULTISPECIES: RNA polymerase factor sigma-32 [Myxococcus],WP_011556153.1,Myxococcus, MULTISPECIES: RNA polymerase factor sigma-32,bacteria,WP_011556153.1_bacteria
 WP_011555174.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Myxococcus],WP_011555174.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_011555174.1_bacteria
-NP_215705.1 ECF RNA polymerase sigma factor SigI [Mycobacterium tuberculosis H37Rv],NP_215705.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigI,bacteria,NP_215705.1_bacteria
 NP_217803.1 RNA polymerase sigma factor SigF [Mycobacterium tuberculosis H37Rv],NP_217803.1,Mycobacterium tuberculosis H37Rv, RNA polymerase sigma factor SigF,bacteria,NP_217803.1_bacteria
-NP_217845.1 ECF RNA polymerase sigma factor SigJ [Mycobacterium tuberculosis H37Rv],NP_217845.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigJ,bacteria,NP_217845.1_bacteria
-NP_217931.1 ECF RNA polymerase sigma factor SigD [Mycobacterium tuberculosis H37Rv],NP_217931.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigD,bacteria,NP_217931.1_bacteria
-NP_214959.1 ECF RNA polymerase sigma factor SigK [Mycobacterium tuberculosis H37Rv],NP_214959.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigK,bacteria,NP_214959.1_bacteria
-NP_216585.1 ECF RNA polymerase sigma factor SigC [Mycobacterium tuberculosis H37Rv],NP_216585.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigC,bacteria,NP_216585.1_bacteria
-NP_217739.1 ECF RNA polymerase sigma factor SigH [Mycobacterium tuberculosis H37Rv],NP_217739.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigH,bacteria,NP_217739.1_bacteria
-NP_215249.1 ECF RNA polymerase sigma factor SigL [Mycobacterium tuberculosis H37Rv],NP_215249.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigL,bacteria,NP_215249.1_bacteria
-NP_214696.1 ECF RNA polymerase sigma factor SigG [Mycobacterium tuberculosis H37Rv],NP_214696.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigG,bacteria,NP_214696.1_bacteria
-NP_215737.1 ECF RNA polymerase sigma factor SigE [Mycobacterium tuberculosis H37Rv],NP_215737.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigE,bacteria,NP_215737.1_bacteria
 NP_217226.1 RNA polymerase sigma factor SigB [Mycobacterium tuberculosis H37Rv],NP_217226.1,Mycobacterium tuberculosis H37Rv, RNA polymerase sigma factor SigB,bacteria,NP_217226.1_bacteria
 NP_217219.1 RNA polymerase sigma factor SigA [Mycobacterium tuberculosis H37Rv],NP_217219.1,Mycobacterium tuberculosis H37Rv, RNA polymerase sigma factor SigA,bacteria,NP_217219.1_bacteria
-NP_463952.1 RNA polymerase factor sigma C [Listeria monocytogenes EGD-e],NP_463952.1,Listeria monocytogenes EGD-e, RNA polymerase factor sigma C,bacteria,NP_463952.1_bacteria
 NP_464421.1 RNA polymerase sigma factor SigB [Listeria monocytogenes EGD-e],NP_464421.1,Listeria monocytogenes EGD-e, RNA polymerase sigma factor SigB,bacteria,NP_464421.1_bacteria
 NP_464979.1 RNA polymerase sigma factor RpoD [Listeria monocytogenes EGD-e],NP_464979.1,Listeria monocytogenes EGD-e, RNA polymerase sigma factor RpoD,bacteria,NP_464979.1_bacteria
 WP_000602430.1 RNA polymerase sigma factor FliA [Helicobacter pylori],WP_000602430.1,Helicobacter pylori, RNA polymerase sigma factor FliA,bacteria,WP_000602430.1_bacteria
 WP_161595577.1 RNA polymerase sigma factor RpoD [Helicobacter pylori],WP_161595577.1,Helicobacter pylori, RNA polymerase sigma factor RpoD,bacteria,WP_161595577.1_bacteria
-NP_418713.1 RNA polymerase sigma factor FecI [Escherichia coli str. K-12 substr. MG1655],NP_418713.1,Escherichia coli str. K-12 substr. MG1655, RNA polymerase sigma factor FecI,bacteria,NP_418713.1_bacteria
-"NP_416432.3 RNA polymerase, sigma 28 (sigma F) factor [Escherichia coli str. K-12 substr. MG1655]",NP_416432.3,Escherichia coli str. K-12 substr. MG1655," RNA polymerase, sigma 28 (sigma F) factor",bacteria,NP_416432.3_bacteria
 "NP_417918.1 RNA polymerase, sigma 32 (sigma H) factor [Escherichia coli str. K-12 substr. MG1655]",NP_417918.1,Escherichia coli str. K-12 substr. MG1655," RNA polymerase, sigma 32 (sigma H) factor",bacteria,NP_417918.1_bacteria
-NP_417068.1 RNA polymerase sigma E factor [Escherichia coli str. K-12 substr. MG1655],NP_417068.1,Escherichia coli str. K-12 substr. MG1655, RNA polymerase sigma E factor,bacteria,NP_417068.1_bacteria
+"NP_416432.3 RNA polymerase, sigma 28 (sigma F) factor [Escherichia coli str. K-12 substr. MG1655]",NP_416432.3,Escherichia coli str. K-12 substr. MG1655," RNA polymerase, sigma 28 (sigma F) factor",bacteria,NP_416432.3_bacteria
 "NP_417221.1 RNA polymerase, sigma S (sigma 38) factor [Escherichia coli str. K-12 substr. MG1655]",NP_417221.1,Escherichia coli str. K-12 substr. MG1655," RNA polymerase, sigma S (sigma 38) factor",bacteria,NP_417221.1_bacteria
 "NP_417539.1 RNA polymerase, sigma 70 (sigma D) factor [Escherichia coli str. K-12 substr. MG1655]",NP_417539.1,Escherichia coli str. K-12 substr. MG1655," RNA polymerase, sigma 70 (sigma D) factor",bacteria,NP_417539.1_bacteria
-WP_027480180.1 RNA polymerase sigma factor [Deinococcus radiodurans],WP_027480180.1,Deinococcus radiodurans, RNA polymerase sigma factor,bacteria,WP_027480180.1_bacteria
-WP_014308159.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014308159.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014308159.1_bacteria
-WP_014306532.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014306532.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014306532.1_bacteria
-WP_041740603.1 RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_041740603.1,Corynebacterium diphtheriae, RNA polymerase sigma factor,bacteria,WP_041740603.1_bacteria
-WP_014311116.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014311116.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014311116.1_bacteria
-WP_014301156.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014301156.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014301156.1_bacteria
-WP_021334972.1 MULTISPECIES: RNA polymerase sigma factor SigE [Corynebacterium],WP_021334972.1,Corynebacterium, MULTISPECIES: RNA polymerase sigma factor SigE,bacteria,WP_021334972.1_bacteria
-WP_014318785.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014318785.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014318785.1_bacteria
 WP_003851800.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Corynebacterium],WP_003851800.1,Corynebacterium, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_003851800.1_bacteria
 WP_003851787.1 MULTISPECIES: RNA polymerase sigma factor [Corynebacterium],WP_003851787.1,Corynebacterium, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_003851787.1_bacteria
-WP_003439159.1 sigma-70 family RNA polymerase sigma factor [Clostridioides difficile],WP_003439159.1,Clostridioides difficile, sigma-70 family RNA polymerase sigma factor,bacteria,WP_003439159.1_bacteria
-WP_003436663.1 sigma-70 family RNA polymerase sigma factor [Clostridioides difficile],WP_003436663.1,Clostridioides difficile, sigma-70 family RNA polymerase sigma factor,bacteria,WP_003436663.1_bacteria
-WP_009892548.1 RNA polymerase sporulation sigma factor SigH [Clostridioides difficile],WP_009892548.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigH,bacteria,WP_009892548.1_bacteria
-WP_011860953.1 RNA polymerase sporulation sigma factor SigF [Clostridioides difficile],WP_011860953.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigF,bacteria,WP_011860953.1_bacteria
-WP_003435969.1 FliA/WhiG family RNA polymerase sigma factor [Clostridioides difficile],WP_003435969.1,Clostridioides difficile, FliA/WhiG family RNA polymerase sigma factor,bacteria,WP_003435969.1_bacteria
-WP_032506877.1 RNA polymerase sigma factor [Clostridioides difficile],WP_032506877.1,Clostridioides difficile, RNA polymerase sigma factor,bacteria,WP_032506877.1_bacteria
 WP_003420464.1 SigB/SigF/SigG family RNA polymerase sigma factor [Clostridioides difficile],WP_003420464.1,Clostridioides difficile, SigB/SigF/SigG family RNA polymerase sigma factor,bacteria,WP_003420464.1_bacteria
-WP_003416098.1 RNA polymerase sporulation sigma factor SigE [Clostridioides difficile],WP_003416098.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigE,bacteria,WP_003416098.1_bacteria
+WP_011860953.1 RNA polymerase sporulation sigma factor SigF [Clostridioides difficile],WP_011860953.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigF,bacteria,WP_011860953.1_bacteria
 WP_003416101.1 RNA polymerase sporulation sigma factor SigG [Clostridioides difficile],WP_003416101.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigG,bacteria,WP_003416101.1_bacteria
+WP_003416098.1 RNA polymerase sporulation sigma factor SigE [Clostridioides difficile],WP_003416098.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigE,bacteria,WP_003416098.1_bacteria
+WP_003435969.1 FliA/WhiG family RNA polymerase sigma factor [Clostridioides difficile],WP_003435969.1,Clostridioides difficile, FliA/WhiG family RNA polymerase sigma factor,bacteria,WP_003435969.1_bacteria
 WP_009889336.1 sigma-70 family RNA polymerase sigma factor [Clostridioides difficile],WP_009889336.1,Clostridioides difficile, sigma-70 family RNA polymerase sigma factor,bacteria,WP_009889336.1_bacteria
 WP_003429425.1 RNA polymerase sigma factor RpoD [Clostridioides difficile],WP_003429425.1,Clostridioides difficile, RNA polymerase sigma factor RpoD,bacteria,WP_003429425.1_bacteria
 YP_002343525.1 flagellar biosynthesis RNA polymerase sigma factor [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819],YP_002343525.1,Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819, flagellar biosynthesis RNA polymerase sigma factor,bacteria,YP_002343525.1_bacteria
 YP_002344396.1 RNA polymerase sigma factor RpoD [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819],YP_002344396.1,Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819, RNA polymerase sigma factor RpoD,bacteria,YP_002344396.1_bacteria
 WP_002557358.1 MULTISPECIES: RNA polymerase sigma factor RpoS [Borreliaceae],WP_002557358.1,Borreliaceae, MULTISPECIES: RNA polymerase sigma factor RpoS,bacteria,WP_002557358.1_bacteria
 WP_002656292.1 RNA polymerase sigma factor RpoD [Borreliella burgdorferi],WP_002656292.1,Borreliella burgdorferi, RNA polymerase sigma factor RpoD,bacteria,WP_002656292.1_bacteria
-WP_155250046.1 RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_155250046.1,Bdellovibrio bacteriovorus, RNA polymerase sigma factor,bacteria,WP_155250046.1_bacteria
 WP_025309100.1 RNA polymerase factor sigma-32 [Bdellovibrio bacteriovorus],WP_025309100.1,Bdellovibrio bacteriovorus, RNA polymerase factor sigma-32,bacteria,WP_025309100.1_bacteria
-WP_025307382.1 RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_025307382.1,Bdellovibrio bacteriovorus, RNA polymerase sigma factor,bacteria,WP_025307382.1_bacteria
 WP_025309103.1 FliA/WhiG family RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_025309103.1,Bdellovibrio bacteriovorus, FliA/WhiG family RNA polymerase sigma factor,bacteria,WP_025309103.1_bacteria
-WP_025307296.1 sigma-70 family RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_025307296.1,Bdellovibrio bacteriovorus, sigma-70 family RNA polymerase sigma factor,bacteria,WP_025307296.1_bacteria
 WP_025306971.1 RNA polymerase sigma factor RpoD [Bdellovibrio bacteriovorus],WP_025306971.1,Bdellovibrio bacteriovorus, RNA polymerase sigma factor RpoD,bacteria,WP_025306971.1_bacteria
-WP_008761425.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008761425.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008761425.1_bacteria
-WP_008767805.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767805.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008767805.1_bacteria
-WP_008762480.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008762480.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008762480.1_bacteria
-WP_008765767.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008765767.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008765767.1_bacteria
-WP_048697630.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_048697630.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_048697630.1_bacteria
-WP_008766886.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008766886.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008766886.1_bacteria
-WP_011109391.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_011109391.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_011109391.1_bacteria
-WP_008764520.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008764520.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008764520.1_bacteria
-WP_008764449.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008764449.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008764449.1_bacteria
-WP_011108581.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_011108581.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_011108581.1_bacteria
-WP_008766891.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008766891.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008766891.1_bacteria
-WP_008763953.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008763953.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008763953.1_bacteria
-WP_008763979.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008763979.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008763979.1_bacteria
-WP_005681497.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_005681497.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_005681497.1_bacteria
-WP_011108473.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108473.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011108473.1_bacteria
-WP_008760068.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008760068.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008760068.1_bacteria
-WP_008765839.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008765839.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008765839.1_bacteria
-WP_008764619.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008764619.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008764619.1_bacteria
-WP_008764987.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008764987.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008764987.1_bacteria
-WP_062694661.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_062694661.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_062694661.1_bacteria
-WP_008762876.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008762876.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008762876.1_bacteria
-WP_011109055.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_011109055.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_011109055.1_bacteria
-WP_008760954.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008760954.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008760954.1_bacteria
-WP_011108735.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_011108735.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_011108735.1_bacteria
-WP_008763624.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008763624.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008763624.1_bacteria
-WP_008766735.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008766735.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008766735.1_bacteria
-WP_016269926.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_016269926.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_016269926.1_bacteria
-WP_008766766.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008766766.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008766766.1_bacteria
-WP_008767954.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767954.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008767954.1_bacteria
-WP_008761748.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteria],WP_008761748.1,Bacteria, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008761748.1_bacteria
-WP_008762155.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008762155.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008762155.1_bacteria
-WP_062695099.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_062695099.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_062695099.1_bacteria
-WP_016268625.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_016268625.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_016268625.1_bacteria
-WP_008767907.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008767907.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008767907.1_bacteria
-WP_008760619.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008760619.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008760619.1_bacteria
-WP_008763658.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008763658.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008763658.1_bacteria
-WP_011108700.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108700.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011108700.1_bacteria
-WP_005682267.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_005682267.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_005682267.1_bacteria
-WP_011108357.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108357.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_011108357.1_bacteria
-WP_062695819.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_062695819.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_062695819.1_bacteria
-WP_008763441.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008763441.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008763441.1_bacteria
-WP_008760422.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008760422.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008760422.1_bacteria
-WP_004308114.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroidales],WP_004308114.1,Bacteroidales, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_004308114.1_bacteria
-WP_008766239.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008766239.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008766239.1_bacteria
-WP_008760019.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008760019.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008760019.1_bacteria
-WP_008761066.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteria],WP_008761066.1,Bacteria, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008761066.1_bacteria
-WP_008767733.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767733.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_008767733.1_bacteria
-WP_008766202.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008766202.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008766202.1_bacteria
-WP_008760363.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008760363.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008760363.1_bacteria
-WP_008764719.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008764719.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_008764719.1_bacteria
 WP_008766632.1 MULTISPECIES: RNA polymerase sigma factor RpoD/SigA [Bacteroidaceae],WP_008766632.1,Bacteroidaceae, MULTISPECIES: RNA polymerase sigma factor RpoD/SigA,bacteria,WP_008766632.1_bacteria
-WP_004398507.1 MULTISPECIES: RNA polymerase sigma factor SigZ [Bacillus],WP_004398507.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigZ,bacteria,WP_004398507.1_bacteria
-WP_004398891.1 MULTISPECIES: RNA polymerase sigma factor SigV [Bacillus],WP_004398891.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigV,bacteria,WP_004398891.1_bacteria
-WP_003246715.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],WP_003246715.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigB,bacteria,WP_003246715.1_bacteria
-WP_003243678.1 MULTISPECIES: RNA polymerase sigma factor SigY [Bacilli],WP_003243678.1,Bacilli, MULTISPECIES: RNA polymerase sigma factor SigY,bacteria,WP_003243678.1_bacteria
-WP_003225758.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillaceae],WP_003225758.1,Bacillaceae, MULTISPECIES: RNA polymerase sporulation sigma factor SigH,bacteria,WP_003225758.1_bacteria
-WP_003220911.1 MULTISPECIES: RNA polymerase sigma-28 factor SigD [Bacillaceae],WP_003220911.1,Bacillaceae, MULTISPECIES: RNA polymerase sigma-28 factor SigD,bacteria,WP_003220911.1_bacteria
-WP_003230521.1 MULTISPECIES: RNA polymerase sigma factor SigX [Bacteria],WP_003230521.1,Bacteria, MULTISPECIES: RNA polymerase sigma factor SigX,bacteria,WP_003230521.1_bacteria
-WP_003245485.1 MULTISPECIES: RNA polymerase sigma factor YlaC [Bacillus],WP_003245485.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor YlaC,bacteria,WP_003245485.1_bacteria
 WP_009967190.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigG [Bacillus],WP_009967190.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigG,bacteria,WP_009967190.1_bacteria
 WP_003230458.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae],WP_003230458.1,Bacillaceae, MULTISPECIES: RNA polymerase sporulation sigma factor SigF,bacteria,WP_003230458.1_bacteria
+WP_003246715.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],WP_003246715.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigB,bacteria,WP_003246715.1_bacteria
 WP_003221446.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigE [Bacillaceae],WP_003221446.1,Bacillaceae, MULTISPECIES: RNA polymerase sporulation sigma factor SigE,bacteria,WP_003221446.1_bacteria
-WP_003224177.1 MULTISPECIES: RNA polymerase sigma factor SigM [Bacillaceae],WP_003224177.1,Bacillaceae, MULTISPECIES: RNA polymerase sigma factor SigM,bacteria,WP_003224177.1_bacteria
-WP_003234958.1 MULTISPECIES: RNA polymerase sigma factor SigW [Bacillus],WP_003234958.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigW,bacteria,WP_003234958.1_bacteria
+WP_003220911.1 MULTISPECIES: RNA polymerase sigma-28 factor SigD [Bacillaceae],WP_003220911.1,Bacillaceae, MULTISPECIES: RNA polymerase sigma-28 factor SigD,bacteria,WP_003220911.1_bacteria
 WP_003226225.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Bacillaceae],WP_003226225.1,Bacillaceae, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_003226225.1_bacteria
-WP_000337509.1 MULTISPECIES: RNA polymerase subunit sigma-70 [Bacillus],WP_000337509.1,Bacillus, MULTISPECIES: RNA polymerase subunit sigma-70,bacteria,WP_000337509.1_bacteria
 WP_002025078.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_002025078.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_002025078.1_bacteria
-WP_000840007.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000840007.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000840007.1_bacteria
-WP_000864729.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000864729.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000864729.1_bacteria
-WP_000675556.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000675556.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000675556.1_bacteria
-WP_000391642.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000391642.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000391642.1_bacteria
-WP_000387193.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillus],WP_000387193.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigH,bacteria,WP_000387193.1_bacteria
-WP_000438330.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000438330.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000438330.1_bacteria
-WP_071740389.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_071740389.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_071740389.1_bacteria
-WP_000447162.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000447162.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000447162.1_bacteria
-WP_000824008.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000824008.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000824008.1_bacteria
-WP_000869257.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000869257.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000869257.1_bacteria
-WP_000350729.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus],WP_000350729.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigF,bacteria,WP_000350729.1_bacteria
 WP_000197755.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigG [Bacillus],WP_000197755.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigG,bacteria,WP_000197755.1_bacteria
-WP_002164611.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],WP_002164611.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigB,bacteria,WP_002164611.1_bacteria
+WP_000350729.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus],WP_000350729.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigF,bacteria,WP_000350729.1_bacteria
 WP_000051382.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigK [Bacillus],WP_000051382.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigK,bacteria,WP_000051382.1_bacteria
 WP_000976948.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigE [Bacillus],WP_000976948.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigE,bacteria,WP_000976948.1_bacteria
 WP_000764065.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Bacillus],WP_000764065.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_000764065.1_bacteria
+WP_003491840.1 MULTISPECIES: RNA polymerase sigma factor RpoH [Rhizobium/Agrobacterium group],WP_003491840.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor RpoH,bacteria,WP_003491840.1_bacteria
+WP_003513359.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Rhizobium/Agrobacterium group],WP_003513359.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_003513359.1_bacteria
+WP_000483035.1 MULTISPECIES: RNA polymerase sigma factor [Vibrio],WP_000483035.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000483035.1_bacteria
+WP_001880851.1 sigma-70 family RNA polymerase sigma factor [Vibrio cholerae],WP_001880851.1,Vibrio cholerae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_001880851.1_bacteria
+WP_001005346.1 MULTISPECIES: RNA polymerase sigma factor RpoE [Vibrio],WP_001005346.1,Vibrio, MULTISPECIES: RNA polymerase sigma factor RpoE,bacteria,WP_001005346.1_bacteria
+WP_013944800.1 MULTISPECIES: RNA polymerase sigma factor [Treponema],WP_013944800.1,Treponema, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_013944800.1_bacteria
+WP_004081373.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Thermotoga],WP_004081373.1,Thermotoga, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004081373.1_bacteria
+WP_004082042.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Thermotoga],WP_004082042.1,Thermotoga, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004082042.1_bacteria
+WP_011244401.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Synechococcus],WP_011244401.1,Synechococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011244401.1_bacteria
+WP_011244481.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Synechococcus],WP_011244481.1,Synechococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011244481.1_bacteria
+NP_631160.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631160.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631160.1_bacteria
+NP_626875.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_626875.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_626875.1_bacteria
+NP_628967.1 hypothetical protein SCO4810 [Streptomyces coelicolor A3(2)],NP_628967.1,Streptomyces coelicolor A3(2), hypothetical protein SCO4810,bacteria,NP_628967.1_bacteria
+NP_625617.1 hypothetical protein SCO1332 [Streptomyces coelicolor A3(2)],NP_625617.1,Streptomyces coelicolor A3(2), hypothetical protein SCO1332,bacteria,NP_625617.1_bacteria
+NP_639724.1 sigma factor (plasmid) [Streptomyces coelicolor A3(2)],NP_639724.1,Streptomyces coelicolor A3(2), sigma factor (plasmid),bacteria,NP_639724.1_bacteria
+NP_639734.1 regulatory protein (plasmid) [Streptomyces coelicolor A3(2)],NP_639734.1,Streptomyces coelicolor A3(2), regulatory protein (plasmid),bacteria,NP_639734.1_bacteria
+NP_631250.1 sigma factor [Streptomyces coelicolor A3(2)],NP_631250.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_631250.1_bacteria
+NP_628927.1 RNA polymerase sigma factor SigD [Streptomyces coelicolor A3(2)],NP_628927.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigD,bacteria,NP_628927.1_bacteria
+NP_628577.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628577.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628577.1_bacteria
+NP_631166.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631166.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631166.1_bacteria
+NP_628187.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628187.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628187.1_bacteria
+NP_631061.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631061.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_631061.1_bacteria
+NP_628619.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628619.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_628619.1_bacteria
+NP_627564.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627564.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_627564.1_bacteria
+NP_631173.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_631173.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_631173.1_bacteria
+NP_624735.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_624735.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_624735.1_bacteria
+NP_629148.1 RNA polymerase ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629148.1,Streptomyces coelicolor A3(2), RNA polymerase ECF sigma factor,bacteria,NP_629148.1_bacteria
+NP_626143.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_626143.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_626143.1_bacteria
+NP_631203.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_631203.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_631203.1_bacteria
+NP_630339.1 sigma factor [Streptomyces coelicolor A3(2)],NP_630339.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_630339.1_bacteria
+NP_625563.1 RNA polymerase ECF sigma factor [Streptomyces coelicolor A3(2)],NP_625563.1,Streptomyces coelicolor A3(2), RNA polymerase ECF sigma factor,bacteria,NP_625563.1_bacteria
+NP_627927.1 RNA polymerase ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627927.1,Streptomyces coelicolor A3(2), RNA polymerase ECF sigma factor,bacteria,NP_627927.1_bacteria
+NP_624495.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_624495.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_624495.1_bacteria
+NP_630051.1 sigma factor [Streptomyces coelicolor A3(2)],NP_630051.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_630051.1_bacteria
+NP_626973.1 sigma factor [Streptomyces coelicolor A3(2)],NP_626973.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_626973.1_bacteria
+NP_627820.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627820.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627820.1_bacteria
+NP_628295.1 hypothetical protein SCO4117 [Streptomyces coelicolor A3(2)],NP_628295.1,Streptomyces coelicolor A3(2), hypothetical protein SCO4117,bacteria,NP_628295.1_bacteria
+NP_624943.1 RNA polymerase sigma factor SigK [Streptomyces coelicolor A3(2)],NP_624943.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigK,bacteria,NP_624943.1_bacteria
+NP_629091.1 ECF-sigma factor [Streptomyces coelicolor A3(2)],NP_629091.1,Streptomyces coelicolor A3(2), ECF-sigma factor,bacteria,NP_629091.1_bacteria
+NP_628915.1 hypothetical protein SCO4757 [Streptomyces coelicolor A3(2)],NP_628915.1,Streptomyces coelicolor A3(2), hypothetical protein SCO4757,bacteria,NP_628915.1_bacteria
+NP_627808.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627808.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627808.1_bacteria
+NP_629018.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629018.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_629018.1_bacteria
+NP_629061.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_629061.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_629061.1_bacteria
+NP_625550.1 ECF-sigma factor [Streptomyces coelicolor A3(2)],NP_625550.1,Streptomyces coelicolor A3(2), ECF-sigma factor,bacteria,NP_625550.1_bacteria
+NP_625240.1 RNA polymerase sigma factor SigL [Streptomyces coelicolor A3(2)],NP_625240.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigL,bacteria,NP_625240.1_bacteria
+NP_625104.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625104.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_625104.1_bacteria
+NP_624529.1 sigma factor [Streptomyces coelicolor A3(2)],NP_624529.1,Streptomyces coelicolor A3(2), sigma factor,bacteria,NP_624529.1_bacteria
+NP_627901.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_627901.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_627901.1_bacteria
+NP_627654.1 ECF subfamily RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627654.1,Streptomyces coelicolor A3(2), ECF subfamily RNA polymerase sigma factor,bacteria,NP_627654.1_bacteria
+NP_625996.1 RNA polymerase sigma factor SigK [Streptomyces coelicolor A3(2)],NP_625996.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigK,bacteria,NP_625996.1_bacteria
+NP_629020.1 ECF sigma factor [Streptomyces coelicolor A3(2)],NP_629020.1,Streptomyces coelicolor A3(2), ECF sigma factor,bacteria,NP_629020.1_bacteria
+NP_625164.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625164.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_625164.1_bacteria
+NP_627178.1 RNA polymerase sigma factor SigL [Streptomyces coelicolor A3(2)],NP_627178.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigL,bacteria,NP_627178.1_bacteria
+NP_639689.1 ecf family sigma factor (plasmid) [Streptomyces coelicolor A3(2)],NP_639689.1,Streptomyces coelicolor A3(2), ecf family sigma factor (plasmid),bacteria,NP_639689.1_bacteria
+NP_628323.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_628323.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_628323.1_bacteria
+NP_625166.1 ECF family RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_625166.1,Streptomyces coelicolor A3(2), ECF family RNA polymerase sigma factor,bacteria,NP_625166.1_bacteria
+NP_629295.1 RNA polymerase sigma factor SigE [Streptomyces coelicolor A3(2)],NP_629295.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigE,bacteria,NP_629295.1_bacteria
+NP_627533.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],NP_627533.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor,bacteria,NP_627533.1_bacteria
+NP_629363.1 RNA polymerase sigma factor RpoE [Streptomyces coelicolor A3(2)],NP_629363.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor RpoE,bacteria,NP_629363.1_bacteria
+NP_629048.1 RNA polymerase factor sigma-70 [Streptomyces coelicolor A3(2)],NP_629048.1,Streptomyces coelicolor A3(2), RNA polymerase factor sigma-70,bacteria,NP_629048.1_bacteria
+NP_628078.1 RNA polymerase sigma factor SigM [Streptomyces coelicolor A3(2)],NP_628078.1,Streptomyces coelicolor A3(2), RNA polymerase sigma factor SigM,bacteria,NP_628078.1_bacteria
+WP_011002009.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011002009.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011002009.1_bacteria
+WP_011002824.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011002824.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011002824.1_bacteria
+WP_043876817.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_043876817.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_043876817.1_bacteria
+WP_011004147.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011004147.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011004147.1_bacteria
+WP_011003934.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011003934.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011003934.1_bacteria
+WP_011002888.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011002888.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011002888.1_bacteria
+WP_011000001.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011000001.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011000001.1_bacteria
+WP_011004896.1 MULTISPECIES: RNA polymerase sigma factor [Ralstonia],WP_011004896.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011004896.1_bacteria
+WP_011002284.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Ralstonia],WP_011002284.1,Ralstonia, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011002284.1_bacteria
+WP_003264474.1 MULTISPECIES: RNA polymerase sigma factor RpoE [Ralstonia],WP_003264474.1,Ralstonia, MULTISPECIES: RNA polymerase sigma factor RpoE,bacteria,WP_003264474.1_bacteria
+NP_250146.1 flagellar biosynthesis sigma factor FliA [Pseudomonas aeruginosa PAO1],NP_250146.1,Pseudomonas aeruginosa PAO1, flagellar biosynthesis sigma factor FliA,bacteria,NP_250146.1_bacteria
+NP_250054.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_250054.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_250054.1_bacteria
+NP_249366.1 ECF sigma factor VreI [Pseudomonas aeruginosa PAO1],NP_249366.1,Pseudomonas aeruginosa PAO1, ECF sigma factor VreI,bacteria,NP_249366.1_bacteria
+NP_253583.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_253583.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_253583.1_bacteria
+NP_250783.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_250783.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_250783.1_bacteria
+NP_250740.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_250740.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_250740.1_bacteria
+NP_250042.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_250042.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_250042.1_bacteria
+NP_248839.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_248839.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_248839.1_bacteria
+NP_251077.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_251077.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_251077.1_bacteria
+NP_251116.1 extracytoplasmic-function sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_251116.1,Pseudomonas aeruginosa PAO1, extracytoplasmic-function sigma-70 factor,bacteria,NP_251116.1_bacteria
+NP_249163.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_249163.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_249163.1_bacteria
+NP_250602.1 ECF sigma factor FemI [Pseudomonas aeruginosa PAO1],NP_250602.1,Pseudomonas aeruginosa PAO1, ECF sigma factor FemI,bacteria,NP_250602.1_bacteria
+NP_251975.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_251975.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_251975.1_bacteria
+NP_249991.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_249991.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_249991.1_bacteria
+NP_252588.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_252588.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_252588.1_bacteria
+NP_252100.1 ECF subfamily sigma-70 factor [Pseudomonas aeruginosa PAO1],NP_252100.1,Pseudomonas aeruginosa PAO1, ECF subfamily sigma-70 factor,bacteria,NP_252100.1_bacteria
+NP_251158.1 ECF sigma factor FoxI [Pseudomonas aeruginosa PAO1],NP_251158.1,Pseudomonas aeruginosa PAO1, ECF sigma factor FoxI,bacteria,NP_251158.1_bacteria
+NP_250467.1 RNA polymerase sigma factor SigX [Pseudomonas aeruginosa PAO1],NP_250467.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor SigX,bacteria,NP_250467.1_bacteria
+NP_251586.1 RNA polymerase sigma factor [Pseudomonas aeruginosa PAO1],NP_251586.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor,bacteria,NP_251586.1_bacteria
+NP_249453.1 RNA polymerase sigma factor AlgU [Pseudomonas aeruginosa PAO1],NP_249453.1,Pseudomonas aeruginosa PAO1, RNA polymerase sigma factor AlgU,bacteria,NP_249453.1_bacteria
+WP_021665844.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_021665844.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_021665844.1_bacteria
+WP_004583457.1 RNA polymerase sigma factor [Porphyromonas gingivalis],WP_004583457.1,Porphyromonas gingivalis, RNA polymerase sigma factor,bacteria,WP_004583457.1_bacteria
+WP_004583806.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Porphyromonas],WP_004583806.1,Porphyromonas, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004583806.1_bacteria
+WP_012457922.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_012457922.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_012457922.1_bacteria
+WP_004585541.1 sigma-70 family RNA polymerase sigma factor [Porphyromonas gingivalis],WP_004585541.1,Porphyromonas gingivalis, sigma-70 family RNA polymerase sigma factor,bacteria,WP_004585541.1_bacteria
+WP_012457515.1 RNA polymerase sigma factor [Porphyromonas gingivalis],WP_012457515.1,Porphyromonas gingivalis, RNA polymerase sigma factor,bacteria,WP_012457515.1_bacteria
+WP_011551625.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011551625.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011551625.1_bacteria
+WP_026113866.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026113866.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026113866.1_bacteria
+WP_011557208.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011557208.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011557208.1_bacteria
+WP_020478620.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478620.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478620.1_bacteria
+WP_011554965.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011554965.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011554965.1_bacteria
+WP_020478589.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_020478589.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_020478589.1_bacteria
+WP_011552262.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552262.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552262.1_bacteria
+WP_026113921.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026113921.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026113921.1_bacteria
+WP_011555230.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555230.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555230.1_bacteria
+WP_011556117.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011556117.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011556117.1_bacteria
+WP_011550811.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011550811.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011550811.1_bacteria
+WP_011555464.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555464.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555464.1_bacteria
+WP_011555683.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011555683.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011555683.1_bacteria
+WP_020477814.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020477814.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020477814.1_bacteria
+WP_020478156.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478156.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478156.1_bacteria
+WP_011554319.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011554319.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011554319.1_bacteria
+WP_026114018.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026114018.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026114018.1_bacteria
+WP_011553459.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553459.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553459.1_bacteria
+WP_011557133.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011557133.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011557133.1_bacteria
+WP_011553704.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553704.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553704.1_bacteria
+WP_011550349.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011550349.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011550349.1_bacteria
+WP_011557245.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011557245.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011557245.1_bacteria
+WP_011551772.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_011551772.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_011551772.1_bacteria
+WP_011552470.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552470.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552470.1_bacteria
+WP_020478532.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478532.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478532.1_bacteria
+WP_011554312.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554312.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554312.1_bacteria
+WP_011552571.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011552571.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011552571.1_bacteria
+WP_171452326.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_171452326.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_171452326.1_bacteria
+WP_011553969.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011553969.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011553969.1_bacteria
+WP_020478333.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_020478333.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_020478333.1_bacteria
+WP_011554150.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554150.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554150.1_bacteria
+WP_026113852.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026113852.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026113852.1_bacteria
+WP_026114044.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_026114044.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_026114044.1_bacteria
+WP_026113989.1 MULTISPECIES: RNA polymerase sigma factor [Myxococcus],WP_026113989.1,Myxococcus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_026113989.1_bacteria
+WP_011554720.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],WP_011554720.1,Myxococcus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_011554720.1_bacteria
+NP_217931.1 ECF RNA polymerase sigma factor SigD [Mycobacterium tuberculosis H37Rv],NP_217931.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigD,bacteria,NP_217931.1_bacteria
+NP_217845.1 ECF RNA polymerase sigma factor SigJ [Mycobacterium tuberculosis H37Rv],NP_217845.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigJ,bacteria,NP_217845.1_bacteria
+NP_215705.1 ECF RNA polymerase sigma factor SigI [Mycobacterium tuberculosis H37Rv],NP_215705.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigI,bacteria,NP_215705.1_bacteria
+NP_214959.1 ECF RNA polymerase sigma factor SigK [Mycobacterium tuberculosis H37Rv],NP_214959.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigK,bacteria,NP_214959.1_bacteria
+NP_216585.1 ECF RNA polymerase sigma factor SigC [Mycobacterium tuberculosis H37Rv],NP_216585.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigC,bacteria,NP_216585.1_bacteria
+NP_217739.1 ECF RNA polymerase sigma factor SigH [Mycobacterium tuberculosis H37Rv],NP_217739.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigH,bacteria,NP_217739.1_bacteria
+NP_215249.1 ECF RNA polymerase sigma factor SigL [Mycobacterium tuberculosis H37Rv],NP_215249.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigL,bacteria,NP_215249.1_bacteria
+NP_215737.1 ECF RNA polymerase sigma factor SigE [Mycobacterium tuberculosis H37Rv],NP_215737.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigE,bacteria,NP_215737.1_bacteria
+NP_214696.1 ECF RNA polymerase sigma factor SigG [Mycobacterium tuberculosis H37Rv],NP_214696.1,Mycobacterium tuberculosis H37Rv, ECF RNA polymerase sigma factor SigG,bacteria,NP_214696.1_bacteria
+NP_463774.1 RNA polymerase factor sigma-70 [Listeria monocytogenes EGD-e],NP_463774.1,Listeria monocytogenes EGD-e, RNA polymerase factor sigma-70,bacteria,NP_463774.1_bacteria
+NP_463952.1 RNA polymerase factor sigma C [Listeria monocytogenes EGD-e],NP_463952.1,Listeria monocytogenes EGD-e, RNA polymerase factor sigma C,bacteria,NP_463952.1_bacteria
+NP_418713.1 RNA polymerase sigma factor FecI [Escherichia coli str. K-12 substr. MG1655],NP_418713.1,Escherichia coli str. K-12 substr. MG1655, RNA polymerase sigma factor FecI,bacteria,NP_418713.1_bacteria
+NP_417068.1 RNA polymerase sigma E factor [Escherichia coli str. K-12 substr. MG1655],NP_417068.1,Escherichia coli str. K-12 substr. MG1655, RNA polymerase sigma E factor,bacteria,NP_417068.1_bacteria
+WP_027480180.1 RNA polymerase sigma factor [Deinococcus radiodurans],WP_027480180.1,Deinococcus radiodurans, RNA polymerase sigma factor,bacteria,WP_027480180.1_bacteria
+WP_014306532.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014306532.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014306532.1_bacteria
+WP_014308159.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014308159.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014308159.1_bacteria
+WP_041740603.1 RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_041740603.1,Corynebacterium diphtheriae, RNA polymerase sigma factor,bacteria,WP_041740603.1_bacteria
+WP_014311116.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014311116.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014311116.1_bacteria
+WP_014301156.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014301156.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014301156.1_bacteria
+WP_021334972.1 MULTISPECIES: RNA polymerase sigma factor SigE [Corynebacterium],WP_021334972.1,Corynebacterium, MULTISPECIES: RNA polymerase sigma factor SigE,bacteria,WP_021334972.1_bacteria
+WP_014318785.1 sigma-70 family RNA polymerase sigma factor [Corynebacterium diphtheriae],WP_014318785.1,Corynebacterium diphtheriae, sigma-70 family RNA polymerase sigma factor,bacteria,WP_014318785.1_bacteria
+WP_009892548.1 RNA polymerase sporulation sigma factor SigH [Clostridioides difficile],WP_009892548.1,Clostridioides difficile, RNA polymerase sporulation sigma factor SigH,bacteria,WP_009892548.1_bacteria
+WP_003439159.1 sigma-70 family RNA polymerase sigma factor [Clostridioides difficile],WP_003439159.1,Clostridioides difficile, sigma-70 family RNA polymerase sigma factor,bacteria,WP_003439159.1_bacteria
+WP_003436663.1 sigma-70 family RNA polymerase sigma factor [Clostridioides difficile],WP_003436663.1,Clostridioides difficile, sigma-70 family RNA polymerase sigma factor,bacteria,WP_003436663.1_bacteria
+WP_032506877.1 RNA polymerase sigma factor [Clostridioides difficile],WP_032506877.1,Clostridioides difficile, RNA polymerase sigma factor,bacteria,WP_032506877.1_bacteria
+WP_155250046.1 RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_155250046.1,Bdellovibrio bacteriovorus, RNA polymerase sigma factor,bacteria,WP_155250046.1_bacteria
+WP_025307382.1 RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_025307382.1,Bdellovibrio bacteriovorus, RNA polymerase sigma factor,bacteria,WP_025307382.1_bacteria
+WP_025307296.1 sigma-70 family RNA polymerase sigma factor [Bdellovibrio bacteriovorus],WP_025307296.1,Bdellovibrio bacteriovorus, sigma-70 family RNA polymerase sigma factor,bacteria,WP_025307296.1_bacteria
+WP_032841206.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_032841206.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_032841206.1_bacteria
+WP_008762686.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008762686.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008762686.1_bacteria
+WP_011109391.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_011109391.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_011109391.1_bacteria
+WP_005681497.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_005681497.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_005681497.1_bacteria
+WP_008761425.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008761425.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008761425.1_bacteria
+WP_008760068.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008760068.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008760068.1_bacteria
+WP_008763953.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008763953.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008763953.1_bacteria
+WP_062694661.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_062694661.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_062694661.1_bacteria
+WP_008767805.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767805.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008767805.1_bacteria
+WP_011108473.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108473.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011108473.1_bacteria
+WP_048697630.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_048697630.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_048697630.1_bacteria
+WP_008764520.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008764520.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008764520.1_bacteria
+WP_008764619.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008764619.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008764619.1_bacteria
+WP_008762876.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008762876.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008762876.1_bacteria
+WP_008766735.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008766735.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008766735.1_bacteria
+WP_008765767.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008765767.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008765767.1_bacteria
+WP_008763979.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008763979.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008763979.1_bacteria
+WP_008762480.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008762480.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008762480.1_bacteria
+WP_011109055.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_011109055.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_011109055.1_bacteria
+WP_016269926.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_016269926.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_016269926.1_bacteria
+WP_008764987.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008764987.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008764987.1_bacteria
+WP_008765839.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008765839.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008765839.1_bacteria
+WP_008766891.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008766891.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008766891.1_bacteria
+WP_008763624.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008763624.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008763624.1_bacteria
+WP_008767954.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767954.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008767954.1_bacteria
+WP_008764449.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008764449.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008764449.1_bacteria
+WP_008766886.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008766886.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008766886.1_bacteria
+WP_008760619.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008760619.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008760619.1_bacteria
+WP_008760954.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008760954.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008760954.1_bacteria
+WP_005682267.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_005682267.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_005682267.1_bacteria
+WP_011108735.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_011108735.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_011108735.1_bacteria
+WP_062695099.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_062695099.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_062695099.1_bacteria
+WP_016268625.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_016268625.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_016268625.1_bacteria
+WP_008761748.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteria],WP_008761748.1,Bacteria, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008761748.1_bacteria
+WP_008762155.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008762155.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008762155.1_bacteria
+WP_008763658.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008763658.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008763658.1_bacteria
+WP_008763441.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008763441.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008763441.1_bacteria
+WP_011108357.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108357.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_011108357.1_bacteria
+WP_062695819.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_062695819.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_062695819.1_bacteria
+WP_008760422.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteroides],WP_008760422.1,Bacteroides, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008760422.1_bacteria
+WP_008766202.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008766202.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_008766202.1_bacteria
+WP_011108700.1 sigma-70 family RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_011108700.1,Bacteroides thetaiotaomicron, sigma-70 family RNA polymerase sigma factor,bacteria,WP_011108700.1_bacteria
+WP_008766766.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008766766.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008766766.1_bacteria
+WP_008767907.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_008767907.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_008767907.1_bacteria
+WP_004308114.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroidales],WP_004308114.1,Bacteroidales, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_004308114.1_bacteria
+WP_011108581.1 RNA polymerase sigma-70 factor [Bacteroides thetaiotaomicron],WP_011108581.1,Bacteroides thetaiotaomicron, RNA polymerase sigma-70 factor,bacteria,WP_011108581.1_bacteria
+WP_008760019.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008760019.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008760019.1_bacteria
+WP_008767733.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008767733.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_008767733.1_bacteria
+WP_008766239.1 MULTISPECIES: RNA polymerase sigma-70 factor [Bacteroides],WP_008766239.1,Bacteroides, MULTISPECIES: RNA polymerase sigma-70 factor,bacteria,WP_008766239.1_bacteria
+WP_008761066.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacteria],WP_008761066.1,Bacteria, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_008761066.1_bacteria
+WP_008760363.1 MULTISPECIES: RNA polymerase sigma factor [Bacteroides],WP_008760363.1,Bacteroides, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_008760363.1_bacteria
+WP_008764719.1 RNA polymerase sigma factor [Bacteroides thetaiotaomicron],WP_008764719.1,Bacteroides thetaiotaomicron, RNA polymerase sigma factor,bacteria,WP_008764719.1_bacteria
+WP_003225758.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillaceae],WP_003225758.1,Bacillaceae, MULTISPECIES: RNA polymerase sporulation sigma factor SigH,bacteria,WP_003225758.1_bacteria
+WP_004398507.1 MULTISPECIES: RNA polymerase sigma factor SigZ [Bacillus],WP_004398507.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigZ,bacteria,WP_004398507.1_bacteria
+WP_004398891.1 MULTISPECIES: RNA polymerase sigma factor SigV [Bacillus],WP_004398891.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigV,bacteria,WP_004398891.1_bacteria
+WP_003230521.1 MULTISPECIES: RNA polymerase sigma factor SigX [Bacteria],WP_003230521.1,Bacteria, MULTISPECIES: RNA polymerase sigma factor SigX,bacteria,WP_003230521.1_bacteria
+WP_003224177.1 MULTISPECIES: RNA polymerase sigma factor SigM [Bacillaceae],WP_003224177.1,Bacillaceae, MULTISPECIES: RNA polymerase sigma factor SigM,bacteria,WP_003224177.1_bacteria
+WP_003243678.1 MULTISPECIES: RNA polymerase sigma factor SigY [Bacilli],WP_003243678.1,Bacilli, MULTISPECIES: RNA polymerase sigma factor SigY,bacteria,WP_003243678.1_bacteria
+WP_003245485.1 MULTISPECIES: RNA polymerase sigma factor YlaC [Bacillus],WP_003245485.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor YlaC,bacteria,WP_003245485.1_bacteria
+WP_003234958.1 MULTISPECIES: RNA polymerase sigma factor SigW [Bacillus],WP_003234958.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigW,bacteria,WP_003234958.1_bacteria
+WP_002164611.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],WP_002164611.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor SigB,bacteria,WP_002164611.1_bacteria
+WP_000387193.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillus],WP_000387193.1,Bacillus, MULTISPECIES: RNA polymerase sporulation sigma factor SigH,bacteria,WP_000387193.1_bacteria
+WP_000337509.1 MULTISPECIES: RNA polymerase subunit sigma-70 [Bacillus],WP_000337509.1,Bacillus, MULTISPECIES: RNA polymerase subunit sigma-70,bacteria,WP_000337509.1_bacteria
+WP_000840007.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000840007.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000840007.1_bacteria
+WP_000447162.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000447162.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000447162.1_bacteria
+WP_071740389.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_071740389.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_071740389.1_bacteria
+WP_000675556.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000675556.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000675556.1_bacteria
+WP_000869257.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000869257.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000869257.1_bacteria
+WP_000391642.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000391642.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000391642.1_bacteria
+WP_000864729.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000864729.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000864729.1_bacteria
+WP_000438330.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],WP_000438330.1,Bacillus, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_000438330.1_bacteria
+WP_000824008.1 MULTISPECIES: RNA polymerase sigma factor [Bacillus],WP_000824008.1,Bacillus, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_000824008.1_bacteria
 WP_038497316.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_038497316.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_038497316.1_bacteria
 WP_003513086.1 MULTISPECIES: RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_003513086.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_003513086.1_bacteria
-WP_038490951.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_038490951.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_038490951.1_bacteria
 WP_003518695.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_003518695.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_003518695.1_bacteria
-WP_003513560.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_003513560.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_003513560.1_bacteria
 WP_003511036.1 MULTISPECIES: RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_003511036.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_003511036.1_bacteria
+WP_003513560.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_003513560.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_003513560.1_bacteria
+WP_038490951.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_038490951.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_038490951.1_bacteria
+WP_038497025.1 MULTISPECIES: RNA polymerase sigma factor [Agrobacterium tumefaciens complex],WP_038497025.1,Agrobacterium tumefaciens complex, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_038497025.1_bacteria
 WP_004432061.1 MULTISPECIES: RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_004432061.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_004432061.1_bacteria
 WP_004431393.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_004431393.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_004431393.1_bacteria
 WP_025594844.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_025594844.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_025594844.1_bacteria
-WP_038497025.1 MULTISPECIES: RNA polymerase sigma factor [Agrobacterium tumefaciens complex],WP_038497025.1,Agrobacterium tumefaciens complex, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_038497025.1_bacteria
-WP_003491840.1 MULTISPECIES: RNA polymerase sigma factor RpoH [Rhizobium/Agrobacterium group],WP_003491840.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor RpoH,bacteria,WP_003491840.1_bacteria
 WP_080863981.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_080863981.1,Rhizobium/Agrobacterium group, MULTISPECIES: sigma-70 family RNA polymerase sigma factor,bacteria,WP_080863981.1_bacteria
-WP_003513359.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Rhizobium/Agrobacterium group],WP_003513359.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor RpoD,bacteria,WP_003513359.1_bacteria
 WP_038493726.1 MULTISPECIES: RNA polymerase sigma factor [Rhizobium/Agrobacterium group],WP_038493726.1,Rhizobium/Agrobacterium group, MULTISPECIES: RNA polymerase sigma factor,bacteria,WP_038493726.1_bacteria

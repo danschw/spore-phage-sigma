@@ -39,21 +39,21 @@ d.faa %>%
   filter (duplicated(seq)) %>% 
             group_by(group) %>% 
             summarise(n=n())
-# 31 duplicate sequences, all in phages
+# 33 duplicate sequences, all in phages
 
 d.faa%>%
   group_by(seq)%>%
   summarise(n=n())%>%
   filter(n>1) %>% 
     arrange(desc(n))
-# there are 22 sequences with 2-4 duplicates
+# there are 24 sequences with 2-4 duplicates
 
 d.faa%>%
   group_by(seq, sp)%>%
   summarise(n=n())%>%
   filter(n>1) %>% 
   arrange(desc(n))
-# but none of th duplicated sequences are from the same phage, keeping all
+# but none of the duplicated sequences are from the same phage, keeping all
 
 
 #make fasta headers
@@ -68,3 +68,4 @@ write.fasta(file.out = here("data","sigmas_to_align.faa"),
 d.faa %>% 
   select(-seq) %>% 
   write_csv(here("data","sigmas_to_align.csv"))
+
