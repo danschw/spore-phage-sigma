@@ -40,8 +40,9 @@ IQT=/N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2
 
 cd $ODIR
 
-$IQT -s sigmas_MafftEinsi.trim
-# Best-fit model: Q.pfam+F+R8 chosen according to BIC
+$IQT -s sigmas_MafftEinsi.trim -T auto
+# Best-fit model: Q.pfam+R6 chosen according to BIC
+
 
 # got a warning:
 # Number of parameters (K, model parameters and branch lengths): 880
@@ -51,11 +52,7 @@ $IQT -s sigmas_MafftEinsi.trim
 # https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
 # https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
 
-mkdir -p ${ODIR}/multi-iq
-cd ${ODIR}/multi-iq
-cp ${ODIR}/sigmas_MafftEinsi.trim .
-
-$IQT -s sigmas_MafftEinsi.trim -m  Q.pfam+F+R8 --runs 10 --seqtype AA
+sbatch ${PARENT}/code/multi-run-iqtree.sh
 
 
 

@@ -14,5 +14,10 @@ IQT=${TOOLS}/iqtree-2.1.3-Linux/bin/iqtree2
 
 ######  Job commands go below this line #####
 PARENT=/N/u/danschw/Carbonate/GitHub/spore-phage-sigma
-cd ${PARENT}/data/align-trim-tree/batch-multi-iq
-$IQT -s sigmas_MafftEinsi.trim -m  Q.pfam+F+R8 --runs 50 --seqtype AA -T AUTO
+ODIR=${PARENT}/data/align-trim-tree/multi-run-iqtree
+mkdir ${ODIR}
+cd ${ODIR}
+
+cp ${PARENT}/data/align-trim-tree/sigmas_MafftEinsi.trim ${ODIR}
+
+$IQT -s sigmas_MafftEinsi.trim -m Q.pfam+R6 --runs 50 --seqtype AA -T AUTO
