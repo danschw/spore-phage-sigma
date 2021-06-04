@@ -1,7 +1,7 @@
 #!/bin/bash
 #####  Constructed by HPC everywhere #####
 #SBATCH --mail-user=danschw@iu.edu
-#SBATCH --nodes=8
+#SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
 #SBATCH --time=0-26:59:00
 #SBATCH --mem=50gb
@@ -21,3 +21,5 @@ cd ${ODIR}
 cp ${PARENT}/data/align-trim-tree/sigmas_MafftEinsi.trim ${ODIR}
 
 $IQT -s sigmas_MafftEinsi.trim -m Q.pfam+R6 --runs 50 --seqtype AA -T AUTO
+
+rm sigmas_MafftEinsi.trim 
