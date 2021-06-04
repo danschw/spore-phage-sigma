@@ -5,7 +5,8 @@ library(ggtree) #https://yulab-smu.top/treedata-book/
 library(treeio)
 
 #import tree
-iqt <- read.newick(here("data/align-trim-tree/batch-multi-iq/sigmas_MafftEinsi.trim.treefile"))
+iqt <- read.newick(here("data/align-trim-tree/multi-run-iqtree/sigmas_MafftEinsi.trim.treefile"))
+# iqt <- read.newick(here("data/align-trim-tree/sigmas_MafftEinsi.trim.treefile"))
 
 # list label data
 d.iqt <- as_tibble(iqt)
@@ -37,7 +38,7 @@ tree <- as.treedata(d.iqt)
 # # unrooted trees
 p <-
   ggtree(tree, layout = 'equal_angle')+
-  geom_tippoint(aes(color=group), size=1, shape=20)+
+  geom_tippoint(aes(color=group), size=5, shape=21)+
   geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)
 
 ggsave(here("plots","sigma_all_unrooted.pdf"),p, height=10, width = 10)
@@ -52,38 +53,73 @@ p <-
 
 ggsave(here("plots","sigma_nodeNUMS_unrooted.pdf"),p, height=10, width = 10)
 
+ecf_base_node <- 687
 
-# split tree at node 518
-x <- groupClade(iqt,.node=518)
-ggtree(x)+
-  geom_tippoint(aes(color=group), size=1, shape=20)
-
-
-# add split groups to main tree
-d.x <- as_tibble(x) %>% 
-  select(node, split = group)
-
-d.iqt <- full_join(d.iqt, d.x)
-tree <- as.treedata(d.iqt)
-
-p <-
-  ggtree(tree, layout = 'equal_angle')+
-  geom_tippoint(aes(color = split), size=5, shape=21)+
+##### can I remove more bacterial only clades?
+# vie tree w/o ECF clade
+p1 <- ggtree(tree)+
+  geom_tippoint(aes(color=group), size=1, shape=20)+
   geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)
 
+p1%>% 
+  ggtree::collapse(ecf_base_node)
 
-ggsave(here("plots","sigma_split_unrooted.pdf"),p, height=10, width = 10)
+#rpoD has no phage proteins it seems.
+# find basal node
+p1 <- ggtree(tree)+
+  geom_tippoint(aes(color=group), size=3, shape=20)+
+  geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)+
+  geom_text(aes(x=branch, label=node)) 
 
-#need to keep split == 0
+p1 <- p1%>% 
+  ggtree::collapse(ecf_base_node)
+  ggsave(here("plots","sigma_nodeNUMS_rpoD.pdf"), p1, height=10, width = 10)
+  
+rpod_base_node <- 628
 
-#split by group, and add ECF of B. subtilis, for reference.
-d.keep <- d.iqt %>% 
-  filter(split == 0 | str_detect(sp, regex("subtilis", ignore_case = T)))
+p1 <- ggtree(tree)+
+    geom_tippoint(aes(color=group), size=1, shape=20)+
+    geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)
+  
+  p1%>% 
+    ggtree::collapse(ecf_base_node) %>% 
+    ggtree::collapse(rpod_base_node)
 
-keep <- d.keep %>%
-  filter(!is.na(protein)) %>% 
-  pull(protein)
 
+  
+  # split tree by nodes founnd above 
+  x <- groupClade(iqt,.node=c(ecf_base_node,rpod_base_node))
+  ggtree(x)+
+    geom_tippoint(aes(color=group), size=1, shape=20)
+  
+  
+  # add split groups to main tree
+  d.x <- as_tibble(x) %>% 
+    select(node, split = group)
+  
+  d.iqt <- full_join(d.iqt, d.x)
+  tree <- as.treedata(d.iqt)
+  
+  p <-
+    ggtree(tree, layout = 'equal_angle')+
+    geom_tippoint(aes(shape = split, color=group), size=3)+
+    geom_tiplab(aes(label=tip.label), color="blue", size=3, offset = .1)+
+    scale_shape_manual(values = c(21,23,24))
+  
+  
+  ggsave(here("plots","sigma_split_unrooted.pdf"),p, height=10, width = 10)
+  
+  #need to keep split == 0
+  split_keep <- 0
+  
+  #split by group, and add sigma of B. subtilis from removed groups, for reference.
+  d.keep <- d.iqt %>% 
+    filter(split == split_keep | str_detect(sp, regex("subtilis", ignore_case = T)))
+  
+  keep <- d.keep %>%
+    filter(!is.na(protein)) %>% 
+    pull(protein)
+  
 ##### Save results #####
 if (!dir.exists(here("data", "reduced_set_to_align"))){
   dir.create(here("data", "reduced_set_to_align"))
