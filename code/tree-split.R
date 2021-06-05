@@ -53,7 +53,7 @@ p <-
 
 ggsave(here("plots","sigma_nodeNUMS_unrooted.pdf"),p, height=10, width = 10)
 
-ecf_base_node <- 687
+ecf_base_node <- 760
 
 ##### can I remove more bacterial only clades?
 # vie tree w/o ECF clade
@@ -75,7 +75,7 @@ p1 <- p1%>%
   ggtree::collapse(ecf_base_node)
   ggsave(here("plots","sigma_nodeNUMS_rpoD.pdf"), p1, height=10, width = 10)
   
-rpod_base_node <- 628
+rpod_base_node <- 682
 
 p1 <- ggtree(tree)+
     geom_tippoint(aes(color=group), size=1, shape=20)+
@@ -120,6 +120,14 @@ p1 <- ggtree(tree)+
     filter(!is.na(protein)) %>% 
     pull(protein)
   
+  
+#check that no phage sequences were removed
+d.iqt %>% 
+  filter(protein %in% keep) %>% 
+  pull(group) %>% 
+  table()
+# only bacterial sequences removed
+
 ##### Save results #####
 if (!dir.exists(here("data", "reduced_set_to_align"))){
   dir.create(here("data", "reduced_set_to_align"))
