@@ -19,22 +19,21 @@ Model selection and ML tree with IQtree2 (default)
 # Number of parameters (K, model parameters and branch lengths): 880
 # Sample size (n, alignment length): 141
 # Given that K>=n, the parameter estimates might be inaccurate. Thus, phylogenetic estimates should be interpreted with caution.
-# based on reponses in IQtree google forum (below) do multiple  ML tree runs.
+# based on reponses in IQtree google forum (below) do multiple  (50x) ML tree runs and select best ML (-reruns option does this)
 # https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
 # https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
+Implemented in code/batch-IQmulti.sh called from align-trim-tree.sh
 
-(5) batch-IQmulti.sh
-50x RERUNS fro best ML
-
-(6) get_bacterial_features.R
+(5) get_bacterial_features.R
 To facilitate tree plotting and analysis I obtained the species specific feature annotations for the aligned proteins. (the sequences downloaded in "get_faa.R" are annotated in MULTISPECIES scheme omplemented by NCBI)
 
-(7) tree-split.R
-To further address the "K>=n" warning of iqtree I will implement on if the suggestions in the warning message,  to "Remove the least important sequences from the alignment". There is a large group of ECF sigmas which my previuos experience suggests do not contain phage sigmas (from the set of phages analyzed here). In this R script I identify and filter out the ECF group of sigma factors, except for B. subtilis ECF for reference. The filtered set of sequences, along with filtered meta data are written to "data/reduced_set_to_align".
+(6) tree-split.R
+To further address the "K>=n" warning of iqtree I will implement one of the suggestions in the warning message,  to "Remove the least important sequences from the alignment". There is a large group of ECF sigmas which my previuos experience suggests do not contain phage sigmas (from the set of phages analyzed here). In this R script I identify and filter out the ECF group of sigma factors, as weel as the rpoD (=sigA) house keeping sigmas. From these groups I retained the B. subtilis ECFs and sigA for reference. The filtered set of sequences, along with filtered meta data are written to "data/reduced_set_to_align".
 
- 
-visulaize best ML tree - identify major groups (ECF, sigA, sigBFG..). Remove ECF sigmas (except for B. subtilis) and run again align-trim-tree.
-NEXT
+(7) 
+rerun alignment, trimming and model selsction as in (4). 
+Still grtting "K>n" warning, rhough K is much closer to n now. Nevertheless, I did 50 runs of IQtree to find best ML tree.
 
-remove all ECF sequences and rerun alignm-trim-phylogeny on smaller number with better support (bootstrap etc.) - maybe leave an ECF as outgroup.
+(8) 
+Best ML tree was the used as basis for UFbootstrap and alRT-SH tests of support for tree.
 

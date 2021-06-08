@@ -1,0 +1,385 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c10 (AVX2, FMA3, 251 GB RAM)
+Command: /N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2 -s sigmas_MafftEinsi.trim -m LG+G4 -t sigmas_MafftEinsi.trim.treefile --seqtype AA -T AUTO --ufboot 1000 -alrt 1000
+Seed:    203285 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun  7 21:14:30 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file sigmas_MafftEinsi.trim ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 215 sequences with 175 columns, 175 distinct patterns
+171 parsimony-informative, 2 singleton sites, 2 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  BAK53012.1_phage          20.57%    passed     14.42%
+   2  AGH27928.1_phage          21.71%    passed     65.90%
+   3  ADL40344.1_phage          26.29%    failed      1.58%
+   4  ADL40362.1_phage          24.57%    passed     32.14%
+   5  AAL96802.1_phage          21.14%    passed     22.66%
+   6  ABC40436.1_phage           3.43%    passed     96.63%
+   7  AGE60961.1_phage          23.43%    passed     70.81%
+   8  ACI90961.1_phage          24.57%    passed     26.47%
+   9  AEO93340.1_phage          21.71%    failed      2.45%
+  10  AEO93274.1_phage          21.14%    failed      0.24%
+  11  AGE60807.1_phage          23.43%    passed     70.81%
+  12  ALO79610.1_phage           3.43%    passed     67.73%
+  13  ALO79609.1_phage           3.43%    passed     94.99%
+  14  AGY46846.1_phage          23.43%    passed     61.06%
+  15  AMW62487.1_phage           3.43%    passed     76.07%
+  16  QKE56338.1_phage           5.71%    passed     40.27%
+  17  QKE56523.1_phage          20.57%    passed     35.15%
+  18  ADH03291.1_phage           3.43%    passed     89.34%
+  19  AMW61966.1_phage           3.43%    passed     73.06%
+  20  QDP43184.1_phage           3.43%    passed     31.24%
+  21  QDP43462.1_phage           3.43%    passed     72.84%
+  22  AZF89309.1_phage           3.43%    passed     79.69%
+  23  QMV48360.1_phage          24.57%    passed     68.65%
+  24  APZ82618.1_phage           3.43%    passed     52.00%
+  25  APZ82294.1_phage          24.57%    passed     47.02%
+  26  QMV48586.1_phage          24.00%    passed     56.20%
+  27  QEG13663.1_phage           3.43%    passed     67.32%
+  28  AYP68748.1_phage          22.86%    passed     75.82%
+  29  QDP42999.1_phage          23.43%    passed     85.61%
+  30  QDP42942.1_phage           4.00%    passed     89.33%
+  31  ALV83472.1_phage           3.43%    passed     65.38%
+  32  AFQ96418.1_phage           3.43%    passed     99.35%
+  33  AFQ96417.1_phage           3.43%    passed     74.20%
+  34  ALA13223.1_phage           3.43%    passed     67.32%
+  35  ARW58411.1_phage           3.43%    passed     90.82%
+  36  AKC02694.1_phage           4.00%    passed     86.35%
+  37  AKC02726.1_phage           3.43%    passed     99.27%
+  38  AGY48752.1_phage           4.00%    passed     81.99%
+  39  AGY48783.1_phage           3.43%    passed     69.31%
+  40  AKA61495.1_phage           4.00%    passed     84.93%
+  41  AKA61526.1_phage           3.43%    passed     70.28%
+  42  BAK52932.1_phage           3.43%    passed     62.77%
+  43  AGY48356.1_phage           4.00%    passed     81.99%
+  44  AGY48388.1_phage           3.43%    passed     91.92%
+  45  ANH50776.1_phage           3.43%    passed     67.55%
+  46  AMW63146.1_phage           3.43%    passed     98.94%
+  47  AXF41881.1_phage           3.43%    passed     77.79%
+  48  AOZ62117.1_phage          12.00%    passed     91.54%
+  49  ASR78475.1_phage           3.43%    passed     98.94%
+  50  ANY29316.1_phage           3.43%    passed     94.31%
+  51  AEV89274.1_phage          18.86%    passed     22.82%
+  52  QDH49502.1_phage           3.43%    passed     98.94%
+  53  BAN59653.1_phage           3.43%    passed     80.97%
+  54  AGV99468.1_phage          18.86%    passed      7.34%
+  55  AGB62713.1_phage           4.57%    passed     82.52%
+  56  ALN97362.1_phage          18.86%    passed     26.84%
+  57  ANT40413.1_phage           4.57%    passed     67.99%
+  58  ANT40183.1_phage           4.57%    passed     67.99%
+  59  ALA07697.1_phage           3.43%    passed     83.75%
+  60  ASR79669.1_phage           3.43%    passed     95.68%
+  61  AMW63445.1_phage           3.43%    passed     98.94%
+  62  ARW58471.1_phage           3.43%    passed     92.58%
+  63  AIW03562.1_phage           3.43%    passed     97.03%
+  64  AIW03563.1_phage           3.43%    passed     56.20%
+  65  AXQ67820.1_phage           3.43%    passed     76.27%
+  66  AXQ67819.1_phage           3.43%    passed     96.63%
+  67  ANU79852.1_phage           3.43%    passed     98.94%
+  68  AXQ67115.1_phage           3.43%    passed     95.68%
+  69  AID17798.1_phage           3.43%    passed     92.43%
+  70  AID17799.1_phage           3.43%    passed     98.38%
+  71  ASR79696.1_phage           3.43%    passed     82.05%
+  72  AHZ10517.1_phage           3.43%    passed     73.06%
+  73  AUV57859.1_phage           3.43%    passed     75.59%
+  74  AXQ66958.1_phage           3.43%    passed     67.73%
+  75  AXQ66957.1_phage           3.43%    passed     94.99%
+  76  AHZ10241.1_phage           3.43%    passed     98.94%
+  77  AGY47431.1_phage           3.43%    passed     76.45%
+  78  ABC40488.1_phage           3.43%    passed     96.63%
+  79  ABA42728.1_phage           3.43%    passed     96.63%
+  80  AHZ09937.1_phage           3.43%    passed     95.68%
+  81  AMB18751.1_phage           3.43%    passed     95.14%
+  82  AMB18752.1_phage           3.43%    passed     77.19%
+  83  AMW62796.1_phage           3.43%    passed     77.79%
+  84  AMO25912.1_phage           3.43%    passed     92.13%
+  85  ABA46386.1_phage           4.00%    passed     97.68%
+  86  ARW58529.1_phage           3.43%    passed     78.92%
+  87  AGY46934.1_phage          24.57%    passed     37.42%
+  88  AHZ09647.1_phage           3.43%    passed     95.68%
+  89  AUO78602.1_phage          18.86%    passed     26.84%
+  90  AFL46426.1_phage          18.86%    passed     26.84%
+  91  ATN94413.1_phage           3.43%    passed     75.48%
+  92  AXH71210.1_phage           3.43%    passed     37.31%
+  93  AUO79472.1_phage           3.43%    passed     75.48%
+  94  AEZ50316.1_phage           3.43%    passed     54.09%
+  95  AGI12133.1_phage           3.43%    passed     58.67%
+  96  AHJ87680.1_phage           4.00%    passed     93.16%
+  97  AHJ87469.1_phage           4.00%    passed     93.16%
+  98  AII27989.1_phage           4.57%    passed     87.50%
+  99  AGY46709.1_phage           3.43%    passed     54.78%
+ 100  AEW47604.1_phage           3.43%    passed     93.88%
+ 101  AHJ87163.1_phage           3.43%    passed     92.43%
+ 102  AHJ87164.1_phage           3.43%    passed     96.88%
+ 103  AEW47115.1_phage           3.43%    passed     93.88%
+ 104  AQN32486.1_phage           3.43%    passed     93.88%
+ 105  AHN66675.1_phage           3.43%    passed     67.73%
+ 106  AHN66674.1_phage           3.43%    passed     96.19%
+ 107  AUM58961.1_phage           3.43%    passed     94.31%
+ 108  CCE73875.1_phage          18.86%    passed     26.84%
+ 109  AXU41211.1_phage           3.43%    passed     83.75%
+ 110  QEG04258.1_phage           3.43%    passed     81.95%
+ 111  AEQ34342.1_phage           3.43%    passed     95.68%
+ 112  AEW47372.1_phage          11.43%    passed     76.79%
+ 113  AEZ65936.1_phage          11.43%    passed     76.79%
+ 114  ALA13372.1_phage           3.43%    passed     54.78%
+ 115  AZF88386.1_phage           3.43%    passed     57.46%
+ 116  ASU01064.1_phage           3.43%    passed     95.68%
+ 117  QDH50209.1_phage           3.43%    passed     98.94%
+ 118  QFG05971.1_phage          23.43%    passed     94.91%
+ 119  QFG05890.1_phage          23.43%    passed     94.91%
+ 120  QFR56516.1_phage          23.43%    passed     94.07%
+ 121  QFG05277.1_phage          23.43%    passed     94.91%
+ 122  QFG05192.1_phage          23.43%    passed     94.91%
+ 123  ASR79140.1_phage           3.43%    passed     97.54%
+ 124  QEG13664.1_phage           3.43%    passed     53.22%
+ 125  ALA13222.1_phage           5.71%    passed     46.92%
+ 126  AGT13480.1_phage           3.43%    passed     81.74%
+ 127  QLF85884.1_phage           3.43%    passed     85.49%
+ 128  ASZ75934.1_phage           3.43%    passed     81.74%
+ 129  AGY48597.1_phage           3.43%    passed     63.21%
+ 130  ANI24840.1_phage           3.43%    passed     97.54%
+ 131  AOZ62476.1_phage           3.43%    passed     87.22%
+ 132  AIF72077.1_phage           3.43%    passed     81.74%
+ 133  ANY29315.1_phage           3.43%    passed     96.01%
+ 134  AMW62240.1_phage           3.43%    passed     81.74%
+ 135  AGB62714.1_phage           2.86%    passed     90.79%
+ 136  ALA07698.1_phage           3.43%    passed     49.91%
+ 137  AXQ67439.1_phage           3.43%    passed     96.86%
+ 138  AMW61377.1_phage           3.43%    passed     96.33%
+ 139  AMW63747.1_phage           3.43%    passed     96.86%
+ 140  AHZ10802.1_phage           3.43%    passed     96.86%
+ 141  AIW03238.1_phage           3.43%    passed     88.87%
+ 142  AMW61625.1_phage           3.43%    passed     81.74%
+ 143  ARQ95128.1_phage           3.43%    passed     63.21%
+ 144  ALA46534.1_phage           3.43%    passed     97.54%
+ 145  ANT41264.1_phage           3.43%    passed     97.54%
+ 146  AMO25911.1_phage           3.43%    passed     97.67%
+ 147  QEM43258.1_phage           3.43%    passed     98.75%
+ 148  ASR78776.1_phage           3.43%    passed     96.86%
+ 149  AHJ87681.1_phage           2.86%    passed     95.15%
+ 150  AHJ87470.1_phage           2.86%    passed     95.15%
+ 151  AII27990.1_phage           2.86%    passed     79.73%
+ 152  AOZ61848.1_phage           3.43%    passed     87.22%
+ 153  QDH49898.1_phage           3.43%    passed     81.74%
+ 154  ANM46154.1_phage           3.43%    passed     91.15%
+ 155  AEW47605.1_phage           5.71%    passed     56.95%
+ 156  AEW47116.1_phage           5.71%    passed     56.95%
+ 157  AQN32487.1_phage           5.71%    passed     56.95%
+ 158  AUM58962.1_phage           3.43%    passed     96.01%
+ 159  AXU41213.1_phage           3.43%    passed     49.91%
+ 160  QEG04257.1_phage           5.71%    passed     56.82%
+ 161  ASR78944.1_phage           3.43%    passed     85.88%
+ 162  WP_001030417.1_bacteria    6.86%    passed     11.23%
+ 163  WP_014342819.1_bacteria    4.00%    passed     95.42%
+ 164  WP_004080667.1_bacteria   10.29%    passed      8.64%
+ 165  WP_011244619.1_bacteria    3.43%    failed      0.00%
+ 166  WP_011244805.1_bacteria    3.43%    failed      0.71%
+ 167  NP_631369.1_bacteria       4.00%    failed      0.07%
+ 168  NP_631395.1_bacteria       3.43%    failed      0.37%
+ 169  NP_628217.1_bacteria       3.43%    failed      0.25%
+ 170  NP_627288.1_bacteria       3.43%    passed     10.16%
+ 171  NP_630601.1_bacteria       3.43%    failed      0.97%
+ 172  NP_631334.1_bacteria       3.43%    passed     16.15%
+ 173  NP_624912.1_bacteria       3.43%    failed      2.71%
+ 174  NP_629389.1_bacteria       3.43%    failed      0.16%
+ 175  NP_628216.1_bacteria       3.43%    failed      3.16%
+ 176  NP_629755.1_bacteria       4.00%    passed     56.52%
+ 177  WP_170864009.1_bacteria    4.00%    failed      3.40%
+ 178  WP_011130162.1_bacteria    3.43%    failed      0.02%
+ 179  WP_011552512.1_bacteria    4.57%    failed      1.86%
+ 180  NP_217803.1_bacteria       3.43%    failed      0.20%
+ 181  NP_464421.1_bacteria       3.43%    passed     96.65%
+ 182  WP_000602430.1_bacteria    9.14%    passed     65.66%
+ 183  NP_416432.3_bacteria       4.00%    failed      3.18%
+ 184  WP_003420464.1_bacteria    3.43%    passed     46.22%
+ 185  WP_011860953.1_bacteria    3.43%    passed     27.35%
+ 186  WP_003416101.1_bacteria    3.43%    passed     60.13%
+ 187  WP_003416098.1_bacteria   25.14%    passed     35.55%
+ 188  WP_003435969.1_bacteria    5.71%    failed      1.09%
+ 189  YP_002343525.1_bacteria    9.14%    passed     28.25%
+ 190  WP_025309103.1_bacteria    4.00%    passed     67.30%
+ 191  WP_009967190.1_bacteria    3.43%    passed     97.58%
+ 192  WP_003230458.1_bacteria    3.43%    passed     48.24%
+ 193  WP_003246715.1_bacteria    3.43%    passed     64.93%
+ 194  WP_003221446.1_bacteria   25.14%    passed     39.61%
+ 195  WP_003220911.1_bacteria    4.00%    passed     93.15%
+ 196  WP_003226225.1_bacteria    3.43%    passed     72.11%
+ 197  WP_002025078.1_bacteria   32.00%    failed      0.13%
+ 198  WP_000197755.1_bacteria    3.43%    passed     89.95%
+ 199  WP_000350729.1_bacteria    3.43%    passed     63.45%
+ 200  WP_000051382.1_bacteria   25.14%    passed     29.56%
+ 201  WP_000976948.1_bacteria   25.14%    passed     58.32%
+ 202  WP_004081373.1_bacteria   22.86%    passed     63.41%
+ 203  NP_250146.1_bacteria       4.00%    failed      4.79%
+ 204  NP_463774.1_bacteria      22.29%    passed     52.22%
+ 205  WP_009892548.1_bacteria   22.86%    passed     65.16%
+ 206  WP_003225758.1_bacteria   22.86%    passed     90.92%
+ 207  WP_004398507.1_bacteria   34.86%    passed     40.20%
+ 208  WP_004398891.1_bacteria   29.14%    passed     47.37%
+ 209  WP_003230521.1_bacteria   26.86%    failed      1.52%
+ 210  WP_003224177.1_bacteria   30.86%    passed     47.41%
+ 211  WP_003243678.1_bacteria   24.57%    failed      2.26%
+ 212  WP_003245485.1_bacteria   25.14%    failed      1.14%
+ 213  WP_003234958.1_bacteria   27.43%    passed     52.98%
+ 214  WP_002164611.1_bacteria    3.43%    passed     46.40%
+ 215  WP_000387193.1_bacteria   22.86%    passed     82.25%
+****  TOTAL                      8.12%  23 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: ABC40488.1_phage is identical to ABC40436.1_phage but kept for subsequent analysis
+NOTE: AGE60807.1_phage is identical to AGE60961.1_phage but kept for subsequent analysis
+NOTE: AXQ66958.1_phage is identical to ALO79610.1_phage but kept for subsequent analysis
+NOTE: AXQ66957.1_phage is identical to ALO79609.1_phage but kept for subsequent analysis
+NOTE: AHZ10517.1_phage is identical to AMW61966.1_phage but kept for subsequent analysis
+NOTE: ALA13223.1_phage is identical to QEG13663.1_phage but kept for subsequent analysis
+NOTE: AGY48356.1_phage is identical to AGY48752.1_phage but kept for subsequent analysis
+NOTE: ASR78475.1_phage is identical to AMW63146.1_phage but kept for subsequent analysis
+NOTE: AMW62796.1_phage is identical to AXF41881.1_phage but kept for subsequent analysis
+NOTE: AUM58961.1_phage is identical to ANY29316.1_phage but kept for subsequent analysis
+NOTE: AUO78602.1_phage is identical to ALN97362.1_phage but kept for subsequent analysis
+NOTE: ANT40183.1_phage is identical to ANT40413.1_phage but kept for subsequent analysis
+NOTE: AXU41211.1_phage is identical to ALA07697.1_phage but kept for subsequent analysis
+NOTE: AXQ67115.1_phage is identical to ASR79669.1_phage but kept for subsequent analysis
+NOTE: AHJ87163.1_phage is identical to AID17798.1_phage but kept for subsequent analysis
+NOTE: AUO79472.1_phage is identical to ATN94413.1_phage but kept for subsequent analysis
+NOTE: AHJ87469.1_phage is identical to AHJ87680.1_phage but kept for subsequent analysis
+NOTE: ALA13372.1_phage is identical to AGY46709.1_phage but kept for subsequent analysis
+NOTE: AEW47115.1_phage is identical to AEW47604.1_phage but kept for subsequent analysis
+NOTE: AEZ65936.1_phage is identical to AEW47372.1_phage but kept for subsequent analysis
+NOTE: QFG05890.1_phage is identical to QFG05971.1_phage but kept for subsequent analysis
+NOTE: ANI24840.1_phage is identical to ASR79140.1_phage but kept for subsequent analysis
+NOTE: ASZ75934.1_phage is identical to AGT13480.1_phage but kept for subsequent analysis
+NOTE: ARQ95128.1_phage is identical to AGY48597.1_phage but kept for subsequent analysis
+NOTE: AOZ61848.1_phage is identical to AOZ62476.1_phage but kept for subsequent analysis
+NOTE: AUM58962.1_phage is identical to ANY29315.1_phage but kept for subsequent analysis
+NOTE: AXU41213.1_phage is identical to ALA07698.1_phage but kept for subsequent analysis
+NOTE: AMW63747.1_phage is identical to AXQ67439.1_phage but kept for subsequent analysis
+NOTE: AHJ87470.1_phage is identical to AHJ87681.1_phage but kept for subsequent analysis
+NOTE: AEW47116.1_phage is identical to AEW47605.1_phage but kept for subsequent analysis
+NOTE: 25 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: ABA42728.1_phage (identical to ABC40436.1_phage) is ignored but added at the end
+NOTE: AHN66675.1_phage (identical to ALO79610.1_phage) is ignored but added at the end
+NOTE: QDH49502.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AMW63445.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: ANU79852.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AHZ10241.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: QDH50209.1_phage (identical to AMW63146.1_phage) is ignored but added at the end
+NOTE: AFL46426.1_phage (identical to ALN97362.1_phage) is ignored but added at the end
+NOTE: CCE73875.1_phage (identical to ALN97362.1_phage) is ignored but added at the end
+NOTE: AHZ09937.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: AHZ09647.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: AEQ34342.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: ASU01064.1_phage (identical to ASR79669.1_phage) is ignored but added at the end
+NOTE: AQN32486.1_phage (identical to AEW47604.1_phage) is ignored but added at the end
+NOTE: QFG05277.1_phage (identical to QFG05971.1_phage) is ignored but added at the end
+NOTE: QFG05192.1_phage (identical to QFG05971.1_phage) is ignored but added at the end
+NOTE: ALA46534.1_phage (identical to ASR79140.1_phage) is ignored but added at the end
+NOTE: ANT41264.1_phage (identical to ASR79140.1_phage) is ignored but added at the end
+NOTE: AIF72077.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: AMW62240.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: AMW61625.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: QDH49898.1_phage (identical to AGT13480.1_phage) is ignored but added at the end
+NOTE: AHZ10802.1_phage (identical to AXQ67439.1_phage) is ignored but added at the end
+NOTE: ASR78776.1_phage (identical to AXQ67439.1_phage) is ignored but added at the end
+NOTE: AQN32487.1_phage (identical to AEW47605.1_phage) is ignored but added at the end
+Alignment was printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+Reading input tree file sigmas_MafftEinsi.trim.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 203285)...
+
+NOTE: 23 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 8.030 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -63423
+Threads: 2 / Time: 5.446 sec / Speedup: 1.474 / Efficiency: 74% / LogL: -63423
+Threads: 3 / Time: 4.385 sec / Speedup: 1.831 / Efficiency: 61% / LogL: -63423
+Threads: 4 / Time: 4.067 sec / Speedup: 1.974 / Efficiency: 49% / LogL: -63423
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -31295.429
+2. Current log-likelihood: -31222.941
+3. Current log-likelihood: -31214.665
+4. Current log-likelihood: -31213.165
+5. Current log-likelihood: -31212.352
+Optimal log-likelihood: -31212.266
+Gamma shape alpha: 2.776
+Parameters optimization took 5 rounds (0.931 sec)
+
+Do NNI search on 1 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -31212.254
+Finish initializing candidate tree set (2)
+Current best tree score: -31212.254 / CPU time: 0.520
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -31212.220
+Iteration 10 / LogL: -31224.928 / Time: 0h:0m:36s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -31212.156
+Iteration 20 / LogL: -31214.428 / Time: 0h:0m:48s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -31212.036
+Iteration 30 / LogL: -31213.067 / Time: 0h:1m:1s (0h:3m:16s left)
+Iteration 40 / LogL: -31224.379 / Time: 0h:1m:14s (0h:2m:37s left)
+Iteration 50 / LogL: -31222.430 / Time: 0h:1m:27s (0h:2m:8s left)
+Log-likelihood cutoff on original alignment: -31240.940
+Iteration 60 / LogL: -31212.254 / Time: 0h:1m:42s (0h:1m:47s left)
+Iteration 70 / LogL: -31230.387 / Time: 0h:1m:54s (0h:1m:26s left)
+Iteration 80 / LogL: -31217.055 / Time: 0h:2m:8s (0h:1m:8s left)
+Iteration 90 / LogL: -31284.137 / Time: 0h:2m:20s (0h:0m:50s left)
+Iteration 100 / LogL: -31218.920 / Time: 0h:2m:32s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -31244.068
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -31219.692 / Time: 0h:2m:46s (0h:2m:17s left)
+Iteration 120 / LogL: -31213.178 / Time: 0h:2m:57s (0h:1m:59s left)
+TREE SEARCH COMPLETED AFTER 123 ITERATIONS / Time: 0h:3m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -31212.036
+Optimal log-likelihood: -31212.036
+Gamma shape alpha: 2.780
+Parameters optimization took 1 rounds (0.103 sec)
+BEST SCORE FOUND : -31212.036
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.330 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file sigmas_MafftEinsi.trim.splits.nex
+Total tree length: 76.738
+
+Total number of iterations: 123
+CPU time used for tree search: 469.141 sec (0h:7m:49s)
+Wall-clock time used for tree search: 158.694 sec (0h:2m:38s)
+Total CPU time used: 522.138 sec (0h:8m:42s)
+Total wall-clock time used: 182.766 sec (0h:3m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file sigmas_MafftEinsi.trim.splits.nex...
+190 taxa and 764 splits.
+Consensus tree written to sigmas_MafftEinsi.trim.contree
+Reading input trees file sigmas_MafftEinsi.trim.contree
+Log-likelihood of consensus tree: -31212.372
+
+Analysis results written to: 
+  IQ-TREE report:                sigmas_MafftEinsi.trim.iqtree
+  Maximum-likelihood tree:       sigmas_MafftEinsi.trim.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          sigmas_MafftEinsi.trim.splits.nex
+  Consensus tree:                sigmas_MafftEinsi.trim.contree
+  Screen log file:               sigmas_MafftEinsi.trim.log
+
+Date and Time: Mon Jun  7 21:17:33 2021
