@@ -1,0 +1,443 @@
+#NEXUS
+[R-package treeio, Mon Jun  7 15:53:45 2021]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 215;
+	TAXLABELS
+		BAK53012.1_phage
+		AGH27928.1_phage
+		AAL96802.1_phage
+		WP_011130162.1_bacteria
+		WP_011244619.1_bacteria
+		WP_011244805.1_bacteria
+		AEO93340.1_phage
+		WP_002025078.1_bacteria
+		BAK52932.1_phage
+		AKC02694.1_phage
+		AGY48752.1_phage
+		AGY48356.1_phage
+		AKA61495.1_phage
+		NP_631369.1_bacteria
+		NP_631395.1_bacteria
+		NP_630601.1_bacteria
+		NP_628217.1_bacteria
+		NP_627288.1_bacteria
+		NP_631334.1_bacteria
+		NP_624912.1_bacteria
+		NP_628216.1_bacteria
+		NP_629389.1_bacteria
+		NP_217803.1_bacteria
+		WP_003420464.1_bacteria
+		NP_464421.1_bacteria
+		WP_002164611.1_bacteria
+		WP_003246715.1_bacteria
+		WP_004081373.1_bacteria
+		NP_463774.1_bacteria
+		WP_009892548.1_bacteria
+		WP_003225758.1_bacteria
+		WP_000387193.1_bacteria
+		ADL40362.1_phage
+		WP_011552512.1_bacteria
+		WP_004080667.1_bacteria
+		WP_000602430.1_bacteria
+		YP_002343525.1_bacteria
+		WP_001030417.1_bacteria
+		NP_250146.1_bacteria
+		WP_170864009.1_bacteria
+		NP_416432.3_bacteria
+		WP_014342819.1_bacteria
+		NP_629755.1_bacteria
+		WP_003220911.1_bacteria
+		WP_025309103.1_bacteria
+		WP_003435969.1_bacteria
+		WP_003226225.1_bacteria
+		AGB62713.1_phage
+		AHJ87680.1_phage
+		AHJ87469.1_phage
+		AII27989.1_phage
+		ACI90961.1_phage
+		QMV48360.1_phage
+		APZ82294.1_phage
+		AGY46934.1_phage
+		QMV48586.1_phage
+		QDP42999.1_phage
+		WP_003416098.1_bacteria
+		WP_000976948.1_bacteria
+		WP_003221446.1_bacteria
+		WP_000051382.1_bacteria
+		ALO79609.1_phage
+		AXQ66957.1_phage
+		AHN66674.1_phage
+		AXQ67819.1_phage
+		AMO25912.1_phage
+		AFQ96418.1_phage
+		ANY29316.1_phage
+		AUM58961.1_phage
+		AID17799.1_phage
+		AHJ87164.1_phage
+		QEG13664.1_phage
+		ALA07698.1_phage
+		AXU41213.1_phage
+		ALA13222.1_phage
+		AEW47605.1_phage
+		AQN32487.1_phage
+		AEW47116.1_phage
+		QEG04257.1_phage
+		QDP43184.1_phage
+		APZ82618.1_phage
+		AXH71210.1_phage
+		AIW03562.1_phage
+		AMB18751.1_phage
+		ABC40436.1_phage
+		ABA42728.1_phage
+		ABC40488.1_phage
+		ABA46386.1_phage
+		AZF88386.1_phage
+		ARW58411.1_phage
+		ARW58471.1_phage
+		ARW58529.1_phage
+		QDP43462.1_phage
+		ALV83472.1_phage
+		ANT40183.1_phage
+		ANT40413.1_phage
+		QKE56338.1_phage
+		AKC02726.1_phage
+		AGY48783.1_phage
+		AKA61526.1_phage
+		AGY48388.1_phage
+		QEG13663.1_phage
+		ALA13223.1_phage
+		ALA07697.1_phage
+		AXU41211.1_phage
+		AOZ62117.1_phage
+		QEG04258.1_phage
+		AEW47604.1_phage
+		AQN32486.1_phage
+		AEW47115.1_phage
+		AIW03563.1_phage
+		AMB18752.1_phage
+		WP_011860953.1_bacteria
+		WP_003416101.1_bacteria
+		WP_009967190.1_bacteria
+		WP_000197755.1_bacteria
+		WP_003230458.1_bacteria
+		WP_000350729.1_bacteria
+		AIW03238.1_phage
+		BAN59653.1_phage
+		ATN94413.1_phage
+		AUO79472.1_phage
+		AGY47431.1_phage
+		QDP42942.1_phage
+		ALO79610.1_phage
+		AHN66675.1_phage
+		AXQ66958.1_phage
+		AXQ67820.1_phage
+		AFQ96417.1_phage
+		ANY29315.1_phage
+		AUM58962.1_phage
+		AMO25911.1_phage
+		AID17798.1_phage
+		AHJ87163.1_phage
+		AGY46709.1_phage
+		ALA13372.1_phage
+		AEW47372.1_phage
+		AEZ65936.1_phage
+		QEM43258.1_phage
+		AGT13480.1_phage
+		QDH49898.1_phage
+		AMW61625.1_phage
+		AMW62240.1_phage
+		AIF72077.1_phage
+		ASZ75934.1_phage
+		AGY48597.1_phage
+		ARQ95128.1_phage
+		AMW62487.1_phage
+		AXF41881.1_phage
+		AMW62796.1_phage
+		AUV57859.1_phage
+		QLF85884.1_phage
+		ASR78944.1_phage
+		AOZ62476.1_phage
+		AOZ61848.1_phage
+		ANM46154.1_phage
+		ASR79140.1_phage
+		ANT41264.1_phage
+		ALA46534.1_phage
+		ANI24840.1_phage
+		AXQ67439.1_phage
+		ASR78776.1_phage
+		AHZ10802.1_phage
+		AMW63747.1_phage
+		AMW61377.1_phage
+		AMW63146.1_phage
+		QDH50209.1_phage
+		AHZ10241.1_phage
+		QDH49502.1_phage
+		ANU79852.1_phage
+		AMW63445.1_phage
+		ASR78475.1_phage
+		ADH03291.1_phage
+		ANH50776.1_phage
+		AEZ50316.1_phage
+		AGI12133.1_phage
+		AMW61966.1_phage
+		AHZ10517.1_phage
+		AZF89309.1_phage
+		ASR79696.1_phage
+		ASR79669.1_phage
+		AHZ09647.1_phage
+		AHZ09937.1_phage
+		ASU01064.1_phage
+		AEQ34342.1_phage
+		AXQ67115.1_phage
+		AGB62714.1_phage
+		AHJ87681.1_phage
+		AHJ87470.1_phage
+		AII27990.1_phage
+		ADL40344.1_phage
+		WP_004398507.1_bacteria
+		WP_004398891.1_bacteria
+		WP_003230521.1_bacteria
+		WP_003245485.1_bacteria
+		WP_003224177.1_bacteria
+		WP_003243678.1_bacteria
+		WP_003234958.1_bacteria
+		AEV89274.1_phage
+		ALN97362.1_phage
+		AFL46426.1_phage
+		CCE73875.1_phage
+		AUO78602.1_phage
+		AGV99468.1_phage
+		AEO93274.1_phage
+		AGE60961.1_phage
+		AGE60807.1_phage
+		AGY46846.1_phage
+		AYP68748.1_phage
+		QFG05971.1_phage
+		QFG05277.1_phage
+		QFG05192.1_phage
+		QFG05890.1_phage
+		QFR56516.1_phage
+		QKE56523.1_phage
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	BAK53012.1_phage,
+		2	AGH27928.1_phage,
+		3	AAL96802.1_phage,
+		4	WP_011130162.1_bacteria,
+		5	WP_011244619.1_bacteria,
+		6	WP_011244805.1_bacteria,
+		7	AEO93340.1_phage,
+		8	WP_002025078.1_bacteria,
+		9	BAK52932.1_phage,
+		10	AKC02694.1_phage,
+		11	AGY48752.1_phage,
+		12	AGY48356.1_phage,
+		13	AKA61495.1_phage,
+		14	NP_631369.1_bacteria,
+		15	NP_631395.1_bacteria,
+		16	NP_630601.1_bacteria,
+		17	NP_628217.1_bacteria,
+		18	NP_627288.1_bacteria,
+		19	NP_631334.1_bacteria,
+		20	NP_624912.1_bacteria,
+		21	NP_628216.1_bacteria,
+		22	NP_629389.1_bacteria,
+		23	NP_217803.1_bacteria,
+		24	WP_003420464.1_bacteria,
+		25	NP_464421.1_bacteria,
+		26	WP_002164611.1_bacteria,
+		27	WP_003246715.1_bacteria,
+		28	WP_004081373.1_bacteria,
+		29	NP_463774.1_bacteria,
+		30	WP_009892548.1_bacteria,
+		31	WP_003225758.1_bacteria,
+		32	WP_000387193.1_bacteria,
+		33	ADL40362.1_phage,
+		34	WP_011552512.1_bacteria,
+		35	WP_004080667.1_bacteria,
+		36	WP_000602430.1_bacteria,
+		37	YP_002343525.1_bacteria,
+		38	WP_001030417.1_bacteria,
+		39	NP_250146.1_bacteria,
+		40	WP_170864009.1_bacteria,
+		41	NP_416432.3_bacteria,
+		42	WP_014342819.1_bacteria,
+		43	NP_629755.1_bacteria,
+		44	WP_003220911.1_bacteria,
+		45	WP_025309103.1_bacteria,
+		46	WP_003435969.1_bacteria,
+		47	WP_003226225.1_bacteria,
+		48	AGB62713.1_phage,
+		49	AHJ87680.1_phage,
+		50	AHJ87469.1_phage,
+		51	AII27989.1_phage,
+		52	ACI90961.1_phage,
+		53	QMV48360.1_phage,
+		54	APZ82294.1_phage,
+		55	AGY46934.1_phage,
+		56	QMV48586.1_phage,
+		57	QDP42999.1_phage,
+		58	WP_003416098.1_bacteria,
+		59	WP_000976948.1_bacteria,
+		60	WP_003221446.1_bacteria,
+		61	WP_000051382.1_bacteria,
+		62	ALO79609.1_phage,
+		63	AXQ66957.1_phage,
+		64	AHN66674.1_phage,
+		65	AXQ67819.1_phage,
+		66	AMO25912.1_phage,
+		67	AFQ96418.1_phage,
+		68	ANY29316.1_phage,
+		69	AUM58961.1_phage,
+		70	AID17799.1_phage,
+		71	AHJ87164.1_phage,
+		72	QEG13664.1_phage,
+		73	ALA07698.1_phage,
+		74	AXU41213.1_phage,
+		75	ALA13222.1_phage,
+		76	AEW47605.1_phage,
+		77	AQN32487.1_phage,
+		78	AEW47116.1_phage,
+		79	QEG04257.1_phage,
+		80	QDP43184.1_phage,
+		81	APZ82618.1_phage,
+		82	AXH71210.1_phage,
+		83	AIW03562.1_phage,
+		84	AMB18751.1_phage,
+		85	ABC40436.1_phage,
+		86	ABA42728.1_phage,
+		87	ABC40488.1_phage,
+		88	ABA46386.1_phage,
+		89	AZF88386.1_phage,
+		90	ARW58411.1_phage,
+		91	ARW58471.1_phage,
+		92	ARW58529.1_phage,
+		93	QDP43462.1_phage,
+		94	ALV83472.1_phage,
+		95	ANT40183.1_phage,
+		96	ANT40413.1_phage,
+		97	QKE56338.1_phage,
+		98	AKC02726.1_phage,
+		99	AGY48783.1_phage,
+		100	AKA61526.1_phage,
+		101	AGY48388.1_phage,
+		102	QEG13663.1_phage,
+		103	ALA13223.1_phage,
+		104	ALA07697.1_phage,
+		105	AXU41211.1_phage,
+		106	AOZ62117.1_phage,
+		107	QEG04258.1_phage,
+		108	AEW47604.1_phage,
+		109	AQN32486.1_phage,
+		110	AEW47115.1_phage,
+		111	AIW03563.1_phage,
+		112	AMB18752.1_phage,
+		113	WP_011860953.1_bacteria,
+		114	WP_003416101.1_bacteria,
+		115	WP_009967190.1_bacteria,
+		116	WP_000197755.1_bacteria,
+		117	WP_003230458.1_bacteria,
+		118	WP_000350729.1_bacteria,
+		119	AIW03238.1_phage,
+		120	BAN59653.1_phage,
+		121	ATN94413.1_phage,
+		122	AUO79472.1_phage,
+		123	AGY47431.1_phage,
+		124	QDP42942.1_phage,
+		125	ALO79610.1_phage,
+		126	AHN66675.1_phage,
+		127	AXQ66958.1_phage,
+		128	AXQ67820.1_phage,
+		129	AFQ96417.1_phage,
+		130	ANY29315.1_phage,
+		131	AUM58962.1_phage,
+		132	AMO25911.1_phage,
+		133	AID17798.1_phage,
+		134	AHJ87163.1_phage,
+		135	AGY46709.1_phage,
+		136	ALA13372.1_phage,
+		137	AEW47372.1_phage,
+		138	AEZ65936.1_phage,
+		139	QEM43258.1_phage,
+		140	AGT13480.1_phage,
+		141	QDH49898.1_phage,
+		142	AMW61625.1_phage,
+		143	AMW62240.1_phage,
+		144	AIF72077.1_phage,
+		145	ASZ75934.1_phage,
+		146	AGY48597.1_phage,
+		147	ARQ95128.1_phage,
+		148	AMW62487.1_phage,
+		149	AXF41881.1_phage,
+		150	AMW62796.1_phage,
+		151	AUV57859.1_phage,
+		152	QLF85884.1_phage,
+		153	ASR78944.1_phage,
+		154	AOZ62476.1_phage,
+		155	AOZ61848.1_phage,
+		156	ANM46154.1_phage,
+		157	ASR79140.1_phage,
+		158	ANT41264.1_phage,
+		159	ALA46534.1_phage,
+		160	ANI24840.1_phage,
+		161	AXQ67439.1_phage,
+		162	ASR78776.1_phage,
+		163	AHZ10802.1_phage,
+		164	AMW63747.1_phage,
+		165	AMW61377.1_phage,
+		166	AMW63146.1_phage,
+		167	QDH50209.1_phage,
+		168	AHZ10241.1_phage,
+		169	QDH49502.1_phage,
+		170	ANU79852.1_phage,
+		171	AMW63445.1_phage,
+		172	ASR78475.1_phage,
+		173	ADH03291.1_phage,
+		174	ANH50776.1_phage,
+		175	AEZ50316.1_phage,
+		176	AGI12133.1_phage,
+		177	AMW61966.1_phage,
+		178	AHZ10517.1_phage,
+		179	AZF89309.1_phage,
+		180	ASR79696.1_phage,
+		181	ASR79669.1_phage,
+		182	AHZ09647.1_phage,
+		183	AHZ09937.1_phage,
+		184	ASU01064.1_phage,
+		185	AEQ34342.1_phage,
+		186	AXQ67115.1_phage,
+		187	AGB62714.1_phage,
+		188	AHJ87681.1_phage,
+		189	AHJ87470.1_phage,
+		190	AII27990.1_phage,
+		191	ADL40344.1_phage,
+		192	WP_004398507.1_bacteria,
+		193	WP_004398891.1_bacteria,
+		194	WP_003230521.1_bacteria,
+		195	WP_003245485.1_bacteria,
+		196	WP_003224177.1_bacteria,
+		197	WP_003243678.1_bacteria,
+		198	WP_003234958.1_bacteria,
+		199	AEV89274.1_phage,
+		200	ALN97362.1_phage,
+		201	AFL46426.1_phage,
+		202	CCE73875.1_phage,
+		203	AUO78602.1_phage,
+		204	AGV99468.1_phage,
+		205	AEO93274.1_phage,
+		206	AGE60961.1_phage,
+		207	AGE60807.1_phage,
+		208	AGY46846.1_phage,
+		209	AYP68748.1_phage,
+		210	QFG05971.1_phage,
+		211	QFG05277.1_phage,
+		212	QFG05192.1_phage,
+		213	QFG05890.1_phage,
+		214	QFR56516.1_phage,
+		215	QKE56523.1_phage
+	;
+	TREE * UNTITLED = [&U] (1[&header=BAK53012.1 sigma factor [Bacillus phage SP-10],protein=BAK53012.1,sp=Bacillus phage SP-10,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage SP-10,bs.label=,clade=phage]:0.3658346772,215[&header=QKE56523.1 RNA polymerase sigma factor [Bacillus phage YungSlug],protein=QKE56523.1,sp=Bacillus phage YungSlug,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage YungSlug,bs.label=,clade=phage]:0.237153459,((205[&header=AEO93274.1 gp3 [Bacillus virus G],protein=AEO93274.1,sp=Bacillus virus G,description=gp3,group=phage,symbol=,tip.label=Bacillus virus G,bs.label=,clade=phage]:1.634308136,(((191[&header=ADL40344.1 putative response regulator [Clostridium phage phiCTP1],protein=ADL40344.1,sp=Clostridium phage phiCTP1,description=putative response regulator,group=phage,symbol=,tip.label=Clostridium phage phiCTP1,bs.label=,clade=phage]:2.169313245,(((124[&header=QDP42942.1 RNA polymerase sigma factor [Bacillus phage vB_BmeM-Goe8],protein=QDP42942.1,sp=Bacillus phage vB_BmeM-Goe8,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BmeM-Goe8,bs.label=,clade=phage]:0.7928550218,(((((((4[&header=WP_011130162.1 sigma-70 family RNA polymerase sigma factor [Prochlorococcus marinus],protein=WP_011130162.1,sp=Prochlorococcus_marinus_str._MIT_9313,description=sigma-70 family RNA polymerase sigma factor,group=bacteria,tip.label=Prochlorococcus_marinus_str._MIT_9313_NA,bs.label=,clade=]:1.132621286,(2[&header=AGH27928.1 putative sporulation sigma factor [Clostridium phage vB_CpeS-CP51],protein=AGH27928.1,sp=Clostridium phage vB_CpeS-CP51,description=putative sporulation sigma factor,group=phage,symbol=,tip.label=Clostridium phage vB_CpeS-CP51,bs.label=,clade=phage]:0.4941746682,3[&header=AAL96802.1 putative sigma factor [Clostridium phage phi3626],protein=AAL96802.1,sp=Clostridium phage phi3626,description=putative sigma factor,group=phage,symbol=,tip.label=Clostridium phage phi3626,bs.label=,clade=phage]:0.742421822)[&clade=phage]:0.4373194157)[&clade=]:0.1905115894,(5[&header=WP_011244619.1 MULTISPECIES: RNA polymerase sigma factor SigF [Synechococcus],protein=WP_011244619.1,sp=Synechococcus_elongatus_PCC_6301,description=RNA polymerase sigma factor SigF,group=bacteria,tip.label=Synechococcus_elongatus_PCC_6301_NA,bs.label=,clade=]:0.6404907192,6[&header=WP_011244805.1 MULTISPECIES: RNA polymerase sigma factor SigF [Synechococcus],protein=WP_011244805.1,sp=Synechococcus_elongatus_PCC_6301,description=RNA polymerase sigma factor SigF,group=bacteria,tip.label=Synechococcus_elongatus_PCC_6301_NA,bs.label=,clade=]:0.3809270184)[&clade=]:0.3698507228)[&clade=]:0.0523453835,((9[&header=BAK52932.1 RNA polymerase sigma factor [Bacillus phage SP-10],protein=BAK52932.1,sp=Bacillus phage SP-10,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage SP-10,bs.label=,clade=phage]:0.9245790135,(7[&header=AEO93340.1 gp69 [Bacillus virus G],protein=AEO93340.1,sp=Bacillus virus G,description=gp69,group=phage,symbol=,tip.label=Bacillus virus G,bs.label=,clade=phage]:1.165895134,8[&header=WP_002025078.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Bacillus],protein=WP_002025078.1,sp=Bacillus_cereus_ATCC_14579,description=sigma-70 family RNA polymerase sigma factor,group=bacteria,tip.label=Bacillus_cereus_ATCC_14579_NA,bs.label=,clade=]:1.104475149)[&clade=]:0.2880768332)[&clade=]:0.2085848184,(10[&header=AKC02694.1 RNA polymerase sigma factor [Bacillus phage Stills],protein=AKC02694.1,sp=Bacillus phage Stills,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Stills,bs.label=,clade=phage]:0.1916723775,(13[&header=AKA61495.1 RNA polymerase sigma factor [Bacillus phage Stahl],protein=AKA61495.1,sp=Bacillus phage Stahl,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Stahl,bs.label=,clade=phage]:0.005675642,(11[&header=AGY48752.1 RNA polymerase sigma factor [Bacillus phage Staley],protein=AGY48752.1,sp=Bacillus phage Staley,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Staley,bs.label=,clade=phage]:1e-06,12[&header=AGY48356.1 RNA polymerase sigma factor SigB [Bacillus phage Slash],protein=AGY48356.1,sp=Bacillus phage Slash,description=RNA polymerase sigma factor SigB,group=phage,symbol=,tip.label=Bacillus phage Slash,bs.label=,clade=phage]:1e-06)[&clade=phage]:2.616e-06)[&clade=phage]:0.2090726925)[&clade=phage]:0.8457844918)[&clade=]:0.1435882119)[&clade=]:0.0728191885,((24[&header=WP_003420464.1 SigB/SigF/SigG family RNA polymerase sigma factor [Clostridioides difficile],protein=WP_003420464.1,sp=Clostridioides_difficile,description=SigB/SigF/SigG family RNA polymerase sigma factor,group=bacteria,tip.label=Clostridioides_difficile_NA,bs.label=,clade=]:0.5637135891,((14[&header=NP_631369.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_631369.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.1717113605,(15[&header=NP_631395.1 RNA polymerase secondary sigma factor [Streptomyces coelicolor A3(2)],protein=NP_631395.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase secondary sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.2796236825,16[&header=NP_630601.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_630601.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.0951270843)[&clade=]:0.1094603963)[&clade=]:0.3683117263,(23[&header=NP_217803.1 RNA polymerase sigma factor SigF [Mycobacterium tuberculosis H37Rv],protein=NP_217803.1,sp=Mycobacterium_tuberculosis_H37Rv,description=RNA polymerase sigma factor SigF,group=bacteria,symbol=sigF,tip.label=Mycobacterium_tuberculosis_H37Rv_sigF,bs.label=,clade=]:0.4985044296,(22[&header=NP_629389.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_629389.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.1869544419,(17[&header=NP_628217.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_628217.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.4314500712,(21[&header=NP_628216.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_628216.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.1008933154,(18[&header=NP_627288.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_627288.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.0450535982,(19[&header=NP_631334.1 RNA polymerase sigma factor [Streptomyces coelicolor A3(2)],protein=NP_631334.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.1153935049,20[&header=NP_624912.1 RNA polymerase sigma factor sig8 [Streptomyces coelicolor A3(2)],protein=NP_624912.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor sig8,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.1053428697)[&clade=]:0.3020675367)[&clade=]:0.1660801585)[&clade=]:0.0553326306)[&clade=]:0.1527534302)[&clade=]:0.084415316)[&clade=]:0.1247557768)[&clade=]:0.2506695944)[&clade=]:0.1389287808,((27[&header=WP_003246715.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],protein=WP_003246715.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigB,group=bacteria,symbol=sigB,tip.label=Bacillus_subtilis_sigB,bs.label=sigB,clade=]:0.2294214057,(25[&header=NP_464421.1 RNA polymerase sigma factor SigB [Listeria monocytogenes EGD-e],protein=NP_464421.1,sp=Listeria_monocytogenes_EGD-e,description=RNA polymerase sigma factor SigB,group=bacteria,symbol=sigB,tip.label=Listeria_monocytogenes_EGD-e_sigB,bs.label=,clade=]:0.1681738266,26[&header=WP_002164611.1 MULTISPECIES: RNA polymerase sigma factor SigB [Bacillus],protein=WP_002164611.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sigma factor SigB,group=bacteria,symbol=sigB,tip.label=Bacillus_cereus_ATCC_14579_sigB,bs.label=,clade=]:0.4491098028)[&clade=]:0.0420948946)[&clade=]:0.2298158434,(28[&header=WP_004081373.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Thermotoga],protein=WP_004081373.1,sp=Thermotoga_maritima_MSB8,description=sigma-70 family RNA polymerase sigma factor,group=bacteria,tip.label=Thermotoga_maritima_MSB8_NA,bs.label=,clade=]:0.6891999657,(29[&header=NP_463774.1 RNA polymerase factor sigma-70 [Listeria monocytogenes EGD-e],protein=NP_463774.1,sp=Listeria_monocytogenes_EGD-e,description=RNA polymerase factor sigma-70,group=bacteria,symbol=sigH,tip.label=Listeria_monocytogenes_EGD-e_sigH,bs.label=,clade=]:0.5673405952,(30[&header=WP_009892548.1 RNA polymerase sporulation sigma factor SigH [Clostridioides difficile],protein=WP_009892548.1,sp=Clostridioides_difficile,description=RNA polymerase sporulation sigma factor SigH,group=bacteria,symbol=sigH,tip.label=Clostridioides_difficile_sigH,bs.label=,clade=]:0.2000476221,(31[&header=WP_003225758.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillaceae],protein=WP_003225758.1,sp=Bacillus_subtilis,description=RNA polymerase sporulation sigma factor SigH,group=bacteria,symbol=sigH,tip.label=Bacillus_subtilis_sigH,bs.label=sigH,clade=]:0.0799069985,32[&header=WP_000387193.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigH [Bacillus],protein=WP_000387193.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sporulation sigma factor SigH,group=bacteria,tip.label=Bacillus_cereus_ATCC_14579_NA,bs.label=,clade=]:0.0670558854)[&clade=]:0.0917721762)[&clade=]:0.1300098868)[&clade=]:0.6522879837)[&clade=]:0.6986446766)[&clade=]:0.2344932243)[&clade=]:0.1244140789)[&clade=]:0.0426815169,((((47[&header=WP_003226225.1 MULTISPECIES: RNA polymerase sigma factor RpoD [Bacillaceae],protein=WP_003226225.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor RpoD,group=bacteria,symbol=rpoD,tip.label=Bacillus_subtilis_rpoD,bs.label=rpoD,clade=]:0.7531656433,(46[&header=WP_003435969.1 FliA/WhiG family RNA polymerase sigma factor [Clostridioides difficile],protein=WP_003435969.1,sp=Clostridioides_difficile,description=FliA/WhiG family RNA polymerase sigma factor,group=bacteria,tip.label=Clostridioides_difficile_NA,bs.label=,clade=]:0.4088056555,((((35[&header=WP_004080667.1 FliA/WhiG family RNA polymerase sigma factor [Thermotoga maritima],protein=WP_004080667.1,sp=Thermotoga_maritima_MSB8,description=FliA/WhiG family RNA polymerase sigma factor,group=bacteria,tip.label=Thermotoga_maritima_MSB8_NA,bs.label=,clade=]:0.6612661635,(33[&header=ADL40362.1 putative RNA polymerase sigma factor [Clostridium phage phiCTP1],protein=ADL40362.1,sp=Clostridium phage phiCTP1,description=putative RNA polymerase sigma factor,group=phage,symbol=,tip.label=Clostridium phage phiCTP1,bs.label=,clade=phage]:1.372568432,34[&header=WP_011552512.1 MULTISPECIES: sigma-70 family RNA polymerase sigma factor [Myxococcus],protein=WP_011552512.1,sp=Myxococcus_xanthus_DK_1622,description=sigma-70 family RNA polymerase sigma factor,group=bacteria,tip.label=Myxococcus_xanthus_DK_1622_NA,bs.label=,clade=]:1.331166875)[&clade=]:0.2967504582)[&clade=]:0.0525240226,(36[&header=WP_000602430.1 RNA polymerase sigma factor FliA [Helicobacter pylori],protein=WP_000602430.1,sp=Helicobacter_pylori_26695,description=RNA polymerase sigma factor FliA,group=bacteria,tip.label=Helicobacter_pylori_26695_NA,bs.label=,clade=]:0.3684533017,37[&header=YP_002343525.1 flagellar biosynthesis RNA polymerase sigma factor [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819],protein=YP_002343525.1,sp=Campylobacter_jejuni_subsp._jejuni_NCTC_11168_=_ATCC_700819,description=flagellar biosynthesis RNA polymerase sigma factor,group=bacteria,symbol=fliA,tip.label=Campylobacter_jejuni_subsp._jejuni_NCTC_11168_=_ATCC_700819_fliA,bs.label=,clade=]:0.2224522945)[&clade=]:0.9213045799)[&clade=]:0.1799286285,((38[&header=WP_001030417.1 RNA polymerase sigma factor FliA [Vibrio cholerae],protein=WP_001030417.1,sp=Vibrio_cholerae_O1_biovar_El_Tor_str._N16961,description=RNA polymerase sigma factor FliA,group=bacteria,tip.label=Vibrio_cholerae_O1_biovar_El_Tor_str._N16961_NA,bs.label=,clade=]:0.2535711544,39[&header=NP_250146.1 flagellar biosynthesis sigma factor FliA [Pseudomonas aeruginosa PAO1],protein=NP_250146.1,sp=Pseudomonas_aeruginosa_PAO1,description=flagellar biosynthesis sigma factor FliA,group=bacteria,symbol=fliA,tip.label=Pseudomonas_aeruginosa_PAO1_fliA,bs.label=,clade=]:0.2688591411)[&clade=]:0.2604096872,(40[&header=WP_170864009.1 MULTISPECIES: RNA polymerase sigma factor FliA [Ralstonia],protein=WP_170864009.1,sp=Ralstonia_solanacearum_GMI1000,description=RNA polymerase sigma factor FliA,group=bacteria,tip.label=Ralstonia_solanacearum_GMI1000_NA,bs.label=,clade=]:0.4575487655,41[&header=NP_416432.3 RNA polymerase, sigma 28 (sigma F) factor [Escherichia coli str. K-12 substr. MG1655],protein=NP_416432.3,sp=Escherichia_coli_str._K-12_substr._MG1655,description=RNA polymerase, sigma 28 (sigma F) factor,group=bacteria,symbol=fliA,tip.label=Escherichia_coli_str._K-12_substr._MG1655_fliA,bs.label=,clade=]:0.3298745061)[&clade=]:0.1222229845)[&clade=]:0.1348305078)[&clade=]:0.1086997116,(45[&header=WP_025309103.1 FliA/WhiG family RNA polymerase sigma factor [Bdellovibrio bacteriovorus],protein=WP_025309103.1,sp=Bdellovibrio_bacteriovorus_W,description=FliA/WhiG family RNA polymerase sigma factor,group=bacteria,tip.label=Bdellovibrio_bacteriovorus_W_NA,bs.label=,clade=]:0.3534751173,(44[&header=WP_003220911.1 MULTISPECIES: RNA polymerase sigma-28 factor SigD [Bacillaceae],protein=WP_003220911.1,sp=Bacillus_subtilis,description=RNA polymerase sigma-28 factor SigD,group=bacteria,symbol=sigD,tip.label=Bacillus_subtilis_sigD,bs.label=sigD,clade=]:0.6970509882,(42[&header=WP_014342819.1 RNA polymerase sigma factor WhiG [Treponema pallidum],protein=WP_014342819.1,sp=Treponema_pallidum_subsp._pallidum_str._Sea_81-4,description=RNA polymerase sigma factor WhiG,group=bacteria,symbol=whiG,tip.label=Treponema_pallidum_subsp._pallidum_str._Sea_81-4_whiG,bs.label=,clade=]:0.4069242328,43[&header=NP_629755.1 RNA polymerase sigma factor WhiG [Streptomyces coelicolor A3(2)],protein=NP_629755.1,sp=Streptomyces_coelicolor_A3(2),description=RNA polymerase sigma factor WhiG,group=bacteria,tip.label=Streptomyces_coelicolor_A3(2)_NA,bs.label=,clade=]:0.3431064114)[&clade=]:0.171606144)[&clade=]:0.1151496248)[&clade=]:0.0793280983)[&clade=]:0.2248117342)[&clade=]:0.3064756187)[&clade=]:0.1301884164,(48[&header=AGB62713.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage phiAGATE],protein=AGB62713.1,sp=Bacillus phage phiAGATE,description=putative RNA polymerase sigma factor SigF 2,group=phage,symbol=,tip.label=Bacillus phage phiAGATE,bs.label=,clade=phage]:0.1920796783,(51[&header=AII27989.1 RNA polymerase sigma factor [Bacillus phage Bobb],protein=AII27989.1,sp=Bacillus phage Bobb,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Bobb,bs.label=,clade=phage]:0.2418346396,(49[&header=AHJ87680.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage Bp8p-T],protein=AHJ87680.1,sp=Bacillus phage Bp8p-T,description=putative RNA polymerase sigma factor SigF 2,group=phage,symbol=,tip.label=Bacillus phage Bp8p-T,bs.label=,clade=phage]:1e-06,50[&header=AHJ87469.1 putative RNA polymerase sigma factor SigF 2 [Bacillus phage Bp8p-C],protein=AHJ87469.1,sp=Bacillus phage Bp8p-C,description=putative RNA polymerase sigma factor SigF 2,group=phage,symbol=,tip.label=Bacillus phage Bp8p-C,bs.label=,clade=phage]:2.0083e-06)[&clade=phage]:0.2640959231)[&clade=phage]:0.0626376569)[&clade=phage]:0.8585843109)[&clade=]:0.121255552,((56[&header=QMV48586.1 putative RNA polymerase sigma-70-like protein [Bacillus phage vB_BsuM-Goe10],protein=QMV48586.1,sp=Bacillus phage vB_BsuM-Goe10,description=putative RNA polymerase sigma-70-like protein,group=phage,symbol=,tip.label=Bacillus phage vB_BsuM-Goe10,bs.label=,clade=phage]:0.484336977,(52[&header=ACI90961.1 gp2.21 [Bacillus virus SPO1],protein=ACI90961.1,sp=Bacillus virus SPO1,description=gp2.21,group=phage,symbol=,tip.label=Bacillus virus SPO1,bs.label=,clade=phage]:2.258e-06,(55[&header=AGY46934.1 RNA polymerase sigma factor [Bacillus phage CampHawk],protein=AGY46934.1,sp=Bacillus phage CampHawk,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage CampHawk,bs.label=,clade=phage]:2.6611e-06,(53[&header=QMV48360.1 putative RNA polymerase sigma-70-like protein [Bacillus phage vB_BsuM-Goe9],protein=QMV48360.1,sp=Bacillus phage vB_BsuM-Goe9,description=putative RNA polymerase sigma-70-like protein,group=phage,symbol=,tip.label=Bacillus phage vB_BsuM-Goe9,bs.label=,clade=phage]:0.064276723,54[&header=APZ82294.1 RNA polymerase sigma factor [Bacillus phage vB_BsuM-Goe2],protein=APZ82294.1,sp=Bacillus phage vB_BsuM-Goe2,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BsuM-Goe2,bs.label=,clade=phage]:2.8139e-06)[&clade=phage]:0.0075174655)[&clade=phage]:0.0152509363)[&clade=phage]:0.809248002)[&clade=phage]:0.9054810704,(61[&header=WP_000051382.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigK [Bacillus],protein=WP_000051382.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sporulation sigma factor SigK,group=bacteria,symbol=sigK,tip.label=Bacillus_cereus_ATCC_14579_sigK,bs.label=,clade=]:0.4407751079,(57[&header=QDP42999.1 RNA polymerase sigma factor [Bacillus phage vB_BmeM-Goe8],protein=QDP42999.1,sp=Bacillus phage vB_BmeM-Goe8,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BmeM-Goe8,bs.label=,clade=phage]:0.4845780363,(60[&header=WP_003221446.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigE [Bacillaceae],protein=WP_003221446.1,sp=Bacillus_subtilis,description=RNA polymerase sporulation sigma factor SigE,group=bacteria,symbol=sigE,tip.label=Bacillus_subtilis_sigE,bs.label=sigE,clade=]:0.0322668222,(58[&header=WP_003416098.1 RNA polymerase sporulation sigma factor SigE [Clostridioides difficile],protein=WP_003416098.1,sp=Clostridioides_difficile,description=RNA polymerase sporulation sigma factor SigE,group=bacteria,symbol=sigE,tip.label=Clostridioides_difficile_sigE,bs.label=,clade=]:0.2367565446,59[&header=WP_000976948.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigE [Bacillus],protein=WP_000976948.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sporulation sigma factor SigE,group=bacteria,symbol=sigE,tip.label=Bacillus_cereus_ATCC_14579_sigE,bs.label=,clade=]:0.0135624756)[&clade=]:0.0342745634)[&clade=]:0.3193847163)[&clade=]:0.1277237138)[&clade=]:0.1306412936)[&clade=]:0.1982802412)[&clade=]:0.0480283831,(((67[&header=AFQ96418.1 putative RNA polymerase sigma factor G [Bacillus phage vB_BceM_Bc431v3],protein=AFQ96418.1,sp=Bacillus phage vB_BceM_Bc431v3,description=putative RNA polymerase sigma factor G,group=phage,symbol=,tip.label=Bacillus phage vB_BceM_Bc431v3,bs.label=,clade=phage]:0.0896676537,(66[&header=AMO25912.1 RNA polymerase sigma-70 factor sigma-B/F/G subfamily [Bacillus phage Deep Blue],protein=AMO25912.1,sp=Bacillus phage Deep Blue,description=RNA polymerase sigma-70 factor sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage Deep Blue,bs.label=,clade=phage]:0.1417747745,(65[&header=AXQ67819.1 RNA polymerase sigma factor [Bacillus phage Kioshi],protein=AXQ67819.1,sp=Bacillus phage Kioshi,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Kioshi,bs.label=,clade=phage]:0.0110288147,(64[&header=AHN66674.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage Bcp1],protein=AHN66674.1,sp=Bacillus phage Bcp1,description=RNA polymerase sigma-70 factor, sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage Bcp1,bs.label=,clade=phage]:2.1962e-06,(62[&header=ALO79609.1 sigma70 protein [Bacillus virus BM15],protein=ALO79609.1,sp=Bacillus virus BM15,description=sigma70 protein,group=phage,symbol=,tip.label=Bacillus virus BM15,bs.label=,clade=phage]:2.8893e-06,63[&header=AXQ66957.1 RNA polymerase sigma factor [Bacillus phage Hobo],protein=AXQ66957.1,sp=Bacillus phage Hobo,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Hobo,bs.label=,clade=phage]:2.8368e-06)[&clade=phage]:0.0109623366)[&clade=phage]:2.8759e-06)[&clade=phage]:0.0738744771)[&clade=phage]:0.0520967804)[&clade=phage]:0.126967431,((68[&header=ANY29316.1 putative RNA polymerase sigma factor G [Bacillus phage PK16],protein=ANY29316.1,sp=Bacillus phage PK16,description=putative RNA polymerase sigma factor G,group=phage,symbol=,tip.label=Bacillus phage PK16,bs.label=,clade=phage]:1e-06,69[&header=AUM58961.1 DNA replication/modification protein [Bacillus phage BCP01],protein=AUM58961.1,sp=Bacillus phage BCP01,description=DNA replication/modification protein,group=phage,symbol=,tip.label=Bacillus phage BCP01,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0144136576,(70[&header=AID17799.1 putative RNA polymerase sigma factor G [Bacillus phage JBP901],protein=AID17799.1,sp=Bacillus phage JBP901,description=putative RNA polymerase sigma factor G,group=phage,symbol=,tip.label=Bacillus phage JBP901,bs.label=,clade=phage]:0.0055892274,71[&header=AHJ87164.1 putative RNA polymerase sigma factor G [Bacillus phage BCP8-2],protein=AHJ87164.1,sp=Bacillus phage BCP8-2,description=putative RNA polymerase sigma factor G,group=phage,symbol=,tip.label=Bacillus phage BCP8-2,bs.label=,clade=phage]:0.0165244436)[&clade=phage]:0.0415238469)[&clade=phage]:0.0701083994)[&clade=phage]:0.4938149793,((72[&header=QEG13664.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage vB_BspM_MarvelLand],protein=QEG13664.1,sp=Bacillus phage vB_BspM_MarvelLand,description=putative RNA polymerase sigma 28 subunit SigG,group=phage,symbol=,tip.label=Bacillus phage vB_BspM_MarvelLand,bs.label=,clade=phage]:0.0635225676,(73[&header=ALA07698.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage PBC6],protein=ALA07698.1,sp=Bacillus phage PBC6,description=putative RNA polymerase sigma 28 subunit SigG,group=phage,symbol=,tip.label=Bacillus phage PBC6,bs.label=,clade=phage]:2.2338e-06,74[&header=AXU41213.1 RNA polymerase sigma factor [Bacillus phage BC01],protein=AXU41213.1,sp=Bacillus phage BC01,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BC01,bs.label=,clade=phage]:2.3733e-06)[&clade=phage]:0.0164801258)[&clade=phage]:0.1215299485,(79[&header=QEG04257.1 RNA polymerase sigma factor [Bacillus phage BC-T25],protein=QEG04257.1,sp=Bacillus phage BC-T25,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BC-T25,bs.label=,clade=phage]:0.0954870337,(75[&header=ALA13222.1 RNA polymerase sigma factor [Bacillus phage TsarBomba],protein=ALA13222.1,sp=Bacillus phage TsarBomba,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage TsarBomba,bs.label=,clade=phage]:0.0216120108,(78[&header=AEW47116.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCP78],protein=AEW47116.1,sp=Bacillus phage BCP78,description=putative RNA polymerase sigma 28 subunit SigG,group=phage,symbol=,tip.label=Bacillus phage BCP78,bs.label=,clade=phage]:1e-06,(76[&header=AEW47605.1 putative RNA polymerase sigma 28 subunit SigG [Bacillus phage BCU4],protein=AEW47605.1,sp=Bacillus phage BCU4,description=putative RNA polymerase sigma 28 subunit SigG,group=phage,symbol=,tip.label=Bacillus phage BCU4,bs.label=,clade=phage]:0,77[&header=AQN32487.1 RNA polymerase sporulation specific sigma factor SigG [Bacillus phage BCP12],protein=AQN32487.1,sp=Bacillus phage BCP12,description=RNA polymerase sporulation specific sigma factor SigG,group=phage,symbol=,tip.label=Bacillus phage BCP12,bs.label=,clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.0418744119)[&clade=phage]:0.0733479974)[&clade=phage]:0.2511273466)[&clade=phage]:0.531522656)[&clade=phage]:0.2866899318)[&clade=]:0.0383104021)[&clade=]:0.098056752,((82[&header=AXH71210.1 putative RNA polymerase sigma factor 2 [Bacillus phage BSP38],protein=AXH71210.1,sp=Bacillus phage BSP38,description=putative RNA polymerase sigma factor 2,group=phage,symbol=,tip.label=Bacillus phage BSP38,bs.label=,clade=phage]:0.4804263016,(80[&header=QDP43184.1 putative RNA polymerase sigma-70 [Bacillus phage vB_BveM-Goe7],protein=QDP43184.1,sp=Bacillus phage vB_BveM-Goe7,description=putative RNA polymerase sigma-70,group=phage,symbol=,tip.label=Bacillus phage vB_BveM-Goe7,bs.label=,clade=phage]:2.3558e-06,81[&header=APZ82618.1 RNA polymerase sigma factor [Bacillus phage vB_BsuM-Goe3],protein=APZ82618.1,sp=Bacillus phage vB_BsuM-Goe3,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BsuM-Goe3,bs.label=,clade=phage]:0.058630215)[&clade=phage]:0.6075257408)[&clade=phage]:0.6214327766,(83[&header=AIW03562.1 RNA polymerase sigma factor [Bacillus phage Moonbeam],protein=AIW03562.1,sp=Bacillus phage Moonbeam,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Moonbeam,bs.label=,clade=phage]:0.153368649,84[&header=AMB18751.1 RNA polymerase sigma factor [Bacillus phage Eldridge],protein=AMB18751.1,sp=Bacillus phage Eldridge,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Eldridge,bs.label=,clade=phage]:0.1613675466)[&clade=phage]:0.6327599106)[&clade=phage]:0.1032846755)[&clade=]:0.0388650807,((((97[&header=QKE56338.1 RNA polymerase sigma factor [Bacillus phage YungSlug],protein=QKE56338.1,sp=Bacillus phage YungSlug,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage YungSlug,bs.label=,clade=phage]:0.6152125367,((93[&header=QDP43462.1 sigma-70 family RNA polymerase sigma factor [Bacillus phage vB_BthS-HD29phi],protein=QDP43462.1,sp=Bacillus phage vB_BthS-HD29phi,description=sigma-70 family RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BthS-HD29phi,bs.label=,clade=phage]:0.1183940817,((89[&header=AZF88386.1 putative RNA polymerase sigma subunit [Bacillus phage AP631],protein=AZF88386.1,sp=Bacillus phage AP631,description=putative RNA polymerase sigma subunit,group=phage,symbol=,tip.label=Bacillus phage AP631,bs.label=,clade=phage]:0.0357824189,(88[&header=ABA46386.1 RNA polymerase sigma factor, putative [Bacillus phage Cherry],protein=ABA46386.1,sp=Bacillus phage Cherry,description=RNA polymerase sigma factor, putative,group=phage,symbol=,tip.label=Bacillus phage Cherry,bs.label=,clade=phage]:2.6297e-06,(87[&header=ABC40488.1 putative RNA polymerase sigma subunit [Bacillus phage Gamma isolate d'Herelle],protein=ABC40488.1,sp=Bacillus phage Gamma isolate d'Herelle,description=putative RNA polymerase sigma subunit,group=phage,symbol=,tip.label=Bacillus phage Gamma isolate d'Herelle,bs.label=,clade=phage]:2.2793e-06,(85[&header=ABC40436.1 putative RNA polymerase sigma subunit [Bacillus virus Wbeta],protein=ABC40436.1,sp=Bacillus virus Wbeta,description=putative RNA polymerase sigma subunit,group=phage,symbol=,tip.label=Bacillus virus Wbeta,bs.label=,clade=phage]:0,86[&header=ABA42728.1 sigma70 factor [Bacillus phage Fah],protein=ABA42728.1,sp=Bacillus phage Fah,description=sigma70 factor,group=phage,symbol=,tip.label=Bacillus phage Fah,bs.label=,clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:1e-06)[&clade=phage]:0.0340513062)[&clade=phage]:0.0350505845,(92[&header=ARW58529.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Carmel_SA],protein=ARW58529.1,sp=Bacillus phage Carmel_SA,description=RNA polymerase sporulation specific sigma factor,group=phage,symbol=,tip.label=Bacillus phage Carmel_SA,bs.label=,clade=phage]:0.0403313321,(90[&header=ARW58411.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Tavor_SA],protein=ARW58411.1,sp=Bacillus phage Tavor_SA,description=RNA polymerase sporulation specific sigma factor,group=phage,symbol=,tip.label=Bacillus phage Tavor_SA,bs.label=,clade=phage]:0.0055058086,91[&header=ARW58471.1 RNA polymerase sporulation specific sigma factor [Bacillus phage Negev_SA],protein=ARW58471.1,sp=Bacillus phage Negev_SA,description=RNA polymerase sporulation specific sigma factor,group=phage,symbol=,tip.label=Bacillus phage Negev_SA,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0041563807)[&clade=phage]:0.0241469994)[&clade=phage]:0.1303808728)[&clade=phage]:0.283293361,(96[&header=ANT40413.1 putative RNA polymerase sigma subunit [Bacillus phage PfEFR-5],protein=ANT40413.1,sp=Bacillus phage PfEFR-5,description=putative RNA polymerase sigma subunit,group=phage,symbol=,tip.label=Bacillus phage PfEFR-5,bs.label=,clade=phage]:1e-06,(94[&header=ALV83472.1 DNA-directed RNA polymerase sigma-70 factor [Bacillus phage vB_BceS-MY192],protein=ALV83472.1,sp=Bacillus phage vB_BceS-MY192,description=DNA-directed RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus phage vB_BceS-MY192,bs.label=,clade=phage]:2.3309e-06,95[&header=ANT40183.1 putative RNA polymerase sigma subunit [Bacillus phage PfEFR-4],protein=ANT40183.1,sp=Bacillus phage PfEFR-4,description=putative RNA polymerase sigma subunit,group=phage,symbol=,tip.label=Bacillus phage PfEFR-4,bs.label=,clade=phage]:1e-06)[&clade=phage]:2.4621e-06)[&clade=phage]:0.5391487157)[&clade=phage]:0.4596911799)[&clade=phage]:0.1970886142,(98[&header=AKC02726.1 RNA polymerase sigma factor [Bacillus phage Stills],protein=AKC02726.1,sp=Bacillus phage Stills,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Stills,bs.label=,clade=phage]:0.0543915845,(101[&header=AGY48388.1 RNA polymerase sigma factor [Bacillus phage Slash],protein=AGY48388.1,sp=Bacillus phage Slash,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Slash,bs.label=,clade=phage]:0.0746964405,(99[&header=AGY48783.1 RNA polymerase sigma 70 factor [Bacillus phage Staley],protein=AGY48783.1,sp=Bacillus phage Staley,description=RNA polymerase sigma 70 factor,group=phage,symbol=,tip.label=Bacillus phage Staley,bs.label=,clade=phage]:2.1333e-06,100[&header=AKA61526.1 RNA polymerase sigma factor [Bacillus phage Stahl],protein=AKA61526.1,sp=Bacillus phage Stahl,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Stahl,bs.label=,clade=phage]:0.0057663078)[&clade=phage]:0.0761764713)[&clade=phage]:0.1206789402)[&clade=phage]:0.5724762971)[&clade=phage]:0.1295099057,((((102[&header=QEG13663.1 putative RNA polymerase sigma factor [Bacillus phage vB_BspM_MarvelLand],protein=QEG13663.1,sp=Bacillus phage vB_BspM_MarvelLand,description=putative RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BspM_MarvelLand,bs.label=,clade=phage]:2.7176e-06,103[&header=ALA13223.1 RNA polymerase sigma factor [Bacillus phage TsarBomba],protein=ALA13223.1,sp=Bacillus phage TsarBomba,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage TsarBomba,bs.label=,clade=phage]:2.076e-06)[&clade=phage]:0.0167873222,(104[&header=ALA07697.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage PBC6],protein=ALA07697.1,sp=Bacillus phage PBC6,description=putative RNA polymerase sigma 28 subunit SigF,group=phage,symbol=,tip.label=Bacillus phage PBC6,bs.label=,clade=phage]:2.842e-06,105[&header=AXU41211.1 RNA polymerase sigma factor [Bacillus phage BC01],protein=AXU41211.1,sp=Bacillus phage BC01,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BC01,bs.label=,clade=phage]:2.7159e-06)[&clade=phage]:0.0061708298)[&clade=phage]:0.233241194,((106[&header=AOZ62117.1 RNA polymerase sigma 28 subunit [Bacillus phage QCM8],protein=AOZ62117.1,sp=Bacillus phage QCM8,description=RNA polymerase sigma 28 subunit,group=phage,symbol=,tip.label=Bacillus phage QCM8,bs.label=,clade=phage]:0.0606696562,107[&header=QEG04258.1 putative RNA polymerase sigma 28 subunit [Bacillus phage BC-T25],protein=QEG04258.1,sp=Bacillus phage BC-T25,description=putative RNA polymerase sigma 28 subunit,group=phage,symbol=,tip.label=Bacillus phage BC-T25,bs.label=,clade=phage]:0.0345886998)[&clade=phage]:0.0435267594,(110[&header=AEW47115.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage BCP78],protein=AEW47115.1,sp=Bacillus phage BCP78,description=putative RNA polymerase sigma 28 subunit SigF,group=phage,symbol=,tip.label=Bacillus phage BCP78,bs.label=,clade=phage]:2.8678e-06,(108[&header=AEW47604.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage BCU4],protein=AEW47604.1,sp=Bacillus phage BCU4,description=putative RNA polymerase sigma 28 subunit SigF,group=phage,symbol=,tip.label=Bacillus phage BCU4,bs.label=,clade=phage]:0,109[&header=AQN32486.1 RNA polymerase sporulation specific sigma factor SigF [Bacillus phage BCP12],protein=AQN32486.1,sp=Bacillus phage BCP12,description=RNA polymerase sporulation specific sigma factor SigF,group=phage,symbol=,tip.label=Bacillus phage BCP12,bs.label=,clade=phage]:0)[&clade=phage]:2.1108e-06)[&clade=phage]:0.0431069689)[&clade=phage]:0.2443270624)[&clade=phage]:0.4004970032,(119[&header=AIW03238.1 RNA polymerase sigma factor [Bacillus phage Mater],protein=AIW03238.1,sp=Bacillus phage Mater,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Mater,bs.label=,clade=phage]:0.4521317972,((111[&header=AIW03563.1 RNA polymerase sigma factor [Bacillus phage Moonbeam],protein=AIW03563.1,sp=Bacillus phage Moonbeam,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Moonbeam,bs.label=,clade=phage]:0.1665114144,112[&header=AMB18752.1 sporulation sigma factor SigF [Bacillus phage Eldridge],protein=AMB18752.1,sp=Bacillus phage Eldridge,description=sporulation sigma factor SigF,group=phage,symbol=,tip.label=Bacillus phage Eldridge,bs.label=,clade=phage]:0.1973959656)[&clade=phage]:0.139028506,((113[&header=WP_011860953.1 RNA polymerase sporulation sigma factor SigF [Clostridioides difficile],protein=WP_011860953.1,sp=Clostridioides_difficile,description=RNA polymerase sporulation sigma factor SigF,group=bacteria,symbol=sigF,tip.label=Clostridioides_difficile_sigF,bs.label=,clade=]:0.4510000769,(114[&header=WP_003416101.1 RNA polymerase sporulation sigma factor SigG [Clostridioides difficile],protein=WP_003416101.1,sp=Clostridioides_difficile,description=RNA polymerase sporulation sigma factor SigG,group=bacteria,symbol=sigG,tip.label=Clostridioides_difficile_sigG,bs.label=,clade=]:0.206418322,(115[&header=WP_009967190.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigG [Bacillus],protein=WP_009967190.1,sp=Bacillus_subtilis,description=RNA polymerase sporulation sigma factor SigG,group=bacteria,symbol=sigG,tip.label=Bacillus_subtilis_sigG,bs.label=sigG,clade=]:0.0274136315,116[&header=WP_000197755.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigG [Bacillus],protein=WP_000197755.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sporulation sigma factor SigG,group=bacteria,symbol=sigG,tip.label=Bacillus_cereus_ATCC_14579_sigG,bs.label=,clade=]:0.0571096703)[&clade=]:0.1624091622)[&clade=]:0.2891550325)[&clade=]:0.1071607243,(117[&header=WP_003230458.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillaceae],protein=WP_003230458.1,sp=Bacillus_subtilis,description=RNA polymerase sporulation sigma factor SigF,group=bacteria,symbol=sigF,tip.label=Bacillus_subtilis_sigF,bs.label=sigF,clade=]:0.0942722067,118[&header=WP_000350729.1 MULTISPECIES: RNA polymerase sporulation sigma factor SigF [Bacillus],protein=WP_000350729.1,sp=Bacillus_cereus_ATCC_14579,description=RNA polymerase sporulation sigma factor SigF,group=bacteria,symbol=sigF,tip.label=Bacillus_cereus_ATCC_14579_sigF,bs.label=,clade=]:0.0867294015)[&clade=]:0.1038315179)[&clade=]:0.0437343323)[&clade=]:0.1246108247)[&clade=]:0.0187718416)[&clade=]:0.0620061782)[&clade=]:0.0650259386,(123[&header=AGY47431.1 RNA polymerase sigma-70 factor [Bacillus phage Grass],protein=AGY47431.1,sp=Bacillus phage Grass,description=RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus phage Grass,bs.label=,clade=phage]:2.2965e-06,(120[&header=BAN59653.1 putative sigma factor [Bacillus phage phiNIT1],protein=BAN59653.1,sp=Bacillus phage phiNIT1,description=putative sigma factor,group=phage,symbol=,tip.label=Bacillus phage phiNIT1,bs.label=,clade=phage]:0.0289881928,(121[&header=ATN94413.1 RNA polymerase sigma 70 factor [Bacillus phage BSP9],protein=ATN94413.1,sp=Bacillus phage BSP9,description=RNA polymerase sigma 70 factor,group=phage,symbol=,tip.label=Bacillus phage BSP9,bs.label=,clade=phage]:2.0893e-06,122[&header=AUO79472.1 RNA polymerase sigma factor 2 [Bacillus phage BSP10],protein=AUO79472.1,sp=Bacillus phage BSP10,description=RNA polymerase sigma factor 2,group=phage,symbol=,tip.label=Bacillus phage BSP10,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0112649502)[&clade=phage]:0.0226074308)[&clade=phage]:0.6102152336)[&clade=]:0.0478088523)[&clade=]:0.1358782125)[&clade=]:0.0986562199,(((((128[&header=AXQ67820.1 RNA polymerase subunit alpha [Bacillus phage Kioshi],protein=AXQ67820.1,sp=Bacillus phage Kioshi,description=RNA polymerase subunit alpha,group=phage,symbol=,tip.label=Bacillus phage Kioshi,bs.label=,clade=phage]:0.0196562726,(127[&header=AXQ66958.1 RNA polymerase subunit alpha [Bacillus phage Hobo],protein=AXQ66958.1,sp=Bacillus phage Hobo,description=RNA polymerase subunit alpha,group=phage,symbol=,tip.label=Bacillus phage Hobo,bs.label=,clade=phage]:1e-06,(125[&header=ALO79610.1 RNA polymerase sigma factor [Bacillus virus BM15],protein=ALO79610.1,sp=Bacillus virus BM15,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus virus BM15,bs.label=,clade=phage]:0,126[&header=AHN66675.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage Bcp1],protein=AHN66675.1,sp=Bacillus phage Bcp1,description=RNA polymerase sigma-70 factor, sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage Bcp1,bs.label=,clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.0159665368)[&clade=phage]:0.066921204,(129[&header=AFQ96417.1 RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage vB_BceM_Bc431v3],protein=AFQ96417.1,sp=Bacillus phage vB_BceM_Bc431v3,description=RNA polymerase sigma-70 factor, sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage vB_BceM_Bc431v3,bs.label=,clade=phage]:0.0862053794,(132[&header=AMO25911.1 RNA polymerase sigma-70 factor sigma-B/F/G subfamily [Bacillus phage Deep Blue],protein=AMO25911.1,sp=Bacillus phage Deep Blue,description=RNA polymerase sigma-70 factor sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage Deep Blue,bs.label=,clade=phage]:0.1846119611,(130[&header=ANY29315.1 putative RNA polymerase sigma-70 factor [Bacillus phage PK16],protein=ANY29315.1,sp=Bacillus phage PK16,description=putative RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus phage PK16,bs.label=,clade=phage]:2.6154e-06,131[&header=AUM58962.1 DNA replication/modification protein [Bacillus phage BCP01],protein=AUM58962.1,sp=Bacillus phage BCP01,description=DNA replication/modification protein,group=phage,symbol=,tip.label=Bacillus phage BCP01,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0901305283)[&clade=phage]:0.0377787821)[&clade=phage]:0.0457017203)[&clade=phage]:0.0590850841,(133[&header=AID17798.1 putative RNA polymerase sigma-70 factor [Bacillus phage JBP901],protein=AID17798.1,sp=Bacillus phage JBP901,description=putative RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus phage JBP901,bs.label=,clade=phage]:1e-06,134[&header=AHJ87163.1 putative RNA polymerase sigma-70 factor, sigma-B/F/G subfamily [Bacillus phage BCP8-2],protein=AHJ87163.1,sp=Bacillus phage BCP8-2,description=putative RNA polymerase sigma-70 factor, sigma-B/F/G subfamily,group=phage,symbol=,tip.label=Bacillus phage BCP8-2,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0151315277)[&clade=phage]:0.9906400174,(((135[&header=AGY46709.1 RNA polymerase sigma factor [Bacillus phage BigBertha],protein=AGY46709.1,sp=Bacillus phage BigBertha,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BigBertha,bs.label=,clade=phage]:1e-06,136[&header=ALA13372.1 SigF-like RNA polymerase sigma factor [Bacillus phage AvesoBmore],protein=ALA13372.1,sp=Bacillus phage AvesoBmore,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage AvesoBmore,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.4887248732,(139[&header=QEM43258.1 RNA polymerase sigma factor [Bacillus phage Chotacabras],protein=QEM43258.1,sp=Bacillus phage Chotacabras,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Chotacabras,bs.label=,clade=phage]:0.0230335841,(137[&header=AEW47372.1 putative RNA polymerase sigma 28 subunit SigF [Bacillus phage B5S],protein=AEW47372.1,sp=Bacillus phage B5S,description=putative RNA polymerase sigma 28 subunit SigF,group=phage,symbol=,tip.label=Bacillus phage B5S,bs.label=,clade=phage]:1e-06,138[&header=AEZ65936.1 sporulation sigma factor SigF-like protein [Bacillus phage B4],protein=AEZ65936.1,sp=Bacillus phage B4,description=sporulation sigma factor SigF-like protein,group=phage,symbol=,tip.label=Bacillus phage B4,bs.label=,clade=phage]:2.9961e-06)[&clade=phage]:0.0334109555)[&clade=phage]:0.5071267582)[&clade=phage]:0.1521954655,((145[&header=ASZ75934.1 SigF-like RNA polymerase sigma factor [Bacillus phage Taffo16],protein=ASZ75934.1,sp=Bacillus phage Taffo16,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Taffo16,bs.label=,clade=phage]:1e-06,(144[&header=AIF72077.1 sigF-like RNA polymerase [Bacillus phage Riley],protein=AIF72077.1,sp=Bacillus phage Riley,description=sigF-like RNA polymerase,group=phage,symbol=,tip.label=Bacillus phage Riley,bs.label=,clade=phage]:0,(143[&header=AMW62240.1 sigma factor [Bacillus phage Phrodo],protein=AMW62240.1,sp=Bacillus phage Phrodo,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Phrodo,bs.label=,clade=phage]:0,(142[&header=AMW61625.1 sigma factor [Bacillus phage Juglone],protein=AMW61625.1,sp=Bacillus phage Juglone,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Juglone,bs.label=,clade=phage]:0,(140[&header=AGT13480.1 RNA polymerase, SigF-like [Bacillus phage Troll],protein=AGT13480.1,sp=Bacillus phage Troll,description=RNA polymerase, SigF-like,group=phage,symbol=,tip.label=Bacillus phage Troll,bs.label=,clade=phage]:0,141[&header=QDH49898.1 sigma factor [Bacillus phage Beyonphe],protein=QDH49898.1,sp=Bacillus phage Beyonphe,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Beyonphe,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.1062310409,(146[&header=AGY48597.1 RNA polymerase sigma factor [Bacillus phage Spock],protein=AGY48597.1,sp=Bacillus phage Spock,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Spock,bs.label=,clade=phage]:2.9835e-06,147[&header=ARQ95128.1 SigF-like RNA polymerase sigma factor [Bacillus phage Flapjack],protein=ARQ95128.1,sp=Bacillus phage Flapjack,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Flapjack,bs.label=,clade=phage]:2.5727e-06)[&clade=phage]:0.0952877481)[&clade=phage]:0.6289137359)[&clade=phage]:0.1285452481)[&clade=phage]:0.1070969166,((((((156[&header=ANM46154.1 RNA polymerase sigma factor [Bacillus phage Belinda],protein=ANM46154.1,sp=Bacillus phage Belinda,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Belinda,bs.label=,clade=phage]:0.0052835771,((153[&header=ASR78944.1 RNA polymerase sigma factor [Bacillus phage AaronPhadgers],protein=ASR78944.1,sp=Bacillus phage AaronPhadgers,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage AaronPhadgers,bs.label=,clade=phage]:2.0552e-06,(152[&header=QLF85884.1 RNA polymerase sigma factor [Bacillus phage Tomato],protein=QLF85884.1,sp=Bacillus phage Tomato,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Tomato,bs.label=,clade=phage]:0.0056228662,(151[&header=AUV57859.1 SigF-like RNA polymerase sigma factor [Bacillus phage HonestAbe],protein=AUV57859.1,sp=Bacillus phage HonestAbe,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage HonestAbe,bs.label=,clade=phage]:0.0056304851,(148[&header=AMW62487.1 sigma factor [Bacillus phage Zuko],protein=AMW62487.1,sp=Bacillus phage Zuko,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Zuko,bs.label=,clade=phage]:2.4336e-06,(149[&header=AXF41881.1 RNA polymerase sigma factor [Bacillus phage Saddex],protein=AXF41881.1,sp=Bacillus phage Saddex,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Saddex,bs.label=,clade=phage]:1e-06,150[&header=AMW62796.1 sigma factor [Bacillus phage DIGNKC],protein=AMW62796.1,sp=Bacillus phage DIGNKC,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage DIGNKC,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0056559132)[&clade=phage]:2.424e-06)[&clade=phage]:0.005632894)[&clade=phage]:2.3547e-06)[&clade=phage]:0.0056482154,(154[&header=AOZ62476.1 RNA polymerase sigma factor [Bacillus phage SBP8a],protein=AOZ62476.1,sp=Bacillus phage SBP8a,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage SBP8a,bs.label=,clade=phage]:1e-06,155[&header=AOZ61848.1 RNA polymerase sigma factor [Bacillus phage BJ4],protein=AOZ61848.1,sp=Bacillus phage BJ4,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BJ4,bs.label=,clade=phage]:1e-06)[&clade=phage]:2.3816e-06)[&clade=phage]:0.0117049371)[&clade=phage]:0.0389383825,(165[&header=AMW61377.1 sigma factor [Bacillus phage Nigalana],protein=AMW61377.1,sp=Bacillus phage Nigalana,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Nigalana,bs.label=,clade=phage]:0.0157279396,((160[&header=ANI24840.1 RNA polymerase sigma factor [Bacillus phage Smudge],protein=ANI24840.1,sp=Bacillus phage Smudge,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Smudge,bs.label=,clade=phage]:2.5985e-06,(159[&header=ALA46534.1 SigF-like RNA polymerase sigma factor [Bacillus phage Eyuki],protein=ALA46534.1,sp=Bacillus phage Eyuki,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Eyuki,bs.label=,clade=phage]:0,(157[&header=ASR79140.1 RNA polymerase sigma factor [Bacillus phage Zainny],protein=ASR79140.1,sp=Bacillus phage Zainny,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Zainny,bs.label=,clade=phage]:0,158[&header=ANT41264.1 sigma factor [Bacillus phage DirtyBetty],protein=ANT41264.1,sp=Bacillus phage DirtyBetty,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage DirtyBetty,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:2.5889e-06,(164[&header=AMW63747.1 sigma factor [Bacillus phage Nemo],protein=AMW63747.1,sp=Bacillus phage Nemo,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Nemo,bs.label=,clade=phage]:2.4183e-06,(163[&header=AHZ10802.1 RNA polymerase sigma factor [Bacillus phage Megatron],protein=AHZ10802.1,sp=Bacillus phage Megatron,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Megatron,bs.label=,clade=phage]:0,(161[&header=AXQ67439.1 RNA polymerase sigma factor [Bacillus phage OmnioDeoPrimus],protein=AXQ67439.1,sp=Bacillus phage OmnioDeoPrimus,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage OmnioDeoPrimus,bs.label=,clade=phage]:0,162[&header=ASR78776.1 RNA polymerase sigma factor [Bacillus phage Bubs],protein=ASR78776.1,sp=Bacillus phage Bubs,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Bubs,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:2.4192e-06)[&clade=phage]:0.005603815)[&clade=phage]:0.0067085807)[&clade=phage]:0.0289375058)[&clade=phage]:0.0685607871,(172[&header=ASR78475.1 RNA polymerase sigma factor [Bacillus phage PPIsBest],protein=ASR78475.1,sp=Bacillus phage PPIsBest,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage PPIsBest,bs.label=,clade=phage]:1e-06,(171[&header=AMW63445.1 sigma factor [Bacillus phage NotTheCreek],protein=AMW63445.1,sp=Bacillus phage NotTheCreek,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage NotTheCreek,bs.label=,clade=phage]:0,(170[&header=ANU79852.1 sigma factor [Bacillus phage Kida],protein=ANU79852.1,sp=Bacillus phage Kida,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Kida,bs.label=,clade=phage]:0,(169[&header=QDH49502.1 sigma factor [Bacillus phage Phireball],protein=QDH49502.1,sp=Bacillus phage Phireball,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Phireball,bs.label=,clade=phage]:0,(168[&header=AHZ10241.1 sigF-like RNA polymerase sigma factor [Bacillus phage Hakuna],protein=AHZ10241.1,sp=Bacillus phage Hakuna,description=sigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Hakuna,bs.label=,clade=phage]:0,(166[&header=AMW63146.1 sigma factor [Bacillus phage SageFayge],protein=AMW63146.1,sp=Bacillus phage SageFayge,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage SageFayge,bs.label=,clade=phage]:0,167[&header=QDH50209.1 sigma factor [Bacillus phage ALPS],protein=QDH50209.1,sp=Bacillus phage ALPS,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage ALPS,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.0674093857)[&clade=phage]:0.0491665948,(173[&header=ADH03291.1 gp145 [Bacillus phage W.Ph.],protein=ADH03291.1,sp=Bacillus phage W.Ph.,description=gp145,group=phage,symbol=,tip.label=Bacillus phage W.Ph.,bs.label=,clade=phage]:0.1734641886,(174[&header=ANH50776.1 SigF-like RNA polymerase sigma factor [Bacillus phage SalinJah],protein=ANH50776.1,sp=Bacillus phage SalinJah,description=SigF-like RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage SalinJah,bs.label=,clade=phage]:0.0052558468,(175[&header=AEZ50316.1 putative RNA polymerase sigma factor [Bacillus phage BPS13],protein=AEZ50316.1,sp=Bacillus phage BPS13,description=putative RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BPS13,bs.label=,clade=phage]:0.0112517473,176[&header=AGI12133.1 putative RNA polymerase sigma factor [Bacillus phage BPS10C],protein=AGI12133.1,sp=Bacillus phage BPS10C,description=putative RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BPS10C,bs.label=,clade=phage]:0.0056299646)[&clade=phage]:0.0060806987)[&clade=phage]:0.0910766787)[&clade=phage]:0.02031375)[&clade=phage]:0.4667307651,((177[&header=AMW61966.1 sigma factor [Bacillus phage Vinny],protein=AMW61966.1,sp=Bacillus phage Vinny,description=sigma factor,group=phage,symbol=,tip.label=Bacillus phage Vinny,bs.label=,clade=phage]:1e-06,178[&header=AHZ10517.1 RNA polymerase sigma factor [Bacillus phage Hoody T],protein=AHZ10517.1,sp=Bacillus phage Hoody T,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Hoody T,bs.label=,clade=phage]:1e-06)[&clade=phage]:2.1717e-06,(179[&header=AZF89309.1 RNA polymerase sigma factor [Bacillus phage vB_BthM-Goe5],protein=AZF89309.1,sp=Bacillus phage vB_BthM-Goe5,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BthM-Goe5,bs.label=,clade=phage]:0.0097116064,180[&header=ASR79696.1 RNA polymerase sigma factor [Bacillus phage Janet],protein=ASR79696.1,sp=Bacillus phage Janet,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Janet,bs.label=,clade=phage]:0.0081583823)[&clade=phage]:0.0047493503)[&clade=phage]:0.4347625754)[&clade=phage]:0.2865435847,(186[&header=AXQ67115.1 RNA polymerase [Bacillus phage Kamfam],protein=AXQ67115.1,sp=Bacillus phage Kamfam,description=RNA polymerase,group=phage,symbol=,tip.label=Bacillus phage Kamfam,bs.label=,clade=phage]:1e-06,(185[&header=AEQ34342.1 RNA polymerase sigma-F factor [Bacillus phage Bastille],protein=AEQ34342.1,sp=Bacillus phage Bastille,description=RNA polymerase sigma-F factor,group=phage,symbol=,tip.label=Bacillus phage Bastille,bs.label=,clade=phage]:0,(184[&header=ASU01064.1 RNA polymerase sigma factor [Bacillus phage Anthony],protein=ASU01064.1,sp=Bacillus phage Anthony,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Anthony,bs.label=,clade=phage]:0,(183[&header=AHZ09937.1 RNA polymerase sigma factor [Bacillus phage Evoli],protein=AHZ09937.1,sp=Bacillus phage Evoli,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Evoli,bs.label=,clade=phage]:0,(181[&header=ASR79669.1 RNA polymerase sigma factor [Bacillus phage OTooleKemple52],protein=ASR79669.1,sp=Bacillus phage OTooleKemple52,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage OTooleKemple52,bs.label=,clade=phage]:0,182[&header=AHZ09647.1 RNA polymerase sigma factor [Bacillus phage CAM003],protein=AHZ09647.1,sp=Bacillus phage CAM003,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage CAM003,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.5285758293)[&clade=phage]:0.1730891566)[&clade=phage]:0.1990305645)[&clade=]:0.1391806674,(187[&header=AGB62714.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage phiAGATE],protein=AGB62714.1,sp=Bacillus phage phiAGATE,description=putative RNA polymerase sigma factor SigF 1,group=phage,symbol=,tip.label=Bacillus phage phiAGATE,bs.label=,clade=phage]:0.009516062,(190[&header=AII27990.1 RNA polymerase sigma factor [Bacillus phage Bobb],protein=AII27990.1,sp=Bacillus phage Bobb,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage Bobb,bs.label=,clade=phage]:0.0208164363,(188[&header=AHJ87681.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-T],protein=AHJ87681.1,sp=Bacillus phage Bp8p-T,description=putative RNA polymerase sigma factor SigF 1,group=phage,symbol=,tip.label=Bacillus phage Bp8p-T,bs.label=,clade=phage]:1e-06,189[&header=AHJ87470.1 putative RNA polymerase sigma factor SigF 1 [Bacillus phage Bp8p-C],protein=AHJ87470.1,sp=Bacillus phage Bp8p-C,description=putative RNA polymerase sigma factor SigF 1,group=phage,symbol=,tip.label=Bacillus phage Bp8p-C,bs.label=,clade=phage]:1e-06)[&clade=phage]:0.0488012569)[&clade=phage]:0.1302444211)[&clade=phage]:0.9615147685)[&clade=]:0.0990072376)[&clade=]:0.0940971035,(192[&header=WP_004398507.1 MULTISPECIES: RNA polymerase sigma factor SigZ [Bacillus],protein=WP_004398507.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigZ,group=bacteria,symbol=sigZ,tip.label=Bacillus_subtilis_sigZ,bs.label=sigZ,clade=]:0.8516770138,((195[&header=WP_003245485.1 MULTISPECIES: RNA polymerase sigma factor YlaC [Bacillus],protein=WP_003245485.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor YlaC,group=bacteria,symbol=ylaC,tip.label=Bacillus_subtilis_ylaC,bs.label=ylaC,clade=]:0.6630084469,(193[&header=WP_004398891.1 MULTISPECIES: RNA polymerase sigma factor SigV [Bacillus],protein=WP_004398891.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigV,group=bacteria,symbol=sigV,tip.label=Bacillus_subtilis_sigV,bs.label=sigV,clade=]:1.010087708,194[&header=WP_003230521.1 MULTISPECIES: RNA polymerase sigma factor SigX [Bacteria],protein=WP_003230521.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigX,group=bacteria,symbol=sigX,tip.label=Bacillus_subtilis_sigX,bs.label=sigX,clade=]:0.767869519)[&clade=]:0.2356418862)[&clade=]:0.1996524714,(196[&header=WP_003224177.1 MULTISPECIES: RNA polymerase sigma factor SigM [Bacillaceae],protein=WP_003224177.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigM,group=bacteria,symbol=sigM,tip.label=Bacillus_subtilis_sigM,bs.label=sigM,clade=]:0.8095832714,(197[&header=WP_003243678.1 MULTISPECIES: RNA polymerase sigma factor SigY [Bacilli],protein=WP_003243678.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigY,group=bacteria,symbol=sigY,tip.label=Bacillus_subtilis_sigY,bs.label=sigY,clade=]:1.035934761,198[&header=WP_003234958.1 MULTISPECIES: RNA polymerase sigma factor SigW [Bacillus],protein=WP_003234958.1,sp=Bacillus_subtilis,description=RNA polymerase sigma factor SigW,group=bacteria,symbol=sigW,tip.label=Bacillus_subtilis_sigW,bs.label=sigW,clade=]:0.5932854059)[&clade=]:0.1915120263)[&clade=]:0.0964408463)[&clade=]:0.2877221439)[&clade=]:0.673882058)[&clade=phage]:0.178755575,(204[&header=AGV99468.1 RNA polymerase sigma factor [Bacillus phage phiCM3],protein=AGV99468.1,sp=Bacillus phage phiCM3,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage phiCM3,bs.label=,clade=phage]:0.1634136354,(199[&header=AEV89274.1 RNA-polymerase sigma-factor [Bacillus phage phIS3501],protein=AEV89274.1,sp=Bacillus phage phIS3501,description=RNA-polymerase sigma-factor,group=phage,symbol=,tip.label=Bacillus phage phIS3501,bs.label=,clade=phage]:0.0483072376,(203[&header=AUO78602.1 sigma-70 [Bacillus phage BtiUFT6.51-F],protein=AUO78602.1,sp=Bacillus phage BtiUFT6.51-F,description=sigma-70,group=phage,symbol=,tip.label=Bacillus phage BtiUFT6.51-F,bs.label=,clade=phage]:1e-06,(202[&header=CCE73875.1 sigma70, RNA polymerase sigma factor [Bacillus phage BceA1],protein=CCE73875.1,sp=Bacillus phage BceA1,description=sigma70, RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BceA1,bs.label=,clade=phage]:0,(200[&header=ALN97362.1 sigma-70 [Bacillus phage phi4I1],protein=ALN97362.1,sp=Bacillus phage phi4I1,description=sigma-70,group=phage,symbol=,tip.label=Bacillus phage phi4I1,bs.label=,clade=phage]:0,201[&header=AFL46426.1 RNA polymerase sigma factor [Bacillus phage BtCS33],protein=AFL46426.1,sp=Bacillus phage BtCS33,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage BtCS33,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.0354595679)[&clade=phage]:0.1121689567)[&clade=phage]:1.243406564)[&clade=phage]:0.0953881832)[&clade=phage]:0.3127983039,((208[&header=AGY46846.1 RNA polymerase sigma-70 factor [Bacillus virus Blastoid],protein=AGY46846.1,sp=Bacillus virus Blastoid,description=RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus virus Blastoid,bs.label=,clade=phage]:0.0154398282,(206[&header=AGE60961.1 RNA polymerase sigma-70 factor [Bacillus virus Taylor],protein=AGE60961.1,sp=Bacillus virus Taylor,description=RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus virus Taylor,bs.label=,clade=phage]:1e-06,207[&header=AGE60807.1 RNA polymerase sigma-70 factor [Bacillus virus Eoghan],protein=AGE60807.1,sp=Bacillus virus Eoghan,description=RNA polymerase sigma-70 factor,group=phage,symbol=,tip.label=Bacillus virus Eoghan,bs.label=,clade=phage]:1e-06)[&clade=phage]:2.7035e-06)[&clade=phage]:0.7649401908,(209[&header=AYP68748.1 RNA polymerase sigma factor [Bacillus phage vB_BpsS-36],protein=AYP68748.1,sp=Bacillus phage vB_BpsS-36,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage vB_BpsS-36,bs.label=,clade=phage]:0.4345458447,(214[&header=QFR56516.1 RNA polymerase sigma factor [Bacillus phage 056SW001B],protein=QFR56516.1,sp=Bacillus phage 056SW001B,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage 056SW001B,bs.label=,clade=phage]:0.0148998349,(213[&header=QFG05890.1 RNA polymerase sigma factor [Bacillus phage 276BB001],protein=QFG05890.1,sp=Bacillus phage 276BB001,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage 276BB001,bs.label=,clade=phage]:1e-06,(212[&header=QFG05192.1 RNA polymerase sigma factor [Bacillus phage 019DV002],protein=QFG05192.1,sp=Bacillus phage 019DV002,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage 019DV002,bs.label=,clade=phage]:0,(210[&header=QFG05971.1 RNA polymerase sigma factor [Bacillus phage 280BB001],protein=QFG05971.1,sp=Bacillus phage 280BB001,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage 280BB001,bs.label=,clade=phage]:0,211[&header=QFG05277.1 RNA polymerase sigma factor [Bacillus phage 019DV004],protein=QFG05277.1,sp=Bacillus phage 019DV004,description=RNA polymerase sigma factor,group=phage,symbol=,tip.label=Bacillus phage 019DV004,bs.label=,clade=phage]:0)[&clade=phage]:0)[&clade=phage]:1e-06)[&clade=phage]:0.0006709462)[&clade=phage]:0.3343985873)[&clade=phage]:0.1716703063)[&clade=phage]:0.4174776921)[&clade=phage]:1.243297409)[&clade=];
+END;
