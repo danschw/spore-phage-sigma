@@ -121,7 +121,7 @@ for (i in 1:nrow(d.burton)){
 }
 
 
-write_csv(d.sp, here("vog_phylo/data/bacterial_features.csv"))
+write_csv(d.features, here("vog_phylo/data/bacterial_features.csv"))
 
 #cleanup
 setwd("..")
