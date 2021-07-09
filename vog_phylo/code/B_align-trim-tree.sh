@@ -40,7 +40,7 @@ cd $TRIMAL
 #cd $ODIR
 #$IQT -s sigmas_MafftEinsi.trim -T auto
 
-sbatch ${PARENT}/code/batch-IQ.sh 
+sbatch ${PARENT}/code/B1_batch-IQ.sh 
 # Best-fit model: Q.pfam+R6 chosen according to BIC
 
 
@@ -52,7 +52,7 @@ sbatch ${PARENT}/code/batch-IQ.sh
 # https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
 # https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
 
-sbatch ${PARENT}/code/multi-run-iqtree.sh
+sbatch ${PARENT}/code/B2_multi-run-iqtree.sh
 
 
 
