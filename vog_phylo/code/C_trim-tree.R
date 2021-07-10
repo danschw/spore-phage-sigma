@@ -8,7 +8,7 @@ library(treeio)
 # This is done to reduce the number of sigma factor genes analyze
 
 #import tree
-iqt <- read.tree(here("vog_phylo/data/align-trim-tree/iqtree1/sigmas_MafftEinsi.trim.treefile"))
+iqt <- read.tree(here("vog_phylo/data/align-trim-tree/multi-run-iqtree1/sigmas_MafftEinsi.trim.treefile"))
 
 
 # convert to table of tree data
@@ -53,8 +53,8 @@ p <-
 ggsave(here("vog_phylo","plots","sigma_nodeNUMS_unrooted.pdf"),p, height=10, width = 10)
 
 
-ecf_base_node <- 576
-rpod_base_node <- 456
+ecf_base_node <- 579
+rpod_base_node <- 462
 
 
 # split tree by nodes found above 
