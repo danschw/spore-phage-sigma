@@ -48,8 +48,10 @@ sbatch ${PARENT}/code/D1_batch-IQ-reduced.sh
 # https://groups.google.com/g/iqtree/c/l8Pi_Xe-Q5A/m/TCNR_mvIAAAJ
 # https://groups.google.com/g/iqtree/c/uGeqBo2xm0c/m/BCkAFH46AQAJ
  
-sbatch code/multi-run-iqtree-reduced.sh 
+sbatch ${PARENT}/code/D2_multi-run-iqtree-reduced.sh 
 
+#Use best lh tree  
+sbatch ${PARENT}/code/D3_batch-IQ-reduced-support.sh
 
 
 

@@ -18,6 +18,6 @@ ODIR=${PARENT}/data/reduced_set_to_align/iqtree1
 mkdir -p ${ODIR}
 cd ${ODIR}
 cp ${PARENT}/data/reduced_set_to_align/sigmas_MafftEinsi.trim ${ODIR}
-$IQT -s sigmas_MafftEinsi.trim -m LG+G4 --seqtype AA -T AUTO
+$IQT -s sigmas_MafftEinsi.trim --seqtype AA -T AUTO
 
 rm sigmas_MafftEinsi.trim 
