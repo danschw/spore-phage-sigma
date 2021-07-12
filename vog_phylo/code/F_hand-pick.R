@@ -4,6 +4,16 @@ library(tidyverse)
 library(ggtree) #https://yulab-smu.top/treedata-book/
 library(treeio)
 
+# Since the sigma factor phylogeny is still not well resolved we further reduce  
+# the number of sequences, by choosing a subset of sequences of intrest. 
+# these include:
+# reference bacteria: B. subtilis, C. difficile and E. coli.
+# phages whose sigmas are included in experimental study:
+#   SP-10, Goe3, Eldridge (and Moonbeam which was no obtained)
+# phages whose sigmas have been studied in previous experimental work:
+#   SPO1, Fah, Bcp1
+# Siphophages with 3 sigma factors
+
 #import tree
 iqt <- read.iqtree(here("vog_phylo","data/reduced_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.treefile"))
 # iqt <- read.newick(here("vog_phylo","data/align-trim-tree/sigmas_MafftEinsi.trim.treefile"))
@@ -55,13 +65,30 @@ d.pick <-
   filter((group=="bacteria")&(str_detect(sp,"ubtilis")) |
            (group=="bacteria")&(str_detect(sp,"Clostridioides")) |
            (group=="bacteria")&(str_detect(sp,"Escherichia")) |
-           (group=="phage")&(str_detect(sp,"SPO1")) | 
            (group=="phage")&(str_detect(sp,"SP-10"))|
            (group=="phage")&(str_detect(sp,"Goe3"))|
            (group=="phage")&(str_detect(sp,"Eldridge"))|
            (group=="phage")&(str_detect(sp,"Moonbeam"))|
+           (group=="phage")&(str_detect(sp,"SPO1")) | 
            (group=="phage")&(str_detect(sp,"Fah"))|
-           (group=="phage")&(str_detect(sp,"Bcp"))|
+           (group=="phage")&(str_detect(sp,"Bcp1"))|
            sp %in% siphos3$sp)
+
+##### Save results #####
+if (!dir.exists(here("vog_phylo","data", "curated_set_to_align"))){
+  dir.create(here("vog_phylo","data", "curated_set_to_align"))
+}
+# filter multifasta of hsearch results for filtering
+library(seqinr)
+sigma_fa <- read.fasta(here("vog_phylo","data/sigmas_to_align.faa"),
+                       seqtype =  "AA", whole.header = TRUE)
+
+header.protein <- names(sigma_fa)
+
+keep_fa <- sigma_fa[c(which(header.protein %in% d.pick$label))]
+
+write.fasta(sequences = getSequence(keep_fa),
+            names = getName(keep_fa),
+            file.out = here("vog_phylo","data", "curated_set_to_align","sigmas_to_align.faa"))
 
          
