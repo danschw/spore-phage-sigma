@@ -1,0 +1,261 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c72 (AVX2, FMA3, 251 GB RAM)
+Command: /N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2 -s sigmas_MafftEinsi.aln --seqtype AA -T AUTO
+Seed:    380611 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 12 17:52:13 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file sigmas_MafftEinsi.aln ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 59 sequences with 1164 columns, 874 distinct patterns
+487 parsimony-informative, 273 singleton sites, 404 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  WP_003226225.1-bacteria   68.13%    failed      4.45%
+   2  NP_417539.1-bacteria      47.34%    failed      0.04%
+   3  NP_417221.1-bacteria      71.65%    failed      0.07%
+   4  WP_003416101.1-bacteria   77.92%    passed     30.04%
+   5  NP_417918.1-bacteria      75.60%    failed      0.55%
+   6  WP_009967190.1-bacteria   77.66%    passed     76.92%
+   7  WP_003435969.1-bacteria   79.98%    failed      0.08%
+   8  WP_003230458.1-bacteria   78.09%    passed     71.28%
+   9  WP_011860953.1-bacteria   78.18%    failed      3.90%
+  10  WP_003246715.1-bacteria   77.49%    passed     17.13%
+  11  WP_003221446.1-bacteria   79.47%    passed     17.63%
+  12  WP_003220911.1-bacteria   78.18%    passed     88.55%
+  13  NP_416432.3-bacteria      79.47%    failed      0.09%
+  14  WP_003420464.1-bacteria   77.92%    passed     14.76%
+  15  WP_021361826.1-bacteria   88.83%    passed      7.93%
+  16  WP_003416098.1-bacteria   79.38%    failed      0.10%
+  17  WP_009892548.1-bacteria   81.53%    passed     37.01%
+  18  WP_003225758.1-bacteria   81.27%    passed     94.01%
+  19  NP_417068.1-bacteria      83.59%    passed     17.47%
+  20  WP_003245855.1-bacteria   78.44%    passed      7.81%
+  21  WP_003224177.1-bacteria   86.00%    passed     55.92%
+  22  WP_003234958.1-bacteria   83.93%    passed     53.22%
+  23  WP_004398507.1-bacteria   84.88%    passed     92.07%
+  24  WP_003245485.1-bacteria   85.14%    failed      2.00%
+  25  WP_003230521.1-bacteria   83.33%    passed     14.10%
+  26  WP_003243678.1-bacteria   84.71%    passed     13.43%
+  27  WP_004398891.1-bacteria   85.74%    passed     21.77%
+  28  NP_418713.1-bacteria      85.14%    failed      1.80%
+  29  WP_100086169.1-bacteria   84.19%    passed     92.44%
+  30  YP_008771927.1-phage      79.73%    failed      2.85%
+  31  YP_008770739.1-phage      79.73%    failed      1.99%
+  32  YP_009203629.1-phage      79.47%    failed      2.55%
+  33  YP_009196909.1-phage      79.73%    passed      6.87%
+  34  YP_002300398.1-phage      80.67%    passed     99.40%
+  35  YP_007003440.1-phage      81.79%    passed     51.20%
+  36  YP_008772001.1-phage      48.63%    failed      3.57%
+  37  YP_008770814.1-phage      47.08%    passed      8.48%
+  38  YP_009203702.1-phage      47.08%    passed     17.66%
+  39  YP_009196983.1-phage      46.91%    passed     11.11%
+  40  YP_009274876.1-phage      56.53%    failed      0.04%
+  41  YP_002300430.1-phage      83.08%    passed     17.27%
+  42  YP_009151693.1-phage      81.79%    failed      4.84%
+  43  YP_009274835.1-phage      81.79%    passed      9.38%
+  44  YP_009832112.1-phage      81.87%    passed     35.91%
+  45  YP_009031424.1-phage      81.79%    passed     81.40%
+  46  YP_007003457.1-phage      84.45%    passed     68.11%
+  47  YP_002300332.1-phage      80.15%    passed     50.27%
+  48  YP_008771969.1-phage      79.98%    passed     96.70%
+  49  YP_008770783.1-phage      79.98%    passed     96.87%
+  50  YP_009151727.1-phage      69.67%    passed     54.09%
+  51  YP_009151728.1-phage      55.84%    failed      0.06%
+  52  YP_009203671.1-phage      79.98%    passed     97.43%
+  53  YP_009196951.1-phage      79.98%    passed     96.41%
+  54  YP_009274875.1-phage      69.67%    passed     10.48%
+  55  YP_009832138.1-phage      70.53%    passed      8.64%
+  56  YP_512346.1-phage         78.69%    passed     72.28%
+  57  YP_009031481.1-phage      78.01%    passed     74.35%
+  58  YP_009031482.1-phage      78.52%    passed     79.54%
+  59  YP_007003377.1-phage      79.73%    passed     70.55%
+WARNING: 54 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                     76.37%  17 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.033 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+10 trees examined
+Threads: 1 / Time: 8.200 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -37353
+Threads: 2 / Time: 4.443 sec / Speedup: 1.846 / Efficiency: 92% / LogL: -37353
+Threads: 3 / Time: 3.238 sec / Speedup: 2.533 / Efficiency: 84% / LogL: -37353
+Threads: 4 / Time: 2.608 sec / Speedup: 3.144 / Efficiency: 79% / LogL: -37353
+Threads: 5 / Time: 2.170 sec / Speedup: 3.778 / Efficiency: 76% / LogL: -37353
+Threads: 6 / Time: 1.873 sec / Speedup: 4.378 / Efficiency: 73% / LogL: -37353
+Threads: 7 / Time: 1.667 sec / Speedup: 4.920 / Efficiency: 70% / LogL: -37353
+Threads: 8 / Time: 1.525 sec / Speedup: 5.379 / Efficiency: 67% / LogL: -37353
+BEST NUMBER OF THREADS: 8
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -29865.513
+2. Current log-likelihood: -29863.934
+Optimal log-likelihood: -29863.204
+Proportion of invariable sites: 0.002
+Gamma shape alpha: 2.306
+Parameters optimization took 2 rounds (0.091 sec)
+Time for fast ML tree search: 0.731 seconds
+
+NOTE: ModelFinder requires 81 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 1164) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            30289.945    115 60809.890    60835.348    61391.746
+  2  LG+I          30289.849    116 60811.698    60837.624    61398.614
+  3  LG+G4         29862.348    116 59956.696    59982.622    60543.612
+  4  LG+I+G4       29862.428    117 59958.856    59985.254    60550.832
+  5  LG+R2         29911.330    117 60056.659    60083.057    60648.635
+  6  LG+R3         29852.967    119 59943.934    59971.291    60546.029
+  7  LG+R4         29832.366    121 59906.731    59935.065    60518.945
+  8  LG+R5         29832.075    123 59910.150    59939.481    60532.483
+ 20  LG+F+R4       29737.530    140 59755.061    59793.653    60463.407
+ 33  WAG+R4        29982.382    121 60206.763    60235.097    60818.977
+ 46  WAG+F+R4      29776.188    140 59832.376    59870.968    60540.722
+ 59  JTT+R4        30164.870    121 60571.739    60600.073    61183.953
+ 72  JTT+F+R4      29893.927    140 60067.854    60106.446    60776.200
+ 85  Q.pfam+R4     29882.261    121 60006.522    60034.856    60618.736
+ 98  Q.pfam+F+R4   29716.532    140 59713.064    59751.656    60421.410
+111  Q.bird+R4     30671.577    121 61585.154    61613.487    62197.367
+124  Q.bird+F+R4   30296.775    140 60873.550    60912.143    61581.897
+137  Q.mammal+R4   30524.242    121 61290.483    61318.817    61902.697
+150  Q.mammal+F+R4 30105.288    140 60490.577    60529.169    61198.923
+163  Q.insect+R4   29887.093    121 60016.185    60044.519    60628.399
+176  Q.insect+F+R4 29783.551    140 59847.101    59885.694    60555.448
+189  Q.plant+R4    30166.747    121 60575.493    60603.827    61187.707
+202  Q.plant+F+R4  30006.815    140 60293.629    60332.221    61001.976
+215  Q.yeast+R4    29878.101    121 59998.202    60026.536    60610.416
+228  Q.yeast+F+R4  29750.162    140 59780.325    59818.917    60488.671
+241  JTTDCMut+R4   30161.429    121 60564.858    60593.191    61177.071
+254  JTTDCMut+F+R4 29893.456    140 60066.912    60105.504    60775.258
+267  DCMut+R4      30478.511    121 61199.022    61227.356    61811.235
+280  DCMut+F+R4    30026.443    140 60332.885    60371.477    61041.232
+293  VT+R4         29901.558    121 60045.116    60073.450    60657.329
+306  VT+F+R4       29726.581    140 59733.162    59771.755    60441.509
+319  PMB+R4        30044.698    121 60331.396    60359.730    60943.610
+332  PMB+F+R4      29802.476    140 59884.951    59923.544    60593.298
+345  Blosum62+R4   29968.153    121 60178.306    60206.640    60790.520
+358  Blosum62+F+R4 29792.446    140 59864.892    59903.484    60573.238
+371  Dayhoff+R4    30479.952    121 61201.904    61230.238    61814.118
+384  Dayhoff+F+R4  30028.244    140 60336.489    60375.081    61044.835
+397  mtREV+R4      31701.673    121 63645.346    63673.680    64257.559
+410  mtREV+F+R4    30229.786    140 60739.573    60778.165    61447.919
+423  mtART+R4      31948.339    121 64138.678    64167.012    64750.892
+436  mtART+F+R4    30376.491    140 61032.982    61071.574    61741.328
+449  mtZOA+R4      31413.217    121 63068.434    63096.768    63680.648
+462  mtZOA+F+R4    30175.585    140 60631.170    60669.763    61339.517
+475  mtMet+R4      31627.853    121 63497.705    63526.039    64109.919
+488  mtMet+F+R4    30226.642    140 60733.284    60771.876    61441.630
+501  mtVer+R4      32063.169    121 64368.339    64396.673    64980.552
+514  mtVer+F+R4    30613.192    140 61506.384    61544.976    62214.730
+527  mtInv+R4      31726.235    121 63694.469    63722.803    64306.683
+540  mtInv+F+R4    30045.293    140 60370.587    60409.179    61078.933
+553  mtMAM+R4      32252.644    121 64747.288    64775.622    65359.501
+566  mtMAM+F+R4    30773.387    140 61826.775    61865.367    62535.121
+579  HIVb+R4       30552.235    121 61346.470    61374.804    61958.683
+592  HIVb+F+R4     30245.790    140 60771.581    60810.173    61479.927
+605  HIVw+R4       31650.239    121 63542.479    63570.813    64154.693
+618  HIVw+F+R4     30864.283    140 62008.566    62047.159    62716.913
+631  FLU+R4        30486.402    121 61214.803    61243.137    61827.017
+644  FLU+F+R4      30182.972    140 60645.943    60684.536    61354.290
+657  rtREV+R4      30072.287    121 60386.574    60414.908    60998.788
+670  rtREV+F+R4    29760.205    140 59800.409    59839.002    60508.756
+683  cpREV+R4      30108.941    121 60459.881    60488.215    61072.095
+696  cpREV+F+R4    29993.136    140 60266.273    60304.865    60974.619
+Akaike Information Criterion:           Q.pfam+F+R4
+Corrected Akaike Information Criterion: Q.pfam+F+R4
+Bayesian Information Criterion:         Q.pfam+F+R4
+Best-fit model: Q.pfam+F+R4 chosen according to BIC
+
+All model information printed to sigmas_MafftEinsi.aln.model.gz
+CPU time for ModelFinder: 531.500 seconds (0h:8m:51s)
+Wall-clock time for ModelFinder: 82.144 seconds (0h:1m:22s)
+
+NOTE: 32 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -29716.532
+Optimal log-likelihood: -29716.449
+Site proportion and rates:  (0.053,0.184) (0.248,0.428) (0.386,0.871) (0.313,1.750)
+Parameters optimization took 1 rounds (0.151 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.069552 sec (of wall-clock time) 0.555190 sec(of CPU time)
+Computing RapidNJ tree took 0.001684 sec (of wall-clock time) 0.003082 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -29756.427
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.156 second
+Computing log-likelihood of 98 initial trees ... 1.956 seconds
+Current best score: -29716.449
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -29712.166
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -29710.694
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -29701.132
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -29698.310
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -29693.685
+Iteration 10 / LogL: -29697.105 / Time: 0h:0m:9s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -29690.799
+Iteration 20 / LogL: -29712.821 / Time: 0h:0m:14s
+Finish initializing candidate tree set (20)
+Current best tree score: -29690.799 / CPU time: 14.187
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -29690.873 / Time: 0h:0m:18s (0h:0m:55s left)
+Iteration 40 / LogL: -29693.131 / Time: 0h:0m:22s (0h:0m:44s left)
+Iteration 50 / LogL: -29749.458 / Time: 0h:0m:26s (0h:0m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -29690.283
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -29688.567
+Iteration 60 / LogL: -29691.338 / Time: 0h:0m:31s (0h:0m:50s left)
+Iteration 70 / LogL: -29690.304 / Time: 0h:0m:34s (0h:0m:43s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -29688.530
+Iteration 80 / LogL: -29692.633 / Time: 0h:0m:38s (0h:0m:37s left)
+Iteration 90 / LogL: -29690.302 / Time: 0h:0m:42s (0h:0m:31s left)
+Iteration 100 / LogL: -29690.715 / Time: 0h:0m:45s (0h:0m:25s left)
+Iteration 110 / LogL: -29688.579 / Time: 0h:0m:49s (0h:0m:21s left)
+Iteration 120 / LogL: -29688.815 / Time: 0h:0m:53s (0h:0m:16s left)
+Iteration 130 / LogL: -29697.300 / Time: 0h:0m:57s (0h:0m:11s left)
+Iteration 140 / LogL: -29690.403 / Time: 0h:1m:1s (0h:0m:7s left)
+Iteration 150 / LogL: -29689.718 / Time: 0h:1m:4s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 157 ITERATIONS / Time: 0h:1m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -29688.530
+Optimal log-likelihood: -29688.527
+Site proportion and rates:  (0.051,0.173) (0.234,0.423) (0.385,0.858) (0.329,1.705)
+Parameters optimization took 1 rounds (0.092 sec)
+BEST SCORE FOUND : -29688.527
+Total tree length: 72.789
+
+Total number of iterations: 157
+CPU time used for tree search: 521.779 sec (0h:8m:41s)
+Wall-clock time used for tree search: 67.251 sec (0h:1m:7s)
+Total CPU time used: 526.076 sec (0h:8m:46s)
+Total wall-clock time used: 67.820 sec (0h:1m:7s)
+
+Analysis results written to: 
+  IQ-TREE report:                sigmas_MafftEinsi.aln.iqtree
+  Maximum-likelihood tree:       sigmas_MafftEinsi.aln.treefile
+  Likelihood distances:          sigmas_MafftEinsi.aln.mldist
+  Screen log file:               sigmas_MafftEinsi.aln.log
+
+Date and Time: Mon Jul 12 17:54:43 2021
