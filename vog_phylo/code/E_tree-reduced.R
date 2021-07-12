@@ -10,7 +10,9 @@ iqt <- read.iqtree(here("vog_phylo","data/reduced_set_to_align/iqtree1-support/s
 
 # list label data
 d.iqt <- as_tibble(iqt) %>% 
-  mutate(group = if_else( str_detect(label, "bacteria"), "bacteria", "phage")) %>% 
+  mutate(group = case_when( str_detect(label, "bacteria") ~ "bacteria",
+                            str_detect(label, "phage") ~ "phage",
+                            TRUE ~ "NA")) %>% 
   mutate(protein.id = str_remove(label, "-.*"))
 
 
@@ -36,7 +38,7 @@ d.meta <-
     mutate(symbol=NA) %>% 
   bind_rows(., d.bact %>% select( protein.id, description, sp, symbol))
   
-left_join(d.iqt, d.meta, by = "protein.id")
+d.iqt <- left_join(d.iqt, d.meta, by = "protein.id")
   
 
 #### root at base of ECF ####
@@ -49,10 +51,12 @@ d.iqt %>%
   ggtree()+
   geom_tippoint(aes(color=group), size=2, shape=20)+
   geom_tiplab(aes(label = bs.label), color="blue", size=3, offset = .1)+
-  geom_text(aes(x=branch, label=node)) 
+  geom_text(aes(x=branch, label=node), color="red", size=3) +
+  ggsave(here("vog_phylo","plots","reduced-sigma_nodeNUMS_unrooted.pdf"), height=10, width = 10)
+
 
 # new root node
-root_ecf <- 390
+root_ecf <- 268
 
 # assign root and add data
 iqt <- root(iqt, node = root_ecf)
@@ -86,12 +90,14 @@ d.iqt <- d.iqt %>%
 # if yes mark as phage lade node
 
 internal <- d.iqt %>% 
-  filter(is.na(label)) %>% 
+  filter(node > as.phylo(.) %>% Ntip()) %>% 
   pull(node)
 
 #assign phage tip nodes to clade, and all other as empty vector
 d.iqt <- d.iqt %>% 
-  mutate(clade = if_else(group=="phage", "phage", "", missing = ""))
+  mutate(clade = case_when( str_detect(label, "bacteria") ~ "bacteria",
+                            str_detect(label, "phage") ~ "phage",
+                            TRUE ~ "bacteria"))
 
 for (i in internal){
   x <- groupClade(iqt,.node=i)
@@ -127,7 +133,7 @@ for (i in internal){
 
 # # first tree
 ggtree(as.treedata(d.iqt) , aes(color = clade))+
-  geom_tippoint(aes(color=group), size=2, shape=20)+
+  geom_tippoint(aes(shape=group), size=2, shape=20)+
   geom_tiplab(aes(label=bs.label), color="blue", size=3, offset = .1)
 
 # # unrooted trees
@@ -152,7 +158,7 @@ p <-as.treedata(d.iqt) %>%
   geom_tiplab(aes(label=bs.label), color="blue", size=3, offset = .1)+
   scale_color_manual(values = c("grey30", "blue"))
 
-ggsave(here("vog_phylo","plots","sigma_reduced_rooted.pdf"),p, height=10, width = 10)
+# ggsave(here("vog_phylo","plots","sigma_reduced_rooted.pdf"),p, height=10, width = 10)
 
 
 d.iqt %>% 
@@ -163,8 +169,9 @@ d.iqt %>%
                               TRUE ~ "<=70%")) %>% 
   as.treedata(.) %>% 
   ggtree(aes(color = clade), layout = "fan")+
-  geom_nodepoint(aes(fill=support), size=3, shape=21)+
+  geom_nodepoint(aes(fill=support), size=1.5, shape=21)+
   # geom_tippoint(aes(fill=group), size=1, shape=20)+
   geom_tiplab(aes(label=bs.label), color="red", size=3, offset = .1)+
-  scale_color_manual(values = c("grey30", "blue"))
+  scale_color_manual(values = c("grey30", "blue"))+
+  ggsave(here("vog_phylo","plots","sigma_reduced_rooted.pdf"), height=10, width = 10)
 
