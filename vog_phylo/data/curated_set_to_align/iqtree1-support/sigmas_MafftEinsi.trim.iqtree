@@ -1,0 +1,360 @@
+IQ-TREE 2.1.3 COVID-edition built Apr 21 2021
+
+Input file name: sigmas_MafftEinsi.trim
+User tree file name: sigmas_MafftEinsi.trim.treefile
+Type of analysis: tree reconstruction + ultrafast bootstrap (10000 replicates)
+Random seed number: 321746
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 59 sequences with 84 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 83
+Number of distinct site patterns: 84
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 2.9693
+
+ Category  Relative_rate  Proportion
+  1         0.3869         0.2500
+  2         0.7298         0.2500
+  3         1.0824         0.2500
+  4         1.8010         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7661.8687 (s.e. 238.4871)
+Unconstrained log-likelihood (without tree): -372.1886
+Number of free parameters (#branches + #model parameters): 112
+Akaike information criterion (AIC) score: 15547.7375
+Corrected Akaike information criterion (AICc) score: 40859.7375
+Bayesian information criterion (BIC) score: 15819.9889
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 112
+Sample size (n, alignment length): 84
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 38.4805
+Sum of internal branch lengths: 14.3247 (37.2258% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0119) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'WP_003226225.1-bacteria' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--WP_003226225.1-bacteria
+|
++--NP_417539.1-bacteria
+|
+|  +------NP_417221.1-bacteria
++--| (51.6/68)
+   |                +--WP_003416101.1-bacteria
+   |             +--| (98.9/100)
+   |             |  +--WP_009967190.1-bacteria
+   |          +--| (86.6/70)
+   |          |  |           +--WP_003230458.1-bacteria
+   |          |  |        +--| (85.3/84)
+   |          |  |        |  |  +--YP_009274876.1-phage
+   |          |  |        |  +--| (92/94)
+   |          |  |        |     +--YP_009151728.1-phage
+   |          |  |     +--| (37.3/41)
+   |          |  |     |  +---WP_011860953.1-bacteria
+   |          |  |  +--| (84.2/69)
+   |          |  |  |  |        +--YP_008772001.1-phage
+   |          |  |  |  |     +--| (35.3/64)
+   |          |  |  |  |     |  |  +**YP_008770814.1-phage
+   |          |  |  |  |     |  +--| (94.3/100)
+   |          |  |  |  |     |     +**YP_009203702.1-phage
+   |          |  |  |  |  +--| (96.6/99)
+   |          |  |  |  |  |  +--YP_009196983.1-phage
+   |          |  |  |  +--| (93.8/94)
+   |          |  |  |     |           +**YP_008771969.1-phage
+   |          |  |  |     |        +--| (88.4/100)
+   |          |  |  |     |        |  +**YP_008770783.1-phage
+   |          |  |  |     +--------| (100/100)
+   |          |  |  |              +--YP_009196951.1-phage
+   |          |  +--| (47.3/42)
+   |          |     |  +----WP_003420464.1-bacteria
+   |          |     +--| (93.5/94)
+   |          |        +--------------YP_009031482.1-phage
+   |       +--| (78.1/65)
+   |       |  |              +---WP_003435969.1-bacteria
+   |       |  |           +--| (84.9/90)
+   |       |  |           |  |  +------WP_003220911.1-bacteria
+   |       |  |           |  +--| (42/62)
+   |       |  |           |     +---NP_416432.3-bacteria
+   |       |  |        +--| (33.4/65)
+   |       |  |        |  +-------------YP_009832138.1-phage
+   |       |  |     +--| (87.2/72)
+   |       |  |     |  |  +-----WP_003246715.1-bacteria
+   |       |  |     |  +--| (84.3/80)
+   |       |  |     |     |       +--YP_009151727.1-phage
+   |       |  |     |     +-------| (100/100)
+   |       |  |     |             +--YP_009274875.1-phage
+   |       |  |  +--| (66/52)
+   |       |  |  |  |                      +--WP_009892548.1-bacteria
+   |       |  |  |  |               +------| (97.4/100)
+   |       |  |  |  |               |      +--WP_003225758.1-bacteria
+   |       |  |  |  |            +**| (0/40)
+   |       |  |  |  |            |  |                 +----------YP_002300398.1-phage
+   |       |  |  |  |            |  +-----------------| (99.8/100)
+   |       |  |  |  |            |                    +----YP_007003440.1-phage
+   |       |  |  |  |         +--| (81.4/75)
+   |       |  |  |  |         |  +------------------WP_003245855.1-bacteria
+   |       |  |  |  |     +---| (94.9/86)
+   |       |  |  |  |     |   |                            +-----------NP_417068.1-bacteria
+   |       |  |  |  |     |   |                         +--| (82.7/76)
+   |       |  |  |  |     |   |                         |  +--WP_003234958.1-bacteria
+   |       |  |  |  |     |   |                      +--| (48.8/46)
+   |       |  |  |  |     |   |                      |  +-----------WP_003243678.1-bacteria
+   |       |  |  |  |     |   |                   +--| (86.2/31)
+   |       |  |  |  |     |   |                   |  |  +-------WP_003224177.1-bacteria
+   |       |  |  |  |     |   |                   |  +--| (52.9/61)
+   |       |  |  |  |     |   |                   |     +----------WP_004398507.1-bacteria
+   |       |  |  |  |     |   |                +--| (0/20)
+   |       |  |  |  |     |   |                |  +--------------WP_004398891.1-bacteria
+   |       |  |  |  |     |   |            +---| (91.2/74)
+   |       |  |  |  |     |   |            |   |  +------WP_003245485.1-bacteria
+   |       |  |  |  |     |   |            |   +--| (57.6/41)
+   |       |  |  |  |     |   |            |      +--------WP_003230521.1-bacteria
+   |       |  |  |  |     |   |     +------| (90.5/92)
+   |       |  |  |  |     |   |     |      +---------------NP_418713.1-bacteria
+   |       |  |  |  |     |   |  +--| (72.2/74)
+   |       |  |  |  |     |   |  |  |                      +**YP_008771927.1-phage
+   |       |  |  |  |     |   |  |  |                   +--| (50.1/100)
+   |       |  |  |  |     |   |  |  |                   |  +**YP_008770739.1-phage
+   |       |  |  |  |     |   |  |  +-------------------| (100/100)
+   |       |  |  |  |     |   |  |                      +**YP_009196909.1-phage
+   |       |  |  |  |     |   +--| (88.4/78)
+   |       |  |  |  |     |      |  +-----------------------WP_100086169.1-bacteria
+   |       |  |  |  |     |      +--| (36.4/71)
+   |       |  |  |  |     |         |                       +------YP_002300430.1-phage
+   |       |  |  |  |     |         |           +-----------| (97/97)
+   |       |  |  |  |     |         |           |           +--YP_007003457.1-phage
+   |       |  |  |  |     |         +-----------| (95.5/99)
+   |       |  |  |  |     |                     |             +--YP_009151693.1-phage
+   |       |  |  |  |     |                     |          +--| (80.2/94)
+   |       |  |  |  |     |                     |          |  +--YP_009274835.1-phage
+   |       |  |  |  |     |                     +----------| (93.7/89)
+   |       |  |  |  |     |                                |  +--YP_009832112.1-phage
+   |       |  |  |  |     |                                +--| (57.5/60)
+   |       |  |  |  |     |                                   +--YP_009031424.1-phage
+   |       |  |  |  |  +--| (0/45)
+   |       |  |  |  |  |  |  +-------------------YP_002300332.1-phage
+   |       |  |  |  |  |  +--| (53.2/47)
+   |       |  |  |  |  |     +-------YP_007003377.1-phage
+   |       |  |  |  +--| (84.5/80)
+   |       |  |  |     +--------YP_512346.1-phage
+   |       |  +--| (79.9/55)
+   |       |     +--------YP_009031481.1-phage
+   |  +----| (96.7/99)
+   |  |    |      +--WP_003221446.1-bacteria
+   |  |    |   +--| (30.9/78)
+   |  |    |   |  +--WP_003416098.1-bacteria
+   |  |    +---| (94.4/99)
+   |  |        +---WP_021361826.1-bacteria
+   +--| (93.5/98)
+      +-------NP_417918.1-bacteria
+
+Tree in newick format:
+
+(WP_003226225.1-bacteria:0.0862844958,NP_417539.1-bacteria:0.0831864934,(NP_417221.1-bacteria:0.5390635290,(((((WP_003416101.1-bacteria:0.1836050584,WP_009967190.1-bacteria:0.1452897209)98.9/100:0.2787550429,((((WP_003230458.1-bacteria:0.1614457251,(YP_009274876.1-phage:0.1191763234,YP_009151728.1-phage:0.1752267830)92/94:0.1021493741)85.3/84:0.0926913529,WP_011860953.1-bacteria:0.3292520620)37.3/41:0.0438308780,(((YP_008772001.1-phage:0.0643645679,(YP_008770814.1-phage:0.0000010000,YP_009203702.1-phage:0.0000010000)94.3/100:0.0760910277)35.3/64:0.0970549063,YP_009196983.1-phage:0.1038121463)96.6/99:0.2688460555,((YP_008771969.1-phage:0.0000010000,YP_008770783.1-phage:0.0000010000)88.4/100:0.1436489319,YP_009196951.1-phage:0.1897297671)100/100:0.7061998145)93.8/94:0.1806750732)84.2/69:0.0890722135,(WP_003420464.1-bacteria:0.4196772981,YP_009031482.1-phage:1.0924785573)93.5/94:0.2723220764)47.3/42:0.0242061367)86.6/70:0.1243500172,(((((WP_003435969.1-bacteria:0.3437209386,(WP_003220911.1-bacteria:0.5272898060,NP_416432.3-bacteria:0.3501017997)42/62:0.0691493707)84.9/90:0.2613275839,YP_009832138.1-phage:1.0663047986)33.4/65:0.0571327915,(WP_003246715.1-bacteria:0.4858895367,(YP_009151727.1-phage:0.0393819298,YP_009274875.1-phage:0.1652592751)100/100:0.6422171128)84.3/80:0.1697969696)87.2/72:0.1452703792,((((((WP_009892548.1-bacteria:0.1674606253,WP_003225758.1-bacteria:0.0509835491)97.4/100:0.5665944515,(YP_002300398.1-phage:0.8158986594,YP_007003440.1-phage:0.3810246152)99.8/100:1.3009487710)0/40:0.0089430118,WP_003245855.1-bacteria:1.3992811580)81.4/75:0.1625355344,((((((((NP_417068.1-bacteria:0.8916137117,WP_003234958.1-bacteria:0.1681282929)82.7/76:0.2599893886,WP_003243678.1-bacteria:0.9027206858)48.8/46:0.2151331790,(WP_003224177.1-bacteria:0.5792550424,WP_004398507.1-bacteria:0.8454824248)52.9/61:0.1756742226)86.2/31:0.2033277617,WP_004398891.1-bacteria:1.0945307876)0/20:0.0201336289,(WP_003245485.1-bacteria:0.5192803197,WP_003230521.1-bacteria:0.6762864932)57.6/41:0.1161573047)91.2/74:0.3539198401,NP_418713.1-bacteria:1.1768108310)90.5/92:0.5240008990,((YP_008771927.1-phage:0.0000010000,YP_008770739.1-phage:0.0000010000)50.1/100:0.0352262103,YP_009196909.1-phage:0.0000010000)100/100:1.4859978700)72.2/74:0.1458642382,(WP_100086169.1-bacteria:1.7798227423,((YP_002300430.1-phage:0.5363045156,YP_007003457.1-phage:0.2470822563)97/97:0.9060158248,((YP_009151693.1-phage:0.0159896364,YP_009274835.1-phage:0.0907327766)80.2/94:0.1530940809,(YP_009832112.1-phage:0.1661299283,YP_009031424.1-phage:0.1717681544)57.5/60:0.1068487470)93.7/89:0.8110829953)95.5/99:0.8757421174)36.4/71:0.1164261017)88.4/78:0.2313843039)94.9/86:0.3411976893,(YP_002300332.1-phage:1.4741460499,YP_007003377.1-phage:0.5942810630)53.2/47:0.1547633117)0/45:0.0203180281,YP_512346.1-phage:0.6707302926)84.5/80:0.1202189453)66/52:0.0669765569,YP_009031481.1-phage:0.6731870422)79.9/55:0.0798457758)78.1/65:0.0952853001,((WP_003221446.1-bacteria:0.0681435144,WP_003416098.1-bacteria:0.0804571563)30.9/78:0.0424228783,WP_021361826.1-bacteria:0.3518668926)94.4/99:0.2960360065)96.7/99:0.3613122164,NP_417918.1-bacteria:0.6409116107)93.5/98:0.2814372117)51.6/68:0.1000008211);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 10000 bootstrap trees
+Log-likelihood of consensus tree: -7661.908106
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--WP_003226225.1-bacteria
+|
++--NP_417539.1-bacteria
+|
+|  +------NP_417221.1-bacteria
++--| (68)
+   |                +--WP_003416101.1-bacteria
+   |             +--| (100)
+   |             |  +--WP_009967190.1-bacteria
+   |          +--| (70)
+   |          |  |           +--WP_003230458.1-bacteria
+   |          |  |        +--| (84)
+   |          |  |        |  |  +--YP_009274876.1-phage
+   |          |  |        |  +--| (94)
+   |          |  |        |     +--YP_009151728.1-phage
+   |          |  |     +--| (41)
+   |          |  |     |  +---WP_011860953.1-bacteria
+   |          |  |  +--| (69)
+   |          |  |  |  |        +--YP_008772001.1-phage
+   |          |  |  |  |     +--| (64)
+   |          |  |  |  |     |  |  +--YP_008770814.1-phage
+   |          |  |  |  |     |  +--| (100)
+   |          |  |  |  |     |     +--YP_009203702.1-phage
+   |          |  |  |  |  +--| (99)
+   |          |  |  |  |  |  +--YP_009196983.1-phage
+   |          |  |  |  +--| (94)
+   |          |  |  |     |              +**YP_008771969.1-phage
+   |          |  |  |     |           +--|
+   |          |  |  |     |           |  +**YP_009203671.1-phage
+   |          |  |  |     |        +--| (100)
+   |          |  |  |     |        |  +--YP_008770783.1-phage
+   |          |  |  |     +--------| (100)
+   |          |  |  |              +--YP_009196951.1-phage
+   |          |  +--| (42)
+   |          |     |  +----WP_003420464.1-bacteria
+   |          |     +--| (94)
+   |          |        +--------------YP_009031482.1-phage
+   |       +--| (65)
+   |       |  |              +---WP_003435969.1-bacteria
+   |       |  |           +--| (90)
+   |       |  |           |  |  +------WP_003220911.1-bacteria
+   |       |  |           |  +--| (62)
+   |       |  |           |     +---NP_416432.3-bacteria
+   |       |  |        +--| (65)
+   |       |  |        |  +-------------YP_009832138.1-phage
+   |       |  |     +--| (72)
+   |       |  |     |  |  +-----WP_003246715.1-bacteria
+   |       |  |     |  +--| (80)
+   |       |  |     |     |       +--YP_009151727.1-phage
+   |       |  |     |     +-------| (100)
+   |       |  |     |             +--YP_009274875.1-phage
+   |       |  |  +--| (52)
+   |       |  |  |  |                      +--WP_009892548.1-bacteria
+   |       |  |  |  |               +------| (100)
+   |       |  |  |  |               |      +--WP_003225758.1-bacteria
+   |       |  |  |  |            +--| (40)
+   |       |  |  |  |            |  |                 +----------YP_002300398.1-phage
+   |       |  |  |  |            |  +-----------------| (100)
+   |       |  |  |  |            |                    +----YP_007003440.1-phage
+   |       |  |  |  |         +--| (75)
+   |       |  |  |  |         |  +------------------WP_003245855.1-bacteria
+   |       |  |  |  |     +---| (86)
+   |       |  |  |  |     |   |                          +-----------NP_417068.1-bacteria
+   |       |  |  |  |     |   |                       +--| (76)
+   |       |  |  |  |     |   |                       |  +--WP_003234958.1-bacteria
+   |       |  |  |  |     |   |                    +--| (46)
+   |       |  |  |  |     |   |                    |  +-----------WP_003243678.1-bacteria
+   |       |  |  |  |     |   |                 +--| (31)
+   |       |  |  |  |     |   |                 |  |  +-------WP_003224177.1-bacteria
+   |       |  |  |  |     |   |                 |  +--| (61)
+   |       |  |  |  |     |   |                 |     +----------WP_004398507.1-bacteria
+   |       |  |  |  |     |   |            +----| (74)
+   |       |  |  |  |     |   |            |    |     +------WP_003245485.1-bacteria
+   |       |  |  |  |     |   |            |    |  +--| (41)
+   |       |  |  |  |     |   |            |    |  |  +--------WP_003230521.1-bacteria
+   |       |  |  |  |     |   |            |    +--| (37)
+   |       |  |  |  |     |   |            |       +--------------WP_004398891.1-bacteria
+   |       |  |  |  |     |   |     +------| (92)
+   |       |  |  |  |     |   |     |      +---------------NP_418713.1-bacteria
+   |       |  |  |  |     |   |  +--| (74)
+   |       |  |  |  |     |   |  |  |                         +**YP_008771927.1-phage
+   |       |  |  |  |     |   |  |  |                      +--|
+   |       |  |  |  |     |   |  |  |                      |  +**YP_009203629.1-phage
+   |       |  |  |  |     |   |  |  |                   +--| (100)
+   |       |  |  |  |     |   |  |  |                   |  +--YP_008770739.1-phage
+   |       |  |  |  |     |   |  |  +-------------------| (100)
+   |       |  |  |  |     |   |  |                      +--YP_009196909.1-phage
+   |       |  |  |  |     |   +--| (78)
+   |       |  |  |  |     |      |  +-----------------------WP_100086169.1-bacteria
+   |       |  |  |  |     |      +--| (71)
+   |       |  |  |  |     |         |                       +------YP_002300430.1-phage
+   |       |  |  |  |     |         |           +-----------| (97)
+   |       |  |  |  |     |         |           |           +--YP_007003457.1-phage
+   |       |  |  |  |     |         +-----------| (99)
+   |       |  |  |  |     |                     |             +--YP_009151693.1-phage
+   |       |  |  |  |     |                     |          +--| (94)
+   |       |  |  |  |     |                     |          |  +--YP_009274835.1-phage
+   |       |  |  |  |     |                     +----------| (89)
+   |       |  |  |  |     |                                |  +--YP_009832112.1-phage
+   |       |  |  |  |     |                                +--| (60)
+   |       |  |  |  |     |                                   +--YP_009031424.1-phage
+   |       |  |  |  |  +--| (45)
+   |       |  |  |  |  |  |  +-------------------YP_002300332.1-phage
+   |       |  |  |  |  |  +--| (47)
+   |       |  |  |  |  |     +-------YP_007003377.1-phage
+   |       |  |  |  +--| (80)
+   |       |  |  |     +--------YP_512346.1-phage
+   |       |  +--| (55)
+   |       |     +--------YP_009031481.1-phage
+   |  +----| (99)
+   |  |    |      +--WP_003221446.1-bacteria
+   |  |    |   +--| (78)
+   |  |    |   |  +--WP_003416098.1-bacteria
+   |  |    +---| (99)
+   |  |        +---WP_021361826.1-bacteria
+   +--| (98)
+      +-------NP_417918.1-bacteria
+
+
+Consensus tree in newick format: 
+
+(WP_003226225.1-bacteria:0.0862939267,NP_417539.1-bacteria:0.0832483782,(NP_417221.1-bacteria:0.5397585321,(((((WP_003416101.1-bacteria:0.1835543760,WP_009967190.1-bacteria:0.1454516663)100:0.2789292803,((((WP_003230458.1-bacteria:0.1615309647,(YP_009274876.1-phage:0.1192247835,YP_009151728.1-phage:0.1753114838)94:0.1021724291)84:0.0928486852,WP_011860953.1-bacteria:0.3292963821)41:0.0438500229,(((YP_008772001.1-phage:0.0644015924,(YP_008770814.1-phage:0.0000024655,YP_009203702.1-phage:0.0000024655)100:0.0761099157)64:0.0970893016,YP_009196983.1-phage:0.1038542068)99:0.2689554236,(((YP_008771969.1-phage:0.0000000000,YP_009203671.1-phage:0.0000000000):0.0000024655,YP_008770783.1-phage:0.0000024655)100:0.1437565848,YP_009196951.1-phage:0.1897241520)100:0.7063926964)94:0.1808009250)69:0.0889891600,(WP_003420464.1-bacteria:0.4197570135,YP_009031482.1-phage:1.0929993887)94:0.2721576366)42:0.0242460574)70:0.1244927007,(((((WP_003435969.1-bacteria:0.3437800874,(WP_003220911.1-bacteria:0.5276538259,NP_416432.3-bacteria:0.3502955499)62:0.0691756682)90:0.2617409439,YP_009832138.1-phage:1.0667335920)65:0.0568055814,(WP_003246715.1-bacteria:0.4861058709,(YP_009151727.1-phage:0.0393007415,YP_009274875.1-phage:0.1654132599)100:0.6429872650)80:0.1698624942)72:0.1454975639,((((((WP_009892548.1-bacteria:0.1673134583,WP_003225758.1-bacteria:0.0511795200)100:0.5683165566,(YP_002300398.1-phage:0.8150649324,YP_007003440.1-phage:0.3825131404)100:1.3001013157)40:0.0057255487,WP_003245855.1-bacteria:1.4022446131)75:0.1615198931,(((((((NP_417068.1-bacteria:0.8928718526,WP_003234958.1-bacteria:0.1681613409)76:0.2598640522,WP_003243678.1-bacteria:0.9043690029)46:0.2137759637,(WP_003224177.1-bacteria:0.5763294614,WP_004398507.1-bacteria:0.8497154487)61:0.1766157348)31:0.2000480997,((WP_003245485.1-bacteria:0.5173802131,WP_003230521.1-bacteria:0.6811998701)41:0.1216445860,WP_004398891.1-bacteria:1.0948866407)37:0.0213163403)74:0.3581457692,NP_418713.1-bacteria:1.1757124922)92:0.5197025807,(((YP_008771927.1-phage:0.0000000000,YP_009203629.1-phage:0.0000000000):0.0000024655,YP_008770739.1-phage:0.0000024655)100:0.0352440771,YP_009196909.1-phage:0.0000024655)100:1.4839883918)74:0.1486094008,(WP_100086169.1-bacteria:1.7807154124,((YP_002300430.1-phage:0.5363724072,YP_007003457.1-phage:0.2472800062)97:0.9061393200,((YP_009151693.1-phage:0.0159944883,YP_009274835.1-phage:0.0907919595)94:0.1535358641,(YP_009832112.1-phage:0.1662202815,YP_009031424.1-phage:0.1718303448)60:0.1061208589)89:0.8109228409)99:0.8797396212)71:0.1141321582)78:0.2317590061)86:0.3425000240,(YP_002300332.1-phage:1.4753037375,YP_007003377.1-phage:0.5952585010)47:0.1535414554)45:0.0207517560,YP_512346.1-phage:0.6707246078)80:0.1204183750)52:0.0668170218,YP_009031481.1-phage:0.6732668714)55:0.0797278521)65:0.0953841279,((WP_003221446.1-bacteria:0.0681845787,WP_003416098.1-bacteria:0.0804814393)78:0.0425993912,WP_021361826.1-bacteria:0.3520315576)99:0.2957739678)99:0.3617083762,NP_417918.1-bacteria:0.6411732543)98:0.2819728369)68:0.0996196416);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 12 11:51:58 2021
+Total CPU time used: 2663.134699 seconds (0h:44m:23s)
+Total wall-clock time used: 933.1099119 seconds (0h:15m:33s)
+

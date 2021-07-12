@@ -1,0 +1,298 @@
+IQ-TREE 2.1.3 COVID-edition built Apr 21 2021
+
+Input file name: sigmas_MafftEinsi.trim
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 440240
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 59 sequences with 84 amino-acid sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 83
+Number of distinct site patterns: 84
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+G4             -7705.886   15635.773 +    0.815   40947.773 - 6.33e-39   15908.024 +    0.998
+LG+R3             -7705.783   15641.566 -    0.045   42321.566 -        0   15921.110 -  0.00144
+LG+R4             -7702.648   15639.297 +     0.14   43251.297 -        0   15923.702 - 0.000393
+Q.pfam+G4         -7722.098   15668.196 - 7.42e-08   40980.196 - 5.77e-46   15940.448 - 9.09e-08
+LG+R2             -7724.836   15675.671 - 1.77e-09   41439.671 - 9.71e-146   15950.354 - 6.42e-10
+Q.insect+G4       -7729.675   15683.350 -  3.8e-11   40995.350 - 2.95e-49   15955.602 - 4.65e-11
+Q.yeast+G4        -7736.723   15697.447 -  3.3e-14   41009.447 - 2.57e-52   15969.698 - 4.04e-14
+Q.yeast+F+G4      -7705.002   15672.003 - 1.11e-08   50256.003 -        0   15990.440 - 1.27e-18
+Q.pfam+F+G4       -7707.006   15676.012 - 1.49e-09   50260.012 -        0   15994.449 - 1.71e-19
+LG+F+G4           -7707.848   15677.696 - 6.42e-10   50261.696 -        0   15996.133 - 7.35e-20
+VT+G4             -7751.223   15726.446 - 1.67e-20   41038.446 - 1.29e-58   15998.698 - 2.04e-20
+Blosum62+G4       -7756.775   15737.549 - 6.47e-23   41049.549 - 5.03e-61   16009.801 - 7.92e-23
+Q.insect+F+G4     -7714.842   15691.683 - 5.89e-13   50275.683 -        0   16010.120 - 6.75e-23
+rtREV+F+G4        -7718.571   15699.141 - 1.42e-14   50283.141 -        0   16017.578 - 1.62e-24
+rtREV+G4          -7763.414   15750.827 - 8.46e-26   41062.827 - 6.58e-64   16023.078 - 1.04e-25
+WAG+G4            -7763.527   15751.055 - 7.55e-26   41063.055 - 5.87e-64   16023.306 - 9.25e-26
+VT+F+G4           -7721.924   15705.849 - 4.95e-16   50289.849 -        0   16024.286 - 5.67e-26
+WAG+F+G4          -7734.782   15731.565 - 1.29e-21   50315.565 -        0   16050.002 - 1.48e-31
+PMB+G4            -7778.852   15781.703 - 1.67e-32   41093.703 -  1.3e-70   16053.955 - 2.05e-32
+cpREV+G4          -7793.332   15810.664 - 8.59e-39   41122.664 - 6.68e-77   16082.915 - 1.05e-38
+Blosum62+F+G4     -7755.902   15773.805 - 8.67e-31   50357.805 -        0   16092.242 - 9.93e-41
+PMB+F+G4          -7762.778   15787.556 - 8.95e-34   50371.556 -        0   16105.993 - 1.03e-43
+JTT+F+G4          -7763.855   15789.709 - 3.05e-34   50373.709 -        0   16108.146 - 3.49e-44
+JTTDCMut+F+G4     -7765.777   15793.555 - 4.46e-35   50377.555 -        0   16111.992 - 5.11e-45
+Q.plant+G4        -7818.959   15861.919 - 6.37e-50   41173.919 - 4.95e-88   16134.170 -  7.8e-50
+JTT+G4            -7819.955   15863.911 - 2.35e-50   41175.911 - 1.83e-88   16136.162 - 2.88e-50
+JTTDCMut+G4       -7820.756   15865.512 - 1.06e-50   41177.512 - 8.21e-89   16137.763 - 1.29e-50
+Q.plant+F+G4      -7793.474   15848.948 - 4.18e-47   50432.948 -        0   16167.385 - 4.78e-57
+LG                -7842.931   15907.863 - 6.72e-60   40771.863 +        1   16177.684 - 2.78e-59
+cpREV+F+G4        -7807.034   15876.068 - 5.39e-53   50460.068 -        0   16194.505 - 6.18e-63
+mtInv+F+G4        -7810.045   15882.089 - 2.66e-54   50466.089 -        0   16200.526 - 3.04e-64
+DCMut+F+G4        -7822.699   15907.397 - 8.49e-60   50491.397 -        0   16225.834 - 9.72e-70
+Dayhoff+F+G4      -7822.977   15907.954 - 6.42e-60   50491.954 -        0   16226.391 - 7.36e-70
+Q.mammal+F+G4     -7826.699   15915.397 - 1.55e-61   50499.397 -        0   16233.834 - 1.78e-71
+mtZOA+F+G4        -7849.285   15960.569 - 2.41e-71   50544.569 -        0   16279.006 - 2.76e-81
+FLU+F+G4          -7860.426   15982.851 -  3.5e-76   50566.851 -        0   16301.288 - 4.01e-86
+HIVb+F+G4         -7866.821   15995.643 - 5.84e-79   50579.643 -        0   16314.080 - 6.69e-89
+mtREV+F+G4        -7872.039   16006.078 - 3.16e-81   50590.078 -        0   16324.515 - 3.62e-91
+FLU+G4            -7914.589   16053.178 - 1.87e-91   41365.178 - 1.46e-129   16325.430 - 2.29e-91
+mtMet+F+G4        -7873.502   16009.004 - 7.33e-82   50593.004 -        0   16327.441 - 8.39e-92
+DCMut+G4          -7915.639   16055.278 - 6.56e-92   41367.278 - 5.1e-130   16327.529 - 8.03e-92
+Dayhoff+G4        -7915.934   16055.868 - 4.88e-92   41367.868 - 3.79e-130   16328.119 - 5.98e-92
+Q.mammal+G4       -7919.719   16063.438 - 1.11e-93   41375.438 - 8.62e-132   16335.690 - 1.36e-93
+HIVb+G4           -7925.868   16075.735 - 2.37e-96   41387.735 - 1.84e-134   16347.987 -  2.9e-96
+Q.bird+F+G4       -7889.766   16041.533 - 6.33e-89   50625.533 -        0   16359.970 - 7.25e-99
+mtART+F+G4        -7910.028   16082.055 -    1e-97   50666.055 -        0   16400.492 - 1.15e-107
+Q.bird+G4         -7976.838   16177.676 - 1.73e-118   41489.676 - 1.35e-156   16449.927 - 2.12e-118
+mtVer+F+G4        -7991.332   16244.665 - 4.92e-133   50828.665 -        0   16563.102 - 5.64e-143
+mtMAM+F+G4        -8044.001   16350.002 - 6.58e-156   50934.002 -        0   16668.439 - 7.54e-166
+mtZOA+G4          -8108.528   16441.056 - 1.11e-175   41753.056 - 8.64e-214   16713.308 - 1.36e-175
+HIVw+F+G4         -8078.353   16418.707 - 7.93e-171   51002.707 -        0   16737.144 - 9.08e-181
+mtMet+G4          -8209.699   16643.398 - 1.28e-219   41955.398 - 9.97e-258   16915.650 - 1.57e-219
+mtREV+G4          -8214.110   16652.219 - 1.56e-221   41964.219 - 1.21e-259   16924.471 - 1.91e-221
+mtInv+G4          -8216.979   16657.958 - 8.84e-223   41969.958 - 6.87e-261   16930.210 - 1.08e-222
+mtART+G4          -8285.075   16794.149 - 2.36e-252   42106.149 - 1.83e-290   17066.401 - 2.89e-252
+HIVw+G4           -8289.897   16803.794 - 1.9e-254   42115.794 - 1.48e-292   17076.045 - 2.33e-254
+mtVer+G4          -8338.196   16900.393 - 2.01e-275   42212.393 - 1.56e-313   17172.644 - 2.46e-275
+mtMAM+G4          -8388.386   17000.773 - 3.2e-297   42312.773 -        0   17273.024 - 3.92e-297
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 2.9682
+
+ Category  Relative_rate  Proportion
+  1         0.3868         0.2500
+  2         0.7298         0.2500
+  3         1.0824         0.2500
+  4         1.8011         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7661.8688 (s.e. 238.4875)
+Unconstrained log-likelihood (without tree): -372.1886
+Number of free parameters (#branches + #model parameters): 112
+Akaike information criterion (AIC) score: 15547.7375
+Corrected Akaike information criterion (AICc) score: 40859.7375
+Bayesian information criterion (BIC) score: 15819.9890
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 112
+Sample size (n, alignment length): 84
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 38.4969
+Sum of internal branch lengths: 14.3289 (37.2209% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0119) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'WP_003226225.1-bacteria' is drawn at root
+
++--WP_003226225.1-bacteria
+|
++--NP_417539.1-bacteria
+|
+|  +------NP_417221.1-bacteria
++--|
+   |                +--WP_003416101.1-bacteria
+   |             +--|
+   |             |  +--WP_009967190.1-bacteria
+   |          +--|
+   |          |  |           +--WP_003230458.1-bacteria
+   |          |  |        +--|
+   |          |  |        |  |  +--YP_009274876.1-phage
+   |          |  |        |  +--|
+   |          |  |        |     +--YP_009151728.1-phage
+   |          |  |     +--|
+   |          |  |     |  +---WP_011860953.1-bacteria
+   |          |  |  +--|
+   |          |  |  |  |        +--YP_008772001.1-phage
+   |          |  |  |  |     +--|
+   |          |  |  |  |     |  |  +**YP_008770814.1-phage
+   |          |  |  |  |     |  +--|
+   |          |  |  |  |     |     +**YP_009203702.1-phage
+   |          |  |  |  |  +--|
+   |          |  |  |  |  |  +--YP_009196983.1-phage
+   |          |  |  |  +--|
+   |          |  |  |     |           +**YP_008771969.1-phage
+   |          |  |  |     |        +--|
+   |          |  |  |     |        |  +**YP_008770783.1-phage
+   |          |  |  |     +--------|
+   |          |  |  |              +--YP_009196951.1-phage
+   |          |  +--|
+   |          |     |  +----WP_003420464.1-bacteria
+   |          |     +--|
+   |          |        +--------------YP_009031482.1-phage
+   |       +--|
+   |       |  |              +---WP_003435969.1-bacteria
+   |       |  |           +--|
+   |       |  |           |  |  +------WP_003220911.1-bacteria
+   |       |  |           |  +--|
+   |       |  |           |     +---NP_416432.3-bacteria
+   |       |  |        +--|
+   |       |  |        |  +-------------YP_009832138.1-phage
+   |       |  |     +--|
+   |       |  |     |  |  +-----WP_003246715.1-bacteria
+   |       |  |     |  +--|
+   |       |  |     |     |       +--YP_009151727.1-phage
+   |       |  |     |     +-------|
+   |       |  |     |             +--YP_009274875.1-phage
+   |       |  |  +--|
+   |       |  |  |  |                      +--WP_009892548.1-bacteria
+   |       |  |  |  |               +------|
+   |       |  |  |  |               |      +--WP_003225758.1-bacteria
+   |       |  |  |  |            +**|
+   |       |  |  |  |            |  |                 +----------YP_002300398.1-phage
+   |       |  |  |  |            |  +-----------------|
+   |       |  |  |  |            |                    +----YP_007003440.1-phage
+   |       |  |  |  |         +--|
+   |       |  |  |  |         |  +------------------WP_003245855.1-bacteria
+   |       |  |  |  |     +---|
+   |       |  |  |  |     |   |                            +-----------NP_417068.1-bacteria
+   |       |  |  |  |     |   |                         +--|
+   |       |  |  |  |     |   |                         |  +--WP_003234958.1-bacteria
+   |       |  |  |  |     |   |                      +--|
+   |       |  |  |  |     |   |                      |  +-----------WP_003243678.1-bacteria
+   |       |  |  |  |     |   |                   +--|
+   |       |  |  |  |     |   |                   |  |  +-------WP_003224177.1-bacteria
+   |       |  |  |  |     |   |                   |  +--|
+   |       |  |  |  |     |   |                   |     +----------WP_004398507.1-bacteria
+   |       |  |  |  |     |   |                +--|
+   |       |  |  |  |     |   |                |  +--------------WP_004398891.1-bacteria
+   |       |  |  |  |     |   |            +---|
+   |       |  |  |  |     |   |            |   |  +------WP_003245485.1-bacteria
+   |       |  |  |  |     |   |            |   +--|
+   |       |  |  |  |     |   |            |      +--------WP_003230521.1-bacteria
+   |       |  |  |  |     |   |     +------|
+   |       |  |  |  |     |   |     |      +---------------NP_418713.1-bacteria
+   |       |  |  |  |     |   |  +--|
+   |       |  |  |  |     |   |  |  |                      +**YP_008771927.1-phage
+   |       |  |  |  |     |   |  |  |                   +--|
+   |       |  |  |  |     |   |  |  |                   |  +**YP_008770739.1-phage
+   |       |  |  |  |     |   |  |  +-------------------|
+   |       |  |  |  |     |   |  |                      +**YP_009196909.1-phage
+   |       |  |  |  |     |   +--|
+   |       |  |  |  |     |      |  +-----------------------WP_100086169.1-bacteria
+   |       |  |  |  |     |      +--|
+   |       |  |  |  |     |         |                       +------YP_002300430.1-phage
+   |       |  |  |  |     |         |           +-----------|
+   |       |  |  |  |     |         |           |           +--YP_007003457.1-phage
+   |       |  |  |  |     |         +-----------|
+   |       |  |  |  |     |                     |             +--YP_009151693.1-phage
+   |       |  |  |  |     |                     |          +--|
+   |       |  |  |  |     |                     |          |  +--YP_009274835.1-phage
+   |       |  |  |  |     |                     +----------|
+   |       |  |  |  |     |                                |  +--YP_009832112.1-phage
+   |       |  |  |  |     |                                +--|
+   |       |  |  |  |     |                                   +--YP_009031424.1-phage
+   |       |  |  |  |  +--|
+   |       |  |  |  |  |  |  +-------------------YP_002300332.1-phage
+   |       |  |  |  |  |  +--|
+   |       |  |  |  |  |     +-------YP_007003377.1-phage
+   |       |  |  |  +--|
+   |       |  |  |     +--------YP_512346.1-phage
+   |       |  +--|
+   |       |     +--------YP_009031481.1-phage
+   |  +----|
+   |  |    |      +--WP_003221446.1-bacteria
+   |  |    |   +--|
+   |  |    |   |  +--WP_003416098.1-bacteria
+   |  |    +---|
+   |  |        +---WP_021361826.1-bacteria
+   +--|
+      +-------NP_417918.1-bacteria
+
+Tree in newick format:
+
+(WP_003226225.1-bacteria:0.0862991713,NP_417539.1-bacteria:0.0832112166,(NP_417221.1-bacteria:0.5392500230,(((((WP_003416101.1-bacteria:0.1836556180,WP_009967190.1-bacteria:0.1453269326):0.2788200956,((((WP_003230458.1-bacteria:0.1614962150,(YP_009274876.1-phage:0.1192031610,YP_009151728.1-phage:0.1752741205):0.1021748337):0.0926928173,WP_011860953.1-bacteria:0.3293639751):0.0438479507,(((YP_008772001.1-phage:0.0643776966,(YP_008770814.1-phage:0.0000010000,YP_009203702.1-phage:0.0000010000):0.0761106677):0.0970834078,YP_009196983.1-phage:0.1038229261):0.2689346259,((YP_008771969.1-phage:0.0000010000,YP_008770783.1-phage:0.0000010000):0.1437193780,YP_009196951.1-phage:0.1897082123):0.7063821621):0.1806915102):0.0891066037,(WP_003420464.1-bacteria:0.4198435143,YP_009031482.1-phage:1.0928282705):0.2723041684):0.0241853691):0.1243943795,(((((WP_003435969.1-bacteria:0.3438828355,(WP_003220911.1-bacteria:0.5274770555,NP_416432.3-bacteria:0.3502156564):0.0691023650):0.2616646795,YP_009832138.1-phage:1.0667652279):0.0567474187,(WP_003246715.1-bacteria:0.4860699819,(YP_009151727.1-phage:0.0393411921,YP_009274875.1-phage:0.1653460995):0.6425009746):0.1698337290):0.1454103036,((((((WP_009892548.1-bacteria:0.1674489755,WP_003225758.1-bacteria:0.0510393596):0.5670378697,(YP_002300398.1-phage:0.8159551908,YP_007003440.1-phage:0.3813096795):1.3013936817):0.0083715875,WP_003245855.1-bacteria:1.4001999416):0.1629252994,((((((((NP_417068.1-bacteria:0.8922890656,WP_003234958.1-bacteria:0.1681123379):0.2601722257,WP_003243678.1-bacteria:0.9031158302):0.2154316524,(WP_003224177.1-bacteria:0.5796131904,WP_004398507.1-bacteria:0.8460647716):0.1754377357):0.2033514017,WP_004398891.1-bacteria:1.0953470106):0.0201667440,(WP_003245485.1-bacteria:0.5194097076,WP_003230521.1-bacteria:0.6767091311):0.1162009392):0.3536594737,NP_418713.1-bacteria:1.1777234801):0.5243088036,((YP_008771927.1-phage:0.0000010000,YP_008770739.1-phage:0.0000010000):0.0352410035,YP_009196909.1-phage:0.0000010000):1.4869706278):0.1458701525,(WP_100086169.1-bacteria:1.7813166417,((YP_002300430.1-phage:0.5372129780,YP_007003457.1-phage:0.2466642018):0.9067657759,((YP_009151693.1-phage:0.0159934182,YP_009274835.1-phage:0.0907693528):0.1538205033,(YP_009832112.1-phage:0.1661600343,YP_009031424.1-phage:0.1718371378):0.1064174997):0.8108273033):0.8772548434):0.1152839517):0.2315656633):0.3412347481,(YP_002300332.1-phage:1.4749470556,YP_007003377.1-phage:0.5948878005):0.1542318191):0.0203516753,YP_512346.1-phage:0.6709224214):0.1203142715):0.0669997824,YP_009031481.1-phage:0.6733935301):0.0798595808):0.0952734145,((WP_003221446.1-bacteria:0.0681489900,WP_003416098.1-bacteria:0.0804870999):0.0424493169,WP_021361826.1-bacteria:0.3519537035):0.2961180280):0.3614063101,NP_417918.1-bacteria:0.6411223024):0.2815339348):0.1000119206);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 12 11:02:37 2021
+Total CPU time used: 73.525 seconds (0h:1m:13s)
+Total wall-clock time used: 19.3781 seconds (0h:0m:19s)
+

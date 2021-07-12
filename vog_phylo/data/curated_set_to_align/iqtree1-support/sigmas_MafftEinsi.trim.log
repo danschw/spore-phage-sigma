@@ -1,0 +1,268 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    c71 (AVX2, FMA3, 251 GB RAM)
+Command: /N/u/danschw/Carbonate/my_tools/iqtree-2.1.3-Linux/bin/iqtree2 -s sigmas_MafftEinsi.trim -m LG+G4 -t sigmas_MafftEinsi.trim.treefile --seqtype AA -T AUTO --ufboot 10000 -alrt 10000 --bnni
+Seed:    321746 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 12 11:36:25 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file sigmas_MafftEinsi.trim ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 59 sequences with 84 columns, 84 distinct patterns
+83 parsimony-informative, 1 singleton sites, 0 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  WP_003226225.1-bacteria    0.00%    passed     93.90%
+   2  NP_417539.1-bacteria       0.00%    passed     99.22%
+   3  NP_417221.1-bacteria       0.00%    passed     10.69%
+   4  WP_003416101.1-bacteria    0.00%    passed     75.29%
+   5  NP_417918.1-bacteria       0.00%    passed     69.39%
+   6  WP_009967190.1-bacteria    0.00%    passed     76.69%
+   7  WP_003435969.1-bacteria    0.00%    passed     16.05%
+   8  WP_003230458.1-bacteria    0.00%    passed     84.50%
+   9  WP_011860953.1-bacteria    0.00%    passed     52.00%
+  10  WP_003246715.1-bacteria    0.00%    passed     98.52%
+  11  WP_003221446.1-bacteria    0.00%    passed     84.59%
+  12  WP_003220911.1-bacteria    0.00%    passed     91.04%
+  13  NP_416432.3-bacteria       0.00%    passed     59.75%
+  14  WP_003420464.1-bacteria    0.00%    passed     89.01%
+  15  WP_021361826.1-bacteria   44.05%    passed     40.85%
+  16  WP_003416098.1-bacteria    0.00%    passed     86.02%
+  17  WP_009892548.1-bacteria    0.00%    passed     84.71%
+  18  WP_003225758.1-bacteria    0.00%    passed     96.24%
+  19  NP_417068.1-bacteria       0.00%    passed     14.97%
+  20  WP_003245855.1-bacteria    0.00%    passed     91.55%
+  21  WP_003224177.1-bacteria    1.19%    passed     18.01%
+  22  WP_003234958.1-bacteria    0.00%    passed     96.70%
+  23  WP_004398507.1-bacteria    0.00%    passed     81.26%
+  24  WP_003245485.1-bacteria    0.00%    passed     40.91%
+  25  WP_003230521.1-bacteria    0.00%    passed     30.23%
+  26  WP_003243678.1-bacteria    0.00%    passed      7.70%
+  27  WP_004398891.1-bacteria    0.00%    passed     78.28%
+  28  NP_418713.1-bacteria       1.19%    passed     36.14%
+  29  WP_100086169.1-bacteria    0.00%    passed     88.07%
+  30  YP_008771927.1-phage       0.00%    passed     18.24%
+  31  YP_008770739.1-phage       0.00%    passed     18.24%
+  32  YP_009203629.1-phage       0.00%    passed     18.24%
+  33  YP_009196909.1-phage       0.00%    passed     28.89%
+  34  YP_002300398.1-phage       0.00%    passed     96.44%
+  35  YP_007003440.1-phage       3.57%    passed     77.39%
+  36  YP_008772001.1-phage       0.00%    passed     93.52%
+  37  YP_008770814.1-phage       0.00%    passed     60.85%
+  38  YP_009203702.1-phage       0.00%    passed     60.85%
+  39  YP_009196983.1-phage       0.00%    passed     95.98%
+  40  YP_009274876.1-phage       0.00%    passed     99.34%
+  41  YP_002300430.1-phage       0.00%    passed     59.11%
+  42  YP_009151693.1-phage       0.00%    passed     42.12%
+  43  YP_009274835.1-phage       0.00%    passed     60.16%
+  44  YP_009832112.1-phage       0.00%    passed     86.16%
+  45  YP_009031424.1-phage       0.00%    passed     79.24%
+  46  YP_007003457.1-phage       0.00%    passed     45.25%
+  47  YP_002300332.1-phage       0.00%    passed     11.50%
+  48  YP_008771969.1-phage       0.00%    passed     52.58%
+  49  YP_008770783.1-phage       0.00%    passed     52.58%
+  50  YP_009151727.1-phage       0.00%    passed     90.84%
+  51  YP_009151728.1-phage       0.00%    passed     86.68%
+  52  YP_009203671.1-phage       0.00%    passed     52.58%
+  53  YP_009196951.1-phage       0.00%    passed     29.09%
+  54  YP_009274875.1-phage       0.00%    passed     83.78%
+  55  YP_009832138.1-phage       0.00%    passed     81.13%
+  56  YP_512346.1-phage          0.00%    passed     56.78%
+  57  YP_009031481.1-phage       0.00%    passed     97.59%
+  58  YP_009031482.1-phage       0.00%    passed     50.14%
+  59  YP_007003377.1-phage       0.00%    passed     98.28%
+****  TOTAL                      0.85%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: YP_008770739.1-phage is identical to YP_008771927.1-phage but kept for subsequent analysis
+NOTE: YP_009203702.1-phage is identical to YP_008770814.1-phage but kept for subsequent analysis
+NOTE: YP_008770783.1-phage is identical to YP_008771969.1-phage but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: YP_009203629.1-phage (identical to YP_008771927.1-phage) is ignored but added at the end
+NOTE: YP_009203671.1-phage (identical to YP_008771969.1-phage) is ignored but added at the end
+Alignment was printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to sigmas_MafftEinsi.trim.uniqueseq.phy
+Reading input tree file sigmas_MafftEinsi.trim.treefile ...
+Generating 10000 samples for ultrafast bootstrap (seed: 321746)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+90 trees examined
+Threads: 1 / Time: 8.076 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -9968
+Threads: 2 / Time: 5.643 sec / Speedup: 1.431 / Efficiency: 72% / LogL: -9968
+Threads: 3 / Time: 4.555 sec / Speedup: 1.773 / Efficiency: 59% / LogL: -9968
+Threads: 4 / Time: 4.115 sec / Speedup: 1.963 / Efficiency: 49% / LogL: -9968
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7687.260
+2. Current log-likelihood: -7664.486
+3. Current log-likelihood: -7661.899
+Optimal log-likelihood: -7661.870
+Gamma shape alpha: 2.972
+Parameters optimization took 3 rounds (0.080 sec)
+
+Do NNI search on 1 best initial trees
+Finish initializing candidate tree set (1)
+Current best tree score: -7661.870 / CPU time: 0.125
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -7672.406 / Time: 0h:0m:24s
+Iteration 20 / LogL: -7661.949 / Time: 0h:0m:27s
+Iteration 30 / LogL: -7661.906 / Time: 0h:0m:29s (0h:1m:10s left)
+Iteration 40 / LogL: -7661.921 / Time: 0h:0m:31s (0h:0m:48s left)
+Iteration 50 / LogL: -7662.088 / Time: 0h:0m:33s (0h:0m:34s left)
+Iteration 60 / LogL: -7676.149 / Time: 0h:0m:36s (0h:0m:24s left)
+Iteration 70 / LogL: -7662.016 / Time: 0h:0m:38s (0h:0m:16s left)
+Iteration 80 / LogL: -7662.743 / Time: 0h:0m:40s (0h:0m:10s left)
+Iteration 90 / LogL: -7663.096 / Time: 0h:0m:43s (0h:0m:4s left)
+Iteration 100 / LogL: -7662.431 / Time: 0h:0m:45s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+1100 samples done
+1200 samples done
+1300 samples done
+1400 samples done
+1500 samples done
+1600 samples done
+1700 samples done
+1800 samples done
+1900 samples done
+2000 samples done
+2100 samples done
+2200 samples done
+2300 samples done
+2400 samples done
+2500 samples done
+2600 samples done
+2700 samples done
+2800 samples done
+2900 samples done
+3000 samples done
+3100 samples done
+3200 samples done
+3300 samples done
+3400 samples done
+3500 samples done
+3600 samples done
+3700 samples done
+3800 samples done
+3900 samples done
+4000 samples done
+4100 samples done
+4200 samples done
+4300 samples done
+4400 samples done
+4500 samples done
+4600 samples done
+4700 samples done
+4800 samples done
+4900 samples done
+5000 samples done
+5100 samples done
+5200 samples done
+5300 samples done
+5400 samples done
+5500 samples done
+5600 samples done
+5700 samples done
+5800 samples done
+5900 samples done
+6000 samples done
+6100 samples done
+6200 samples done
+6300 samples done
+6400 samples done
+6500 samples done
+6600 samples done
+6700 samples done
+6800 samples done
+6900 samples done
+7000 samples done
+7100 samples done
+7200 samples done
+7300 samples done
+7400 samples done
+7500 samples done
+7600 samples done
+7700 samples done
+7800 samples done
+7900 samples done
+8000 samples done
+8100 samples done
+8200 samples done
+8300 samples done
+8400 samples done
+8500 samples done
+8600 samples done
+8700 samples done
+8800 samples done
+8900 samples done
+9000 samples done
+9100 samples done
+9200 samples done
+9300 samples done
+9400 samples done
+9500 samples done
+9600 samples done
+9700 samples done
+9800 samples done
+9900 samples done
+10000 samples done
+Total 9998 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:15m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7661.870
+Optimal log-likelihood: -7661.869
+Gamma shape alpha: 2.969
+Parameters optimization took 1 rounds (0.028 sec)
+BEST SCORE FOUND : -7661.869
+
+Testing tree branches by SH-like aLRT with 10000 replicates...
+0.332 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file sigmas_MafftEinsi.trim.splits.nex
+Total tree length: 38.481
+
+Total number of iterations: 101
+CPU time used for tree search: 2609.102 sec (0h:43m:29s)
+Wall-clock time used for tree search: 901.438 sec (0h:15m:1s)
+Total CPU time used: 2663.135 sec (0h:44m:23s)
+Total wall-clock time used: 926.694 sec (0h:15m:26s)
+UFBoot trees printed to sigmas_MafftEinsi.trim.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file sigmas_MafftEinsi.trim.splits.nex...
+57 taxa and 1958 splits.
+Consensus tree written to sigmas_MafftEinsi.trim.contree
+Reading input trees file sigmas_MafftEinsi.trim.contree
+Log-likelihood of consensus tree: -7661.908
+
+Analysis results written to: 
+  IQ-TREE report:                sigmas_MafftEinsi.trim.iqtree
+  Maximum-likelihood tree:       sigmas_MafftEinsi.trim.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          sigmas_MafftEinsi.trim.splits.nex
+  Consensus tree:                sigmas_MafftEinsi.trim.contree
+  UFBoot trees:                  sigmas_MafftEinsi.trim.ufboot
+  Screen log file:               sigmas_MafftEinsi.trim.log
+
+Date and Time: Mon Jul 12 11:51:58 2021
