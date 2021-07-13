@@ -5,8 +5,10 @@ library(ggtree) #https://yulab-smu.top/treedata-book/
 library(treeio)
 
 #import tree
+iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree-fullALN-support/sigmas_MafftEinsi.aln.treefile"))
+
 # iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.contree"))
-iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.treefile"))
+# iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.treefile"))
 # iqt <- read.newick(here("vog_phylo","data/align-trim-tree/sigmas_MafftEinsi.trim.treefile"))
 
 # list label data
@@ -91,7 +93,7 @@ d.iqt %>%
 
 
 # new root node
-root_ecf <- 97
+root_ecf <- 100
 
 # assign root and add data
 iqt <- root(iqt, node = root_ecf)
@@ -186,12 +188,12 @@ as.treedata(d.iqt) %>%
 
 as.treedata(d.iqt) %>% 
   ggtree( layout = 'radial', aes(color = clade))+
-  geom_tiplab(aes(label=bs.label), color="blue", size=3, offset = 1)
+  geom_tiplab(aes(label=lab), color="blue", size=3, offset = 1)
 
 p <-as.treedata(d.iqt) %>% 
   ggtree(aes(color = clade))+
   # geom_tippoint(aes(fill=group), size=1, shape=20)+
-  geom_tiplab(aes(label=bs.label), color="blue", size=3, offset = .1)+
+  geom_tiplab(aes(label=lab), color="blue", size=3, offset = .1)+
   scale_color_manual(values = c("grey30", "blue"))
 
 # ggsave(here("vog_phylo","plots","sigma_curated_rooted.pdf"),p, height=10, width = 10)
@@ -200,15 +202,15 @@ p <-as.treedata(d.iqt) %>%
 d.iqt %>% 
   mutate(support = case_when( #is.na(UFboot) ~ "NA",
                               UFboot>= 90 ~ ">95%",
-                              UFboot>= 80 ~ ">80%",
+                              UFboot>= 85 ~ ">85%",
                               UFboot>= 70 ~ ">70%",
                               TRUE ~ "")) %>% 
   as.treedata(.) %>% 
-  ggtree(aes(color = clade))+ #, layout = "fan")+
-  geom_nodepoint(aes(fill=support), color=rgb(0,0,0,0), size=3, shape=21)+
+  ggtree(aes(color = clade))+#, layout = "fan")+
+  geom_nodepoint(aes(fill=support), color=rgb(0,0,0,0), size=3, shape=22)+
   # geom_tippoint(aes(fill=group), size=1, shape=20)+
   geom_tiplab(aes(label=lab, color=clade), size=3, offset = .01, show.legend=F)+ 
-  ggplot2::xlim(0, 4)+
+  ggplot2::xlim(0, 6)+
   scale_color_manual(values = c("grey30", "blue"))+
   scale_fill_manual(values = c(rgb(0,0,0,0), grey.colors(3, rev = T) ))+
   theme(legend.position = "left")+
