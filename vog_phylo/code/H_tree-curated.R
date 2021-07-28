@@ -3,12 +3,14 @@ library(here)
 library(tidyverse)
 library(ggtree) #https://yulab-smu.top/treedata-book/
 library(treeio)
+source(here("vog_phylo/code/method-reroot.R"))
+source(here("vog_phylo/code/utilities.R"))
 
 #import tree
-iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree-fullALN-support/sigmas_MafftEinsi.aln.treefile"))
+# iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree-fullALN-support/sigmas_MafftEinsi.aln.treefile"))
 
 # iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.contree"))
-# iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.treefile"))
+iqt <- read.iqtree(here("vog_phylo","data/curated_set_to_align/iqtree1-support/sigmas_MafftEinsi.trim.treefile"))
 # iqt <- read.newick(here("vog_phylo","data/align-trim-tree/sigmas_MafftEinsi.trim.treefile"))
 
 # list label data
@@ -93,10 +95,10 @@ d.iqt %>%
 
 
 # new root node
-root_ecf <- 100
+root_ecf <- 97
 
 # assign root and add data
-iqt <- root(iqt, node = root_ecf)
+iqt <- root.treedata(iqt, node = root_ecf)
 
 d.iqt <-  
   as.tibble(iqt) %>%
@@ -199,22 +201,64 @@ p <-as.treedata(d.iqt) %>%
 # ggsave(here("vog_phylo","plots","sigma_curated_rooted.pdf"),p, height=10, width = 10)
 
 
-d.iqt %>% 
+plot.tree <- d.iqt %>% 
   mutate(support = case_when( #is.na(UFboot) ~ "NA",
                               UFboot>= 90 ~ ">95%",
                               UFboot>= 85 ~ ">85%",
                               UFboot>= 70 ~ ">70%",
                               TRUE ~ "")) %>% 
-  as.treedata(.) %>% 
-  ggtree(aes(color = clade))+#, layout = "fan")+
+  as.treedata(.)
+
+####
+# find node
+plot.tree %>% 
+  ggtree()+
+  geom_tippoint(aes(color=group), size=2, shape=20)+
+  geom_tiplab(aes(label = lab), color="blue", size=3, offset = .1)+
+  geom_text(aes(x=branch, label=node), color="red", size=3)
+
+ecf_lab <-  d.iqt %>% 
+  filter(node %in% c(40,33)) %>%
+  pull(label)
+
+sigA_lab <-  d.iqt %>% 
+  filter(node %in% c(1,2)) %>%
+  pull(label)
+
+sigFG_lab <-  d.iqt %>% 
+  filter(node %in% c(4,15)) %>%
+  pull(label)       
+
+lytic1 <-  d.iqt %>% 
+  filter(node %in% c(51,48)) %>%
+  pull(label) 
+lytic2 <-  d.iqt %>% 
+  filter(node %in% c(29,30)) %>%
+  pull(label) 
+###
+
+
+plot.tree  %>% 
+ggtree(aes(color = clade), layout = "fan")+
   geom_nodepoint(aes(fill=support), color=rgb(0,0,0,0), size=3, shape=22)+
-  # geom_tippoint(aes(fill=group), size=1, shape=20)+
+  geom_strip(ecf_lab[1],ecf_lab[2], label = "Extra\nCytoplsmatic", 
+             offset = 1,offset.text = 0.2, color="red")+
+  geom_strip(sigFG_lab[1],sigFG_lab[2], label = "sigF/G", 
+             offset = 1.2,offset.text = 0.2, color="red")+
+  geom_strip(lytic1[1],lytic1[2], label = "phage middle.", 
+             offset = 1.5,offset.text = 0.2, color="red")+
+  geom_strip(lytic2[1],lytic2[2], label = "phage early.", 
+             offset = 1.5,offset.text = .2, color="red")+
+  geom_strip(sigA_lab[1],sigA_lab[2], label = "primary", 
+             offset = 1.5,offset.text = .2, color="red")+
   geom_tiplab(aes(label=lab, color=clade), size=3, offset = .01, show.legend=F)+ 
-  ggplot2::xlim(0, 6)+
+  # ggplot2::xlim(0, 5)+
   scale_color_manual(values = c("grey30", "blue"))+
   scale_fill_manual(values = c(rgb(0,0,0,0), grey.colors(3, rev = T) ))+
   theme(legend.position = "left")+
   ggsave(here("vog_phylo","plots","sigma_curated_rooted.pdf"), height=10, width = 8)
 
 
+  
 
+ggtree(iqt,  ladderize = FALSE)
